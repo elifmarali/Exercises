@@ -1,0 +1,1 @@
+page UI, route API (GET/POST vb.). Farklı dosyalar; birlikte kullanılabilir.

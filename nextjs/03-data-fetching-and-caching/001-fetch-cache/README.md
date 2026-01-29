@@ -1,0 +1,1 @@
+Next App Router’da `fetch` varsayılan olarak nasıl cache’lenir?

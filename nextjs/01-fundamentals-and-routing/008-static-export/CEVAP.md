@@ -1,0 +1,1 @@
+next export (Pages) veya output: 'export' (App). Dinamik route’lar için getStaticPaths gerekir.

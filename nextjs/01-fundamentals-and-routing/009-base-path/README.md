@@ -1,0 +1,1 @@
+`basePath` ne işe yarar? Alt dizinde deploy için?

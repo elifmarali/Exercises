@@ -1,0 +1,1 @@
+Segment’i dynamic yapar; cache’leme yapılmaz, her istekte yeniden render. Cookie, searchParams kullanıyorsan gerekebilir.

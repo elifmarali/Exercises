@@ -1,0 +1,1 @@
+NextResponse.json(body) JSON + header. redirect(url) 302/307. Standart Response da kullanılabilir.

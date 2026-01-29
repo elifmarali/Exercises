@@ -1,0 +1,1 @@
+Viewport’taki Link’ler önceden yüklenir. prefetch={false} ile kapatılır. Dinamik, sık değişen sayfalarda bazen kapatılır.

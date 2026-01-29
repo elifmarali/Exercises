@@ -1,0 +1,1 @@
+App route handler app/ içinde, yaşamı route ile. pages/api ayrı API route’ları. App Router projede app/ route kullanılır.

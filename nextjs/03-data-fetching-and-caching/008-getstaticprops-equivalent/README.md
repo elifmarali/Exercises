@@ -1,0 +1,1 @@
+Pages’taki getStaticProps App Router’da karşılığı nedir?

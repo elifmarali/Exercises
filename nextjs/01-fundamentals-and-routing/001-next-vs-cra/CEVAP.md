@@ -1,0 +1,1 @@
+Next: SSR/SSG, file-based routing, API routes, optimizations. CRA: SPA, client-only. Next full-stack ve SEO için daha uygun.

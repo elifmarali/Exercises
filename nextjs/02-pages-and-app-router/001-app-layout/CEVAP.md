@@ -1,0 +1,1 @@
+Layout ortak UI (nav, footer); child route’ları wrap’ler. Page route’a özel içerik. Layout remount olmaz, state korunur.

@@ -1,0 +1,1 @@
+Request memoization, Data Cache, Full Route Cache farkı?

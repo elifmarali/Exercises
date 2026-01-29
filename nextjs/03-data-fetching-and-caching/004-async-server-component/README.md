@@ -1,0 +1,1 @@
+Server component async olabilir mi? `async function Page()`?

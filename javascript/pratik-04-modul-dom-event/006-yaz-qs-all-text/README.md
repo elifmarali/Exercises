@@ -1,0 +1,1 @@
+`querySelectorAllText(selector)` yaz. `document.querySelectorAll(selector)` ile eşleşenlerin **textContent**’lerini dizi olarak döndür.

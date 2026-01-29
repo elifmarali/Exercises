@@ -1,0 +1,1 @@
+`loadWhenVisible(el, importFn)` yaz. `el` görünür olunca `importFn()` (dynamic import) çalışsın. `IntersectionObserver` kullan; tek sefer tetiklensin.

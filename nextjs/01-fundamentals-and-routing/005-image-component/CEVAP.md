@@ -1,0 +1,1 @@
+Lazy load, modern format, responsive. Boyut için width/height veya fill + parent position relative. Remote için config gerekir.

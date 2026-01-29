@@ -1,0 +1,1 @@
+Server component’te fetch; default cache. getStaticPaths → generateStaticParams.

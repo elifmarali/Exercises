@@ -1,0 +1,1 @@
+Dosya yolu = route. users/[id] dinamik segment. index = klasör kökü. Dosya adı route’u belirler.

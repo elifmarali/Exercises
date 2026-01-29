@@ -1,0 +1,1 @@
+`default.tsx` parallel route’ta ne işe yarar?

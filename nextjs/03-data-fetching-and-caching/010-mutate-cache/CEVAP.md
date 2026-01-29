@@ -1,0 +1,1 @@
+revalidatePath veya revalidateTag. Mutation sonrası ilgili path/tag ile cache yenilenir.

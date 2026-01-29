@@ -1,0 +1,1 @@
+`dataKeys(el)` yaz. `el` üzerindeki `data-*` attribute’larının key’lerini (`data-x` → `x`) dizi olarak dönsün. `dataset` kullan.

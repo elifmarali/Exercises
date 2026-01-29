@@ -1,0 +1,1 @@
+URL’e dahil olmaz. Organizasyon için; (marketing), (dashboard) gibi. Aynı layout’u paylaşan gruplar.

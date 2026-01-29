@@ -1,0 +1,1 @@
+`once(el, eventType, fn)` yaz. `fn` en fazla bir kez çalışsın; çalıştıktan sonra listener kaldırılsın.

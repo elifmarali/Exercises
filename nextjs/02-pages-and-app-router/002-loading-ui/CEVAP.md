@@ -1,0 +1,1 @@
+Route segment yüklenirken otomatik Suspense boundary. Streaming: yavaş kısım gelene kadar loading gösterilir.

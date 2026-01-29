@@ -1,0 +1,1 @@
+await request.json() veya request.text() / formData(). Content-Type’a göre uygun metot.

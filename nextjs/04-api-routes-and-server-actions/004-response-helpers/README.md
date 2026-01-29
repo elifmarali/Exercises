@@ -1,0 +1,1 @@
+NextResponse.json, redirect ne işe yarar?

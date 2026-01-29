@@ -1,0 +1,1 @@
+Bir ES modül `utils.js` yaz: `capitalize(s)` (ilk harf büyük) ve `reverse(s)` (string ters) export et. Default export yok. Sonra `main.js`’ten import edip `capitalize(reverse("hello"))` çağır.

@@ -1,0 +1,1 @@
+Aynı layout’ta aynı anda birden fazla sayfa slot’u. @slot klasörleri. Modal + liste gibi senaryolar.

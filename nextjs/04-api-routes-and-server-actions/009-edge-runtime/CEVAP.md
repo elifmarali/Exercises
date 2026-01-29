@@ -1,0 +1,1 @@
+export const runtime = 'edge'. Node API’ler kısıtlı; hızlı, global dağıtım.

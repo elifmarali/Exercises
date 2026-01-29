@@ -1,0 +1,1 @@
+App Router’da `layout.tsx` ne işe yapar? `page` ile farkı?

@@ -1,0 +1,1 @@
+`revalidate` ve `revalidatePath` / `revalidateTag` ne yapar?

@@ -1,0 +1,1 @@
+Server vs client component’te fetch farkı?

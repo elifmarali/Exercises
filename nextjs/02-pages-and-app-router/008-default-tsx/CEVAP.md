@@ -1,0 +1,1 @@
+Slot için eşleşme yoksa (örn. ilk yükleme) fallback UI. 404 yerine default gösterilir.

@@ -1,0 +1,1 @@
+`dynamic = 'force-dynamic'` ne işe yarar?

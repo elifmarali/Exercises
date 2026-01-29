@@ -1,0 +1,1 @@
+Route Handler Edge’de nasıl çalıştırılır?

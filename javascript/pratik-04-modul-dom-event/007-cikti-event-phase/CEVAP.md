@@ -1,0 +1,1 @@
+Önce `btn`, sonra `div`. Bubbling: hedef → … → root. Butona tıklanınca önce `b`, sonra `d` log’lanır.

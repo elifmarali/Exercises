@@ -1,0 +1,1 @@
+Pages: next/head veya getLayout. App: metadata export veya generateMetadata. SEO ve social için.

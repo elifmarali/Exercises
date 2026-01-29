@@ -1,0 +1,1 @@
+Tüm route’lara prefix ekler. Asset prefix ile birlikte subpath deploy’da kullanılır.

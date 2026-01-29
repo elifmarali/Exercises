@@ -1,0 +1,1 @@
+Evet. await fetch vb. doğrudan component’te. Client component async olamaz.

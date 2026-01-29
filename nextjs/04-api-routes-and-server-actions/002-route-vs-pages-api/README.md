@@ -1,0 +1,1 @@
+`app/.../route.ts` vs `pages/api` farkı?

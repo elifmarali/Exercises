@@ -1,0 +1,1 @@
+`create(tag, attrs, children)` yaz. `tag` string, `attrs` `{ id, class, "data-x": "y" }`, `children` string veya `Node` dizisi. Tek `document.createElement` + attribute + append.

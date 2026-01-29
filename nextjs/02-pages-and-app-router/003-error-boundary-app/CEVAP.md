@@ -1,0 +1,1 @@
+error.tsx route segment’te hata yakalar; try/catch gibi. Client component olmalı. Reset ile tekrar dene.

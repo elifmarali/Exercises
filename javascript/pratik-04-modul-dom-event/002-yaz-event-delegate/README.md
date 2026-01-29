@@ -1,0 +1,1 @@
+`delegate(parent, eventType, selector, handler)` yaz. `parent`’a `eventType` (örn. `"click"`) dinleyici ekle; sadece `selector`’a uyan hedefe tıklanırsa `handler(e, target)` çağrılsın. Basit `matches` ile.

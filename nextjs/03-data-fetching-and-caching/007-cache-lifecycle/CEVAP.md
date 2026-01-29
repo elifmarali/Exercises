@@ -1,0 +1,1 @@
+Request memo: aynı request’te tek fetch. Data Cache: fetch sonuçları. Full Route: render çıktısı. Hepsi farklı katman.

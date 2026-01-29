@@ -1,0 +1,1 @@
+Server Action veya Route Handler’dan cache nasıl invalidate edilir?

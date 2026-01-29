@@ -1,0 +1,1 @@
+Yavaş parça Suspense ile sarılır; önce hızlı kısım, sonra yavaş stream’lenir. loading.tsx de benzer mantık.

@@ -1,0 +1,1 @@
+Cookie/header oku; session validate. Middleware ile koruma veya handler içinde check. Gerekirse 401/403 dön.

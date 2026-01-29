@@ -1,0 +1,1 @@
+process.env.NEXT_PUBLIC_* client’ta görünür. Diğerleri sadece server. .env.local, .env.production vb.

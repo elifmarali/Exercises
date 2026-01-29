@@ -1,0 +1,1 @@
+export const dynamic = 'force-dynamic', revalidate = 0 vb. Segment config ile.

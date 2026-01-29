@@ -1,0 +1,1 @@
+Next.js’te env değişkenleri nasıl kullanılır? `NEXT_PUBLIC_` ne işe yarar?

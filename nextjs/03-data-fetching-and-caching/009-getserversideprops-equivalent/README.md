@@ -1,0 +1,1 @@
+getServerSideProps karşılığı App Router’da?

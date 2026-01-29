@@ -1,0 +1,1 @@
+Redirect, rewrite, env, images domain, webpack, output (standalone, export) vb. Temel Next ayarları.

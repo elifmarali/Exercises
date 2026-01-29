@@ -1,0 +1,1 @@
+action={serverAction}. FormData action’a gider. Sonuç useActionState / useFormState ile (veya redirect) işlenir.

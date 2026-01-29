@@ -1,0 +1,1 @@
+Pages Router vs App Router farkı? Hangi Next sürümünde?

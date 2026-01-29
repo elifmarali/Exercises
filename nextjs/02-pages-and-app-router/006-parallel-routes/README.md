@@ -1,0 +1,1 @@
+Parallel routes (@slot) nedir? Nasıl kullanılır?

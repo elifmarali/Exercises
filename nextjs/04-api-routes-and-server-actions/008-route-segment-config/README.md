@@ -1,0 +1,1 @@
+Route Handler’da dynamic, revalidate nasıl verilir?

@@ -1,0 +1,1 @@
+Form’u Server Action ile submit etmek nasıl yapılır?

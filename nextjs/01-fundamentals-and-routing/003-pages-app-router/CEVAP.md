@@ -1,0 +1,1 @@
+Pages: pages/ + getServerSideProps vb. App: app/ + Server Components, layout, loading. Next 13+ App Router önerilir.

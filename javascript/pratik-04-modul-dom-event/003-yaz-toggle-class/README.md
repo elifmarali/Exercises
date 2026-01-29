@@ -1,0 +1,1 @@
+`toggleClass(el, className)` yaz. `el` bir DOM element; `className` varsa kaldır, yoksa ekle. `classList.toggle` kullanma; `classList.add` / `remove` ve `contains` ile yap.

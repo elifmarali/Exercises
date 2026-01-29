@@ -1,0 +1,1 @@
+route.ts veya route.js. export async function GET(req), POST(req) vb. Request/Response kullanılır.

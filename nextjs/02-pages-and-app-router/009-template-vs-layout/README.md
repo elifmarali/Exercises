@@ -1,0 +1,1 @@
+`template` vs `layout` farkı?

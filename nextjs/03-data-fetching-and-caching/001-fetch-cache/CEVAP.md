@@ -1,0 +1,1 @@
+fetch otomatik cache’lenir (GET). cache: 'force-cache' (default), 'no-store' ile kapatılır. React cache + fetch beraber kullanılır.

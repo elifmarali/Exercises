@@ -1,0 +1,1 @@
+Route groups `(folder)` ne işe yarar? URL’i etkiler mi?

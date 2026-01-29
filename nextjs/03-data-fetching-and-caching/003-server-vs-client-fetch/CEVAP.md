@@ -1,0 +1,1 @@
+Server: component render’da fetch; gizli bilgi, SEO. Client: useEffect, SWR vb.; interactivity sonrası.

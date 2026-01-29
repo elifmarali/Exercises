@@ -1,0 +1,1 @@
+Soft nav’da farklı UI (örn. modal); hard nav’da normal sayfa. Segmente göre relative path.

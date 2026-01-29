@@ -1,0 +1,1 @@
+ISR: belirli süre sonra yeniden validate. revalidatePath/tag ile on-demand invalidation. Cache’i hedefli yenilemek için.

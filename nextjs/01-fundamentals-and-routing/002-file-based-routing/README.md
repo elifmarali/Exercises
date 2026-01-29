@@ -1,0 +1,1 @@
+File-based routing nasıl çalışır? `pages/users/[id].tsx` ne anlama gelir?

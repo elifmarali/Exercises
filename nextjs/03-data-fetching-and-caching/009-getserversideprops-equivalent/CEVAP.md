@@ -1,0 +1,1 @@
+Dynamic segment + fetch cache: 'no-store' veya cookies/headers kullanımı. Her istekte server render.

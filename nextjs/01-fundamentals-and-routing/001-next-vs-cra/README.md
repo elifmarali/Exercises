@@ -1,0 +1,1 @@
+Next.js ile CRA farkı? SSR, routing, API route?

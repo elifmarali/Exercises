@@ -1,0 +1,1 @@
+Tamamen static export (SPA gibi) Next’ten nasıl yapılır?

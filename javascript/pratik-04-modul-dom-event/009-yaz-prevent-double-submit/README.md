@@ -1,0 +1,1 @@
+Bir `<form>` submit’inde çift gönderimi engelle. Submit sırasında butonu disable et; fetch (veya form submit) bitene kadar tekrar submit edilmesin. Küçük bir snippet ile göster.

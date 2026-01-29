@@ -1,0 +1,1 @@
+Form veya client’tan çağrılan server fonksiyonu. 'use server' dosya veya fn başında. Mutasyon, form submit.

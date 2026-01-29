@@ -1,0 +1,1 @@
+App Router’da hata yakalama nasıl yapılır? `error.tsx`?

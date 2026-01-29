@@ -1,0 +1,1 @@
+revalidatePath veya revalidateTag çağrılır. Action içinde mutation sonrası ilgili path/tag invalidate edilir.

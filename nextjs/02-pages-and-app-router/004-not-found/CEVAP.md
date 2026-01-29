@@ -1,0 +1,1 @@
+notFound() import’u ile 404 UI gösterilir. Örn. get** ile veri yoksa notFound() çağrılır.

@@ -1,0 +1,1 @@
+Layout state korur, remount olmaz. Template her nav’da remount. Animasyon veya her seferinde çalışacak mantık için template.

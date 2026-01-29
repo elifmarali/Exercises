@@ -1,0 +1,1 @@
+`page.tsx` ve `route.ts` aynı segment’te olabilir mi?
