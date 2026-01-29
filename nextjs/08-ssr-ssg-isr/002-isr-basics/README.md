@@ -1,0 +1,1 @@
+ISR (Incremental Static Regeneration) nedir?

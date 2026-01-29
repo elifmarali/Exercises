@@ -1,0 +1,1 @@
+Font’ları self-host eder; layout shift azalır. next/font/google vb. className ile uygulanır.

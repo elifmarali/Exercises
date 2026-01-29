@@ -1,0 +1,1 @@
+`next build` çıktısı neler içerir? .next klasörü?

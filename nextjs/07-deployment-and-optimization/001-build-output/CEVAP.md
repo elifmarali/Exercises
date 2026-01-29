@@ -1,0 +1,1 @@
+Static sayfalar, server chunks, cache. .next içinde build artifacts. Standalone output seçilebilir.

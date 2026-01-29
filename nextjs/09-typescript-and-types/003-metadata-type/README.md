@@ -1,0 +1,1 @@
+`metadata` / `generateMetadata` tipi?

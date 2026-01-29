@@ -1,0 +1,1 @@
+Static dosyalar (img, font) nereye konur? `public`?

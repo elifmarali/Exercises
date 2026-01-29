@@ -1,0 +1,1 @@
+`next/font` ne sağlar? Google font optimization?

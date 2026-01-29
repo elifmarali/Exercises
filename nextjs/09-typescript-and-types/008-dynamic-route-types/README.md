@@ -1,0 +1,1 @@
+`[slug]` gibi dynamic segment tipleri?

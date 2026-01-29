@@ -1,0 +1,1 @@
+SSR: her istekte server render. SSG: build’de üretilir, statik. Güncel + kişisel → SSR. Hız + cache → SSG.

@@ -1,0 +1,1 @@
+process.env.NEXT_PUBLIC_* kullanımı. @types/node. Gerekirse env.d.ts ile genişletme.

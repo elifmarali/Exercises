@@ -1,0 +1,1 @@
+SSG + periyodik revalidate. revalidate süresi sonra arka planda yeniden üretim. Eski sayfa sunulur, sonra güncel.

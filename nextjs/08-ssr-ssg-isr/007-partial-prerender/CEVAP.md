@@ -1,0 +1,1 @@
+Static shell + dynamic hole’lar. Bazı kısımlar static, bazıları stream. Deneysel.

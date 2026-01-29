@@ -1,0 +1,1 @@
+Redirect URL değişir (3xx). Rewrite URL aynı kalır, farklı sayfa sunulur. A/B, proxy gibi.

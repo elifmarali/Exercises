@@ -1,0 +1,1 @@
+Build’de üretilecek path’leri verir. [id] için id listesi. SSG’de hangi sayfaların static olacağı.

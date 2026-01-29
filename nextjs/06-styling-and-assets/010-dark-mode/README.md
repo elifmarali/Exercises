@@ -1,0 +1,1 @@
+Dark mode Next’te nasıl uygulanır? Class vs media?

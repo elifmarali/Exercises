@@ -1,0 +1,1 @@
+`next/image` için external `src` nasıl izin verilir?

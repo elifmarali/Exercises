@@ -1,0 +1,1 @@
+60 saniye sonra revalidate; önce stale sunulur, arka planda yeniden fetch + render.

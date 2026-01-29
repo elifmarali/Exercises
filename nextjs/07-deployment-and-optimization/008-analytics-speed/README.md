@@ -1,0 +1,1 @@
+Analytics ve speed (Core Web Vitals) nasıl izlenir?

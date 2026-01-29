@@ -1,0 +1,1 @@
+async fn component. fetch Response generic veya zod vb. ile parse. Standart TS.

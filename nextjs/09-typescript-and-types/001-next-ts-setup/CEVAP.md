@@ -1,0 +1,1 @@
+tsconfig.json (next izin verir), .ts/.tsx dosyalar. next-env.d.ts. Gerekirse strict ayarları.

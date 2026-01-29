@@ -1,0 +1,1 @@
+Evet. Async fn. Edge’de fetch kullanılabilir; süre/memory limitine dikkat.

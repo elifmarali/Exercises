@@ -1,0 +1,1 @@
+Cookie, headers, searchParams kullanıyorsan. Bu segment dynamic; cache’lenmez.

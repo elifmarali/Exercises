@@ -1,0 +1,1 @@
+Middleware async olabilir mi? await fetch?

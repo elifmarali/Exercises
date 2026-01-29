@@ -1,0 +1,1 @@
+assetPrefix veya CDN’e _next/static kopyalama. next/config. Vercel / platform CDN kullanımı.

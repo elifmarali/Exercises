@@ -1,0 +1,1 @@
+Env değişkenleri TypeScript’te nasıl tiplenir?

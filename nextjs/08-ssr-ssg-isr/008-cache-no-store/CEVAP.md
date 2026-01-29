@@ -1,0 +1,1 @@
+Cache’leme yok; her seferinde fresh fetch. Dynamic data için.

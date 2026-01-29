@@ -1,0 +1,1 @@
+API routes, SSR, ISR, middleware, dynamic Server Components. Tam static SPA-benzeri.

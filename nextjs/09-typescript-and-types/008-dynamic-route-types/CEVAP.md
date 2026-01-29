@@ -1,0 +1,1 @@
+params.slug string (veya string[] catch-all). generateStaticParams ile uyumlu tipler.

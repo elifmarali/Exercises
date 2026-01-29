@@ -1,0 +1,1 @@
+Vercel’e deploy nasıl yapılır? Git entegrasyonu?

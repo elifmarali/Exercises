@@ -1,0 +1,1 @@
+NextRequest, NextResponse. Standart Web API Request/Response uyumlu.

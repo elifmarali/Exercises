@@ -1,0 +1,1 @@
+Yavaş kısım beklenmez; önce hızlı UI, sonra stream. TTI, LCP iyileşir.

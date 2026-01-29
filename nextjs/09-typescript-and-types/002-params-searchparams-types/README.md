@@ -1,0 +1,1 @@
+`params` ve `searchParams` tipi nasıl verilir?

@@ -1,0 +1,1 @@
+Minimal .next/standalone; node_modules gerekmez. Docker veya node server ile self-host.

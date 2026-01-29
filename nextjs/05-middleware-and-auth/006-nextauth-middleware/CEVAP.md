@@ -1,0 +1,1 @@
+withAuth(middleware) veya getToken; korunan route’lar matcher ile. NextAuth doc’a göre kurulur.

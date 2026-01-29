@@ -1,0 +1,1 @@
+Rewrite ile redirect farkı?

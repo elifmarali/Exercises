@@ -1,0 +1,1 @@
+Next + TypeScript strict mode önerilir mi?

@@ -1,0 +1,1 @@
+Layout: { children: React.ReactNode }. Page: params, searchParams (Promise).

@@ -1,0 +1,1 @@
+Metadata objesi veya generateMetadata async fn. Tipler next’ten; title, description vb.

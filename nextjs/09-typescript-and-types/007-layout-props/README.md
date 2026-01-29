@@ -1,0 +1,1 @@
+`layout` ve `page` prop tipleri? Children?

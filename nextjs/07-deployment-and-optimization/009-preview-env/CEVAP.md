@@ -1,0 +1,1 @@
+Platform preview env (Vercel branch env). Farklı API URL, feature flag vb.

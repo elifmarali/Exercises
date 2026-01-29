@@ -1,0 +1,1 @@
+tailwind.config, postcss. content: app, components path’leri. Theme extend vb. config’te.

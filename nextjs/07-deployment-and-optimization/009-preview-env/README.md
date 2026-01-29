@@ -1,0 +1,1 @@
+Preview (PR) ortamında farklı env nasıl kullanılır?

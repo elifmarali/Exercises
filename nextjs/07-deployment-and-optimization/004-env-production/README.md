@@ -1,0 +1,1 @@
+Production’da env değişkenleri nasıl verilir?

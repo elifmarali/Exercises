@@ -1,0 +1,1 @@
+Next.js’te Tailwind nasıl kurulur? Özel config?

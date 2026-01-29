@@ -1,0 +1,1 @@
+Tek middleware içinde sıralı check’ler veya fn compose (Örn. auth + logging). Next’te tek middleware dosyası.

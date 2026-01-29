@@ -1,0 +1,1 @@
+next.config.ts; NextConfig tipi. typecheck build’e dahil edilebilir.

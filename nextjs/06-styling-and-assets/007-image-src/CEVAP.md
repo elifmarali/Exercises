@@ -1,0 +1,1 @@
+next.config images.domains veya remotePatterns. Güvenlik için sadece gerekli domain’ler.

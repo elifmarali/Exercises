@@ -1,0 +1,1 @@
+Font ve image ile layout shift nasıl önlenir?

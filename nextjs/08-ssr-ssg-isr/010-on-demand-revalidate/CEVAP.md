@@ -1,0 +1,1 @@
+revalidatePath veya revalidateTag. Webhook, Server Action sonrası. İlgili cache hedeflenir.

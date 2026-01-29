@@ -1,0 +1,1 @@
+*.module.css import; class’lar unique. Component-scoped. Import alanı otomatik.

@@ -1,0 +1,1 @@
+Hangi path’lerde çalışacağını filtreler. exclude edilebilir (static, _next, api).

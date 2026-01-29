@@ -1,0 +1,1 @@
+`revalidate = 60` tam olarak ne yapar?

@@ -1,0 +1,1 @@
+Node API’ler (fs, bazı crypto), büyük dependency’ler. Süre ve bellek sınırı var.

@@ -1,0 +1,1 @@
+Git bağla, build command: next build. Otomatik env, preview. Vercel Next’i optimize eder.

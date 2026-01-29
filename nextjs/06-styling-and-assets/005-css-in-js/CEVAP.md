@@ -1,0 +1,1 @@
+Registry (styled-components) veya emotion cache; _document / layout’ta. SSR uyumlu kurulum gerekir.

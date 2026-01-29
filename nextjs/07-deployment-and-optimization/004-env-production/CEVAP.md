@@ -1,0 +1,1 @@
+Platform (Vercel vb.) env ayarları. .env.production; NEXT_PUBLIC_ client’a gider. Secret’lar server-only.

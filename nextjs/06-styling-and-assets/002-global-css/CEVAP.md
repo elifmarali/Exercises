@@ -1,0 +1,1 @@
+app/layout.tsx veya _app (Pages). Bir kez, root layout. Global stiller burada.

@@ -1,0 +1,1 @@
+`output: 'standalone'` ne işe yarar? Node ile self-host?

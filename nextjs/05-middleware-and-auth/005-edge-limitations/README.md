@@ -1,0 +1,1 @@
+Middleware Edge’de çalıştığı için ne kullanılamaz?

@@ -1,0 +1,1 @@
+next/font, next/image size/fill. Placeholder, skeleton. Önceden boyut belirleme.

@@ -1,0 +1,1 @@
+Vercel Analytics, Analytics.js, Web Vitals report. next/script, SEO bileşenleri.

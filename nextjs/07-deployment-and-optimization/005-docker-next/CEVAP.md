@@ -1,0 +1,1 @@
+Build stage: npm run build. Run stage: standalone + node. Multi-stage ile image küçük tutulur.

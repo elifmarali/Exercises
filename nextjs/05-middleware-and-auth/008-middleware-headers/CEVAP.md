@@ -1,0 +1,1 @@
+request.headers.get. Yeni response’ta requestHeaders veya next() sonrası NextResponse’ta header set.

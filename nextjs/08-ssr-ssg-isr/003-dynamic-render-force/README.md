@@ -1,0 +1,1 @@
+Force dynamic ne zaman gerekir?

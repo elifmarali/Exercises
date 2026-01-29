@@ -1,0 +1,1 @@
+Promise<{ id: string }> (App Router). searchParams Promise<{ [k]: string }>. Doc’a göre güncel.

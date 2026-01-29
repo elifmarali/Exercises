@@ -1,0 +1,1 @@
+Sentry next integration. _error override, instrumentation. Client + server yakalama.

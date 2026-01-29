@@ -1,0 +1,1 @@
+Veri sabit veya revalidate yeterli → prerender. Her istek farklı, real-time → dynamic.

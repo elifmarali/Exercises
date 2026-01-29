@@ -1,0 +1,1 @@
+NextResponse.redirect(url) döndür. return ile response’u gönder.

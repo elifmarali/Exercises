@@ -1,0 +1,1 @@
+Global CSS nereye import edilir? App Router’da?

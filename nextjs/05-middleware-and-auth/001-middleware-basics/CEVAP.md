@@ -1,0 +1,1 @@
+middleware.ts (root). Her request’ten önce; Edge. Redirect, rewrite, header, auth check.

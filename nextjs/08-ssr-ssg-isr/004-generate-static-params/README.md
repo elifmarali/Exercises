@@ -1,0 +1,1 @@
+`generateStaticParams` ne işe yarar? Dynamic route’ta?

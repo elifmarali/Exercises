@@ -1,0 +1,1 @@
+Next.js middleware nedir? Hangi dosyada, nerede çalışır?

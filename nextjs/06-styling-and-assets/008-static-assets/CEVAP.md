@@ -1,0 +1,1 @@
+public/ kökünden serve edilir. /file.png → public/file.png. Referans / ile başlar.

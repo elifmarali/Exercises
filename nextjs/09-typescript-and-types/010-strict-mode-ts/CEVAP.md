@@ -1,0 +1,1 @@
+Evet. strict null check vb. erken hata yakalar. Proje büyüdükçe geçiş zor.

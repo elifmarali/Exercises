@@ -1,0 +1,1 @@
+Static asset’ler CDN’den nasıl serve edilir?

@@ -1,0 +1,1 @@
+Class: html class toggle, CSS .dark. Media: prefers-color-scheme. next-themes gibi lib ile persist + toggle.

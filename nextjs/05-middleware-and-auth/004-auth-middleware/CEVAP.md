@@ -1,0 +1,1 @@
+Cookie/token kontrolü; yoksa redirect login. Matcher ile korunan path’leri sınırla.

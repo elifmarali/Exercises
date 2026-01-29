@@ -1,0 +1,1 @@
+sass yüklü; .scss import. .module.scss CSS Modules gibi. Global veya module.
