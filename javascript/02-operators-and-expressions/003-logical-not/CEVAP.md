@@ -1,0 +1,1 @@
+`!` her zaman boolean döner. `!'hello'` → `false`, `!0` → `true`. `!!x` değeri boolean’a çevirir (truthy → `true`, falsy → `false`).

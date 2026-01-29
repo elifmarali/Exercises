@@ -1,0 +1,1 @@
+`&&`: ilk falsy’de durur, onu döner; hepsi truthy’se sonuncuyu. `||`: ilk truthy’de durur, onu döner; hepsi falsy’se sonuncuyu. Sonuç boolean olmak zorunda değil; değer döner.

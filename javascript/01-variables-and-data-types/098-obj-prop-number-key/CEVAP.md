@@ -1,0 +1,1 @@
+`true`. Obje key’leri string veya Symbol’dır; number-like key’ler string’e çevrilir. `o[1]` ve `o['1']` aynı property’ye erişir. `Object.keys` string key’leri döner.

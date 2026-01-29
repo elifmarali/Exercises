@@ -1,0 +1,1 @@
+Higher-order function nedir? Callback kullanımı nasıl örnektir?

@@ -1,0 +1,1 @@
+`undefined == null` → `true` (spec’te özel kural). Diğer hiçbir değer `== null` ile ikisini birden yakalamaz. `x == null` hem `null` hem `undefined` kontrolü için kullanılır; `x === null || x === undefined` ile aynı sonuç.

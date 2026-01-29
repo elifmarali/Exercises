@@ -1,0 +1,1 @@
+`+`, `-`, `*`, `%` operatörleri `NaN` veya `Infinity` ile nasıl davranır? `0/0`, `1/0` sonuçları nelerdir?

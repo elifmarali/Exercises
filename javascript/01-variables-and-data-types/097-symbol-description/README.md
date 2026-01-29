@@ -1,0 +1,1 @@
+`Symbol('id')` içindeki `'id'` ne işe yarar? `sym.description` ile nasıl okunur?

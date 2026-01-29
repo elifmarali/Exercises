@@ -1,0 +1,1 @@
+Literal’da `\s` string’de tek `\`; regex motoru `\s` görür. Constructor’a string geçiyorsun; string’de `\\` iki karakter olarak tek `\` üretir, regex `\s` olur. Dinamik pattern’de `RegExp` kullanırken escape katmanı (string vs regex) akılda tutulmalı.

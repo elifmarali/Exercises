@@ -1,0 +1,1 @@
+Pure function nedir? Side effect ve aynı girdi–aynı çıktı ilişkisi neden önemli?

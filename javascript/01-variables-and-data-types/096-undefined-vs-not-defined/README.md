@@ -1,0 +1,1 @@
+“`x` is not defined” ile “`x` is undefined” ayrımı nedir? Hangisi `ReferenceError`, hangisi sadece değer?

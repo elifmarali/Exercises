@@ -1,0 +1,1 @@
+Açıklama (description) sadece debug/log için; eşitlik veya erişimde kullanılmaz. `Symbol('id').description` → `'id'`. `Symbol.for` key’i description değildir; global registry key’idir.

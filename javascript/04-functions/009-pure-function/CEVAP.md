@@ -1,0 +1,1 @@
+Side effect yok; aynı girdi her zaman aynı çıktıyı verir. Test ve tahmin edilebilirlik için önemli; memoization ve paralel işlemde de faydalı.

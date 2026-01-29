@@ -1,0 +1,1 @@
+`undefined == null` ne döner? `==` ile `null`/`undefined` karşılaştırması neden özeldir?

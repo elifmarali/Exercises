@@ -1,0 +1,1 @@
+Fonksiyon kendi lexical scope’unu “hatırlar”; dışarıda çağrılsa bile o scope’a erişir. Buna closure denir.

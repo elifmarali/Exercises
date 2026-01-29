@@ -1,0 +1,1 @@
+`+{}` vs `''+{}` — obje primitive’e nasıl çevrilir? `valueOf` / `toString` önceliği ne zaman değişir?

@@ -1,0 +1,1 @@
+`if (x)` kontrolünde hangi değerler falsy sayılır? `if ([])` ve `if ({})` true mu false mu?

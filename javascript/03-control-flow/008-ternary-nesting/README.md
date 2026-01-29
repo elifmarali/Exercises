@@ -1,0 +1,1 @@
+İç içe ternary (`a ? b : c ? d : e`) okunabilirlik açısından sorunlu mı? Alternatifler neler?

@@ -1,0 +1,1 @@
+Labeled `break` nasıl kullanılır? `outer: for(...) { for(...) { break outer; } }` ne yapar?

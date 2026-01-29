@@ -1,0 +1,1 @@
+`==` abstract equality nasıl çalışır? `1 == '1'`, `null == undefined`, `[] == false` sonuçları nelerdir?

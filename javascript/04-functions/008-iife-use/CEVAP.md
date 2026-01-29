@@ -1,0 +1,1 @@
+Hemen çalışan, kendi scope’unu oluşturan fonksiyon. Günümüzde modül ve `let`/`const` block scope çoğu ihtiyacı karşılar.

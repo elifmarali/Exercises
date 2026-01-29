@@ -1,0 +1,1 @@
+Zincirde `null`/`undefined`’a rastlanırsa erişim durur, `undefined` döner. `obj?.()` optional fonksiyon çağrısı; `obj` yoksa çağrı yapılmaz, `undefined` döner.

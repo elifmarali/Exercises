@@ -1,0 +1,1 @@
+Üs alma. `2 ** 10` → 1024, `2 ** -1` → 0.5. `**` right-associative (`2 ** 3 ** 2` → `2 ** 9`). `Math.pow` ile sonuç aynı; syntax farkı.

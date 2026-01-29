@@ -1,0 +1,1 @@
+Kalan argümanları diziye toplar. `arguments` array-like, rest gerçek dizi; ayrıca `arguments` ok fonksiyonunda yok.

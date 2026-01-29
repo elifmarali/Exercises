@@ -1,0 +1,1 @@
+`===` ile `==` farkı nedir? `NaN === NaN` ne döner? `Object.is` ne zaman kullanılır?

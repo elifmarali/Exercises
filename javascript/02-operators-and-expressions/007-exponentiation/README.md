@@ -1,0 +1,1 @@
+`**` operatörü nedir? `2 ** 10`, `2 ** -1` sonuçları nelerdir? `Math.pow` ile fark var mı?

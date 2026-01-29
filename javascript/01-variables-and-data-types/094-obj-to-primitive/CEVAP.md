@@ -1,0 +1,1 @@
+`+{}` numeric: `valueOf` → obje; `toString` → `"[object Object]"` → `NaN`. `''+{}` string context: `toString` kullanılır → `"[object Object]"`. `valueOf` primitive dönerse o kullanılır; obje dönerse `toString` denenir. `Symbol.toPrimitive` varsa o önceliklidir.

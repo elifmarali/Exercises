@@ -1,0 +1,1 @@
+Rest parametre `...rest` ne yapar? `arguments` ile farkı nedir?

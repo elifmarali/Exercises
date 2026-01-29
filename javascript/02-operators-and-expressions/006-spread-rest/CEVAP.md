@@ -1,0 +1,1 @@
+Rest: fonksiyon parametresinde kalanları diziye toplar. Spread: iterable’ı elemanlara açar. `Math.max(...[1,2,3])` → `3`; spread dizi yerine `1,2,3` argümanları verir.

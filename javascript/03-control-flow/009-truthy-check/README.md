@@ -1,0 +1,1 @@
+Değerin “var ve anlamlı” olduğunu kontrol etmek için `if (x)` yeterli mi? `0` veya `''` geçerliyse ne yapılır?

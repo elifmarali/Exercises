@@ -1,0 +1,1 @@
+Declaration: `function f() {}` tamamen hoist edilir. Expression: `const f = function () {}`; `f` hoist edilir ama atama yapılmaz; çağrı atamadan önceyse TypeError.

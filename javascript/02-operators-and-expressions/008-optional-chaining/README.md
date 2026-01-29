@@ -1,0 +1,1 @@
+`obj?.a?.b` nasıl çalışır? `obj` veya `a` `null`/`undefined` ise ne döner? `obj?.()` ne anlama gelir?

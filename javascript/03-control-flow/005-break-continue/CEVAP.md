@@ -1,0 +1,1 @@
+`break` döngüyü sonlandırır, `continue` bir sonraki iterasyona atlar. Etkilenen tek ilgili döngü; dış döngüye çıkmak için label kullanılır.

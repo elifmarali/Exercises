@@ -1,0 +1,1 @@
+`??` sadece `null` ve `undefined` için sağ tarafı kullanır. `0 ?? 1` → 0, `0 || 1` → 1. Varsayılan verirken 0 veya '' geçerliyse `??` kullanılmalı.

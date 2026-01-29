@@ -1,0 +1,1 @@
+`??=` operatörü ne yapar? `x ??= 1` ile `x = x ?? 1` farkı var mı?

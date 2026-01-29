@@ -1,0 +1,1 @@
+`fn?.()` ne yapar? `obj.method?.()` `obj` veya `method` yoksa ne döner?

@@ -1,0 +1,1 @@
+Getter property `Object.keys` / `for..in` ile listelenir mi? `enumerable: false` getter nasıl etkiler?

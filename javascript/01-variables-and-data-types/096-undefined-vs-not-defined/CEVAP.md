@@ -1,0 +1,1 @@
+“not defined”: `ReferenceError`; `x` hiç bildirilmemiş, scope’ta yok. “undefined”: `x` bildirilmiş ama değeri `undefined`. `let x;` tanımlı, `undefined`; `y` hiç yoksa `y` okumak `ReferenceError`. `typeof x` tanımsız `x` için `ReferenceError` vermez, `"undefined"` döner.

@@ -1,0 +1,1 @@
+`for`, `for...in`, `for...of` farkları nelerdir? Dizi için hangisi tercih edilir?

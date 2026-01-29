@@ -1,0 +1,1 @@
+Getter da normal property gibi `enumerable` olabilir. `enumerable: true` ise `Object.keys`, `for..in`’de görünür; `enumerable: false` ise görünmez. `Object.getOwnPropertyNames` enumerable’a bakmadan tüm own property’leri listeler.

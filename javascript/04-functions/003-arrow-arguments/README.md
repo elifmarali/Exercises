@@ -1,0 +1,1 @@
+Ok fonksiyonunda `arguments` kullanılabilir mi? Alternatif nedir?

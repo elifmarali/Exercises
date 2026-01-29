@@ -1,0 +1,1 @@
+Kullanılamaz; kendi `arguments`’ı yok. Rest parametre kullan: `(...args) => { }`.

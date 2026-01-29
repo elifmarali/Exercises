@@ -1,0 +1,1 @@
+`switch` fall-through nedir? `break` unutulursa ne olur? Kasıtlı fall-through nasıl belirtilir?

@@ -1,0 +1,1 @@
+Özyinelemede base case neden şart? Base case olmazsa ne olur?

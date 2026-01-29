@@ -1,0 +1,1 @@
+`break` yoksa bir sonraki `case`’e düşer (fall-through). Kasıtlıysa `// fallthrough` yorumu veya boş `case` kullanılır; aksi halde bug kaynağı.

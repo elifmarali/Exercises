@@ -1,0 +1,1 @@
+`a && b` ve `a || b` short-circuit davranışı nedir? Dönüş değeri her zaman boolean mı?

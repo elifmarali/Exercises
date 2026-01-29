@@ -1,0 +1,1 @@
+Ok fonksiyonu `this`’i nereden alır? Kendi `this`’i var mı?

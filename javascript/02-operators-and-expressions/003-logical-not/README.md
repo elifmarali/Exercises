@@ -1,0 +1,1 @@
+`!x` tipi nedir? `!!x` ne işe yarar? `!'hello'` ve `!0` sonuçları nelerdir?

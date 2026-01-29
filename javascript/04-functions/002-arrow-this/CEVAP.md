@@ -1,0 +1,1 @@
+Kendi `this`’i yok; lexical `this` kullanır (tanımlandığı yerdeki `this`). `call`/`apply`/`bind` ile değiştirilemez.

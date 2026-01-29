@@ -1,0 +1,1 @@
+`s += 1` → `'x1'`; string + number concatenation. Diğer operatörler sayısal coercion yapar. `+=` string’de birleştirme, sayıda toplama.

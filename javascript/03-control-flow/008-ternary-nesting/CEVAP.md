@@ -1,0 +1,1 @@
+Evet; karmaşıklaşınca anlaşılması zor. `if/else`, `switch` veya ara değişkene atama tercih edilebilir.

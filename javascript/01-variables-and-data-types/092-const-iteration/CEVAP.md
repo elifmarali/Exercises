@@ -1,0 +1,1 @@
+Geçerlidir. `for...of`/`for...in` her iterasyonda yeni binding oluşturur; atama yok, sadece yeni değer atanır. `const k` bu yüzden uyumludur. `for (;;)` içinde `i++` gibi yeniden atama olduğu için `const` kullanılamaz.

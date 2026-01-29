@@ -1,0 +1,1 @@
+`===` tip ve değer aynı olmalı; coercion yok. `NaN === NaN` → `false`. `Object.is(NaN, NaN)` → `true`; `Object.is(0, -0)` → `false`. NaN ve ±0 ayrımında `Object.is` kullanılır.

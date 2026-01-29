@@ -1,0 +1,1 @@
+Duruş noktası yoksa sonsuz çağrı; stack overflow. Base case ile özyineleme sonlanır.

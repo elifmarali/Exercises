@@ -1,0 +1,1 @@
+Falsy: false, 0, -0, 0n, '', null, undefined, NaN. `[]` ve `{}` truthy; boş olsalar da obje.

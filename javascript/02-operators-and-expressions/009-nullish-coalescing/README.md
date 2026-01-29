@@ -1,0 +1,1 @@
+`??` ile `||` farkı nedir? `0 ?? 1` ve `0 || 1` sonuçları nelerdir? Hangi durumda `??` tercih edilir?

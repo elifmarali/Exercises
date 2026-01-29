@@ -1,0 +1,1 @@
+`/\s/` ile `new RegExp('\\s')` neden farklı backslash gerektirir?

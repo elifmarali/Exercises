@@ -1,0 +1,1 @@
+`if (x)` 0 ve ''’yi eler. Geçerliyse `x != null` veya `x !== undefined && x !== null` veya `typeof x === 'number'` gibi açık kontroller kullanılır.

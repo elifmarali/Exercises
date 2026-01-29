@@ -1,0 +1,1 @@
+Spread (`...arr`) ile rest (`...args`) parametre farkı nedir? `Math.max(...[1,2,3])` ne döner?

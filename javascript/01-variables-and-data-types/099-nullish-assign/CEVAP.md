@@ -1,0 +1,1 @@
+`x ??= 1` sadece `x` `null` veya `undefined` ise `x = 1` atar. `x = x ?? 1` ile aynı sonucu verir ama daha kısa. `||=` tüm falsy’de atar; `??=` sadece nullish’te.

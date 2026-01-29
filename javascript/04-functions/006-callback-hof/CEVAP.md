@@ -1,0 +1,1 @@
+Fonksiyon alan veya döndüren fonksiyon. `map`, `filter`, `setTimeout` callback’i HOF kullanımına örnektir.

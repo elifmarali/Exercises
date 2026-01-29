@@ -1,0 +1,1 @@
+`for`: klasik index döngüsü. `for...in`: key’ler (symbol hariç); dizide index, obje için key. `for...of`: iterable’ın değerleri. Dizi değerleri için `for...of` tercih edilir.

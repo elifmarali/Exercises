@@ -1,0 +1,1 @@
+Tip farklıysa coercion yapılır. `1 == '1'` → `true`. `null == undefined` → `true`. `[] == false` → `true` ([] → '' → 0, false → 0). Öngörülebilirlik için `===` tercih edilir.

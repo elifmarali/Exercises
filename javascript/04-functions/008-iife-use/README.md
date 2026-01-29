@@ -1,0 +1,1 @@
+IIFE ne işe yarar? Günümüzde modül veya block scope ile yerine geçen ne kullanılır?

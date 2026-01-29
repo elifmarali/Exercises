@@ -1,0 +1,1 @@
+Fonksiyon içinde döngüde `return` kullanılırsa ne olur? Döngü ve fonksiyon biter mi?

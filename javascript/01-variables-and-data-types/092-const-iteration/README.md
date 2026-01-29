@@ -1,0 +1,1 @@
+`for (const k of Object.keys(o)) { }` geçerli mi? `const` `for...of` / `for...in` ile neden sorun çıkarmaz?

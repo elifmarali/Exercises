@@ -1,0 +1,1 @@
+`const o = { 1: 'a', 2: 'b' }; o[1] === o['1']` ne döner? Number-like key’ler obje için nasıl saklanır?

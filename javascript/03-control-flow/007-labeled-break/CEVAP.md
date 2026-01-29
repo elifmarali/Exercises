@@ -1,0 +1,1 @@
+`break outer` iç döngüyü de bitirip dış `for`’un hemen sonrasına atlar. Label ile hangi döngüyü kıracağın belirlenir.

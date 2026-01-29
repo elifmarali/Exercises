@@ -1,0 +1,1 @@
+`===` kullanır. `switch(1)` ve `case '1'` eşleşmez; tip farklı.

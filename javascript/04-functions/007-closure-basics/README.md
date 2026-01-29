@@ -1,0 +1,1 @@
+Closure kısaca nedir? Fonksiyon “nerede” tanımlıysa oranın scope’una nasıl erişir?

@@ -1,0 +1,1 @@
+`0/0` → `NaN`. `1/0` → `Infinity`, `-1/0` → `-Infinity`. `NaN` ile aritmetik `NaN` üretir. `Infinity` ile işlemler mantıksal kurallara uyar (örn. `Infinity * 0` → `NaN`).

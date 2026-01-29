@@ -1,0 +1,1 @@
+`switch` karşılaştırması `===` mi `==` mi kullanır? `switch (1) { case '1': ... }` eşleşir mi?

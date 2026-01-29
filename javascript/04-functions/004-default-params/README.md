@@ -1,0 +1,1 @@
+Default parametre `function f(a, b = 1) {}` nasıl çalışır? `f(1, undefined)` ile `f(1, null)` farkı nedir?

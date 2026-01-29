@@ -1,0 +1,1 @@
+`do...while` önce body çalışır, sonra koşul kontrol edilir; en az 1 kez çalışır. `while` önce koşul; false ise hiç çalışmaz.

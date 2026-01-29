@@ -1,0 +1,1 @@
+`fn?.()` `fn` `null`/`undefined` ise çağrı yapılmaz, `undefined` döner. `obj.method?.()` `obj` veya `method` yoksa `undefined`; hata vermez. Callback veya opsiyonel metot çağrılarında güvenli kullanım sağlar.

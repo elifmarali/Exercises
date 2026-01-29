@@ -1,0 +1,1 @@
+Fonksiyon declaration ile function expression farkı nedir? Hoisting nasıl değişir?

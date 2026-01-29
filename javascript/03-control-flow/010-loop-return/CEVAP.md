@@ -1,0 +1,1 @@
+`return` fonksiyonu hemen bitirir; döngü de dahil tüm kod atlanır. Döngüden sadece çıkmak için `break` kullanılır.

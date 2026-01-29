@@ -1,0 +1,1 @@
+Sadece `undefined` için default devreye girer. `f(1, undefined)` → b=1; `f(1, null)` → b=null.
