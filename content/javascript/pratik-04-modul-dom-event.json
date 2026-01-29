@@ -1,0 +1,65 @@
+{
+  "topic": "pratik-04-modul-dom-event",
+  "questions": [
+    {
+      "id": 1,
+      "slug": "yaz-esm-util",
+      "question": "Bir ES modül `utils.js` yaz: `capitalize(s)` (ilk harf büyük) ve `reverse(s)` (string ters) export et. Default export yok. Sonra `main.js`’ten import edip `capitalize(reverse(\"hello\"))` çağır.",
+      "answer": "```js\n// utils.js\nexport function capitalize(s) {\n  return s && s[0].toUpperCase() + s.slice(1).toLowerCase();\n}\nexport function reverse(s) {\n  return [...s].reverse().join('');\n}\n```\n```js\n// main.js\nimport { capitalize, reverse } from './utils.js';\nconsole.log(capitalize(reverse('hello'))); // \"Ollah\"\n```"
+    },
+    {
+      "id": 2,
+      "slug": "yaz-event-delegate",
+      "question": "`delegate(parent, eventType, selector, handler)` yaz. `parent`’a `eventType` (örn. `\"click\"`) dinleyici ekle; sadece `selector`’a uyan hedefe tıklanırsa `handler(e, target)` çağrılsın. Basit `matches` ile.",
+      "answer": "```js\nfunction delegate(parent, eventType, selector, handler) {\n  parent.addEventListener(eventType, (e) => {\n    const t = e.target.closest(selector);\n    if (t && parent.contains(t)) handler(e, t);\n  });\n}\n```\n\n`closest` yoksa `target`’tan yukarı `parent`’a kadar `matches` ile tara."
+    },
+    {
+      "id": 3,
+      "slug": "yaz-toggle-class",
+      "question": "`toggleClass(el, className)` yaz. `el` bir DOM element; `className` varsa kaldır, yoksa ekle. `classList.toggle` kullanma; `classList.add` / `remove` ve `contains` ile yap.",
+      "answer": "```js\nfunction toggleClass(el, className) {\n  if (el.classList.contains(className)) el.classList.remove(className);\n  else el.classList.add(className);\n}\n```"
+    },
+    {
+      "id": 4,
+      "slug": "yaz-create-element-attr",
+      "question": "`create(tag, attrs, children)` yaz. `tag` string, `attrs` `{ id, class, \"data-x\": \"y\" }`, `children` string veya `Node` dizisi. Tek `document.createElement` + attribute + append.",
+      "answer": "```js\nfunction create(tag, attrs = {}, children = []) {\n  const el = document.createElement(tag);\n  for (const [k, v] of Object.entries(attrs)) el.setAttribute(k, v);\n  for (const c of children) el.append(typeof c === 'string' ? document.createTextNode(c) : c);\n  return el;\n}\n```\n\n`class` için `className` kullanılabilir; `setAttribute('class', v)` de çalışır."
+    },
+    {
+      "id": 5,
+      "slug": "yaz-once",
+      "question": "`once(el, eventType, fn)` yaz. `fn` en fazla bir kez çalışsın; çalıştıktan sonra listener kaldırılsın.",
+      "answer": "```js\nfunction once(el, eventType, fn) {\n  const wrap = (e) => {\n    el.removeEventListener(eventType, wrap);\n    fn(e);\n  };\n  el.addEventListener(eventType, wrap);\n}\n```"
+    },
+    {
+      "id": 6,
+      "slug": "yaz-qs-all-text",
+      "question": "`querySelectorAllText(selector)` yaz. `document.querySelectorAll(selector)` ile eşleşenlerin **textContent**’lerini dizi olarak döndür.",
+      "answer": "```js\nfunction querySelectorAllText(selector) {\n  return [...document.querySelectorAll(selector)].map(el => el.textContent);\n}\n```"
+    },
+    {
+      "id": 7,
+      "slug": "cikti-event-phase",
+      "question": "Aşağıdaki HTML ile `div` ve `button`’a click listener ekleniyor (capture false). Butona tıklanınca sırayla ne log’lanır? `stopPropagation` yok.\n\n```html\n<div id=\"d\"><button id=\"b\">OK</button></div>\n```\n```js\nd.addEventListener('click', () => console.log('div'));\nb.addEventListener('click', () => console.log('btn'));\n```",
+      "answer": "Önce `btn`, sonra `div`. Bubbling: hedef → … → root. Butona tıklanınca önce `b`, sonra `d` log’lanır."
+    },
+    {
+      "id": 8,
+      "slug": "yaz-dynamic-import-chanks",
+      "question": "`loadWhenVisible(el, importFn)` yaz. `el` görünür olunca `importFn()` (dynamic import) çalışsın. `IntersectionObserver` kullan; tek sefer tetiklensin.",
+      "answer": "```js\nfunction loadWhenVisible(el, importFn) {\n  const io = new IntersectionObserver(([entry]) => {\n    if (!entry.isIntersecting) return;\n    io.disconnect();\n    importFn();\n  }, { threshold: 0 });\n  io.observe(el);\n}\n```"
+    },
+    {
+      "id": 9,
+      "slug": "yaz-prevent-double-submit",
+      "question": "Bir `<form>` submit’inde çift gönderimi engelle. Submit sırasında butonu disable et; fetch (veya form submit) bitene kadar tekrar submit edilmesin. Küçük bir snippet ile göster.",
+      "answer": "```js\nform.addEventListener('submit', async (e) => {\n  e.preventDefault();\n  const btn = form.querySelector('button[type=\"submit\"]');\n  if (btn.disabled) return;\n  btn.disabled = true;\n  try {\n    await fetch(form.action, { method: 'POST', body: new FormData(form) });\n    // ...\n  } finally {\n    btn.disabled = false;\n  }\n});\n```\n\nForm native submit kullanıyorsa `submit` içinde `btn.disabled = true` yeterli; sayfa yenilenirse form tekrar gönderilmez."
+    },
+    {
+      "id": 10,
+      "slug": "yaz-get-data-attr",
+      "question": "`dataKeys(el)` yaz. `el` üzerindeki `data-*` attribute’larının key’lerini (`data-x` → `x`) dizi olarak dönsün. `dataset` kullan.",
+      "answer": "```js\nfunction dataKeys(el) {\n  return Object.keys(el.dataset);\n}\n```\n\n`dataset` `data-foo-bar` → `fooBar`. Tireli isim istersen `Object.keys(el.dataset).map(k => 'data-' + k.replace(/([A-Z])/g, '-$1').toLowerCase())` gibi dönüşüm gerekir."
+    }
+  ]
+}

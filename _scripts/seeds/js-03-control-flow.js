@@ -1,0 +1,14 @@
+"use strict";
+const questions = [
+  { slug: "if-else-falsy", question: "`if (x)` kontrolünde hangi değerler falsy sayılır? `if ([])` ve `if ({})` true mu false mu?", answer: "Falsy: false, 0, -0, 0n, '', null, undefined, NaN. `[]` ve `{}` truthy; boş olsalar da obje." },
+  { slug: "switch-strict", question: "`switch` karşılaştırması `===` mi `==` mi kullanır? `switch (1) { case '1': ... }` eşleşir mi?", answer: "`===` kullanır. `switch(1)` ve `case '1'` eşleşmez; tip farklı." },
+  { slug: "switch-fallthrough", question: "`switch` fall-through nedir? `break` unutulursa ne olur? Kasıtlı fall-through nasıl belirtilir?", answer: "`break` yoksa bir sonraki `case`’e düşer (fall-through). Kasıtlıysa `// fallthrough` yorumu veya boş `case` kullanılır; aksi halde bug kaynağı." },
+  { slug: "for-loop-variants", question: "`for`, `for...in`, `for...of` farkları nelerdir? Dizi için hangisi tercih edilir?", answer: "`for`: klasik index döngüsü. `for...in`: key’ler (symbol hariç); dizide index, obje için key. `for...of`: iterable’ın değerleri. Dizi değerleri için `for...of` tercih edilir." },
+  { slug: "break-continue", question: "`break` ve `continue` ne işe yarar? İç içe döngüde sadece en içteki mi etkilenir?", answer: "`break` döngüyü sonlandırır, `continue` bir sonraki iterasyona atlar. Etkilenen tek ilgili döngü; dış döngüye çıkmak için label kullanılır." },
+  { slug: "do-while", question: "`do...while` ile `while` farkı nedir? Body en az kaç kez çalışır?", answer: "`do...while` önce body çalışır, sonra koşul kontrol edilir; en az 1 kez çalışır. `while` önce koşul; false ise hiç çalışmaz." },
+  { slug: "labeled-break", question: "Labeled `break` nasıl kullanılır? `outer: for(...) { for(...) { break outer; } }` ne yapar?", answer: "`break outer` iç döngüyü de bitirip dış `for`’un hemen sonrasına atlar. Label ile hangi döngüyü kıracağın belirlenir." },
+  { slug: "ternary-nesting", question: "İç içe ternary (`a ? b : c ? d : e`) okunabilirlik açısından sorunlu mı? Alternatifler neler?", answer: "Evet; karmaşıklaşınca anlaşılması zor. `if/else`, `switch` veya ara değişkene atama tercih edilebilir." },
+  { slug: "truthy-check", question: "Değerin “var ve anlamlı” olduğunu kontrol etmek için `if (x)` yeterli mi? `0` veya `''` geçerliyse ne yapılır?", answer: "`if (x)` 0 ve ''’yi eler. Geçerliyse `x != null` veya `x !== undefined && x !== null` veya `typeof x === 'number'` gibi açık kontroller kullanılır." },
+  { slug: "loop-return", question: "Fonksiyon içinde döngüde `return` kullanılırsa ne olur? Döngü ve fonksiyon biter mi?", answer: "`return` fonksiyonu hemen bitirir; döngü de dahil tüm kod atlanır. Döngüden sadece çıkmak için `break` kullanılır." },
+];
+module.exports = { questions };

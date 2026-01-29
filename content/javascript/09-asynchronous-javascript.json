@@ -1,0 +1,125 @@
+{
+  "topic": "09-asynchronous-javascript",
+  "questions": [
+    {
+      "id": 1,
+      "slug": "callback-hell",
+      "question": "# \"Callback hell\" nedir? İç içe `fs.readFile` / `setTimeout` callback'leri hangi sorunları yaratır? Okunabilirlik ve hata yönetimi açısından ne yapılabilir?",
+      "answer": "Derin iç içe callback'ler okunabilirliği ve hata yönetimini zorlaştırır. Çözümler: isimlendirilmiş fonksiyonlara bölme, Promise zinciri, `async/await`, `async` kütüphaneler (örn. `fs.promises`)."
+    },
+    {
+      "id": 2,
+      "slug": "promise-states",
+      "question": "# Promise'ın \"pending\", \"fulfilled\", \"rejected\" durumları ne demek? Bir Promise iki kez settle olabilir mi? `resolve` sonrası `reject` çağrılırsa ne olur?",
+      "answer": "Promise tek sefer settle olur (fulfilled veya rejected). `resolve(x)` sonrası `reject` (veya tersi) görmezden gelinir; state değişmez. \"Pending\" → henüz settle olmamış."
+    },
+    {
+      "id": 3,
+      "slug": "microtask-vs-macrotask",
+      "question": "# Microtask vs macrotask (task) farkı nedir? `queueMicrotask`, `setTimeout(fn, 0)`, `Promise.then` sıralaması nasıldır?",
+      "answer": "Microtask (Promise callback, `queueMicrotask`) macrotask'tan önce işlenir. Bir macrotask bitince tüm microtask kuyruğu boşaltılır, sonra bir sonraki macrotask. `setTimeout(fn,0)` macrotask; `then` microtask."
+    },
+    {
+      "id": 4,
+      "slug": "async-await-syntax",
+      "question": "# `async function f() { return 1; }` ne döner? `await` sadece `async` fonksiyon içinde mi kullanılabilir? Top-level `await` nedir?",
+      "answer": "`async` fonksiyon her zaman Promise döner; `return 1` → `Promise.resolve(1)`. `await` yalnızca `async` fonksiyon (veya top-level await destekleyen modül) içinde kullanılabilir. Top-level await ES2022 modül içinde."
+    },
+    {
+      "id": 5,
+      "slug": "promise-all-vs-allSettled",
+      "question": "# `Promise.all` ile `Promise.allSettled` farkı nedir? Biri reject olunca `Promise.all` nasıl davranır? Hepsinin bitmesini beklemek için hangisi kullanılır?",
+      "answer": "`Promise.all` biri reject olunca hemen reject eder; diğerleri çalışmaya devam eder ama sonuç kullanılmaz. `Promise.allSettled` hepsinin bitmesini bekler; her biri `{status, value|reason}` döner."
+    },
+    {
+      "id": 6,
+      "slug": "await-try-catch",
+      "question": "# `async` fonksiyonda `await` hata verirse ne olur? `try/catch` olmazsa hata nereye gider? `.catch()` ile `try/catch` ne zaman tercih edilir?",
+      "answer": "`await` reject ederse exception fırlatılır. `try/catch` yoksa promise rejection (unhandled) olur; çağıran `catch` veya `try/catch` ile yakalanmalı. `.catch()` zincirde kullanışlı; `try/catch` satır bazlı kontrol ve `finally` için."
+    },
+    {
+      "id": 7,
+      "slug": "promise-constructor",
+      "question": "# `new Promise((resolve, reject) => { ... })` — `resolve`/`reject` birden fazla kez çağrılırsa ne olur? `resolve`e Promise geçirirsen ne olur?",
+      "answer": "İlk `resolve`/`reject` geçerli; sonrakiler yok sayılır. `resolve(p)` ile `p` Promise ise, dönen promise `p`'nin sonucuna göre settle olur (unwrap)."
+    },
+    {
+      "id": 8,
+      "slug": "then-vs-await",
+      "question": "# `p.then(...)` ile `await p` farkı nedir? Hangisi senkron \"bloklar\", hangisi kuyruğa ekler? Hata yakalama açısından fark var mı?",
+      "answer": "`await` async fonksiyonu duraklatır; `then` callback kuyruğa eklenir, fonksiyon hemen devam eder. `await` reject'i exception yapar; `then`'de ikinci callback veya `.catch` gerekir."
+    },
+    {
+      "id": 9,
+      "slug": "event-loop-order",
+      "question": "# `setTimeout(f, 0)`, `Promise.resolve().then(g)`, `console.log('sync')` sırayla çağrılırsa çıktı sırası ne olur? Neden?",
+      "answer": "Önce sync: `console.log('sync')`. Sonra microtask: `g`. En sonda macrotask: `f`. Microtask kuyruğu macrotask'lar arasında tamamen boşaltılır."
+    },
+    {
+      "id": 10,
+      "slug": "async-sequential-parallel",
+      "question": "# `await a(); await b();` ile `await Promise.all([a(), b()])` farkı nedir? İkisi de \"sıralı\" mı çalışır?",
+      "answer": "`await a(); await b();` sıralı: önce `a` biter, sonra `b` başlar. `Promise.all([a(), b()])` paralel başlatır, ikisi de biter diye bekler. `a` ve `b` içinde await varsa yine overlap olabilir."
+    },
+    {
+      "id": 11,
+      "slug": "fetch-async-await",
+      "question": "# `fetch` + `async/await` ile istek atıp JSON parse ederken `response.ok` kontrolü neden önemli? `fetch` 404'te reject mi eder?",
+      "answer": "`fetch` HTTP hata status'larında (4xx, 5xx) reject etmez; sadece ağ hatası vb. reject. `response.ok` 2xx için `true`. Kontrol etmezsen 404 yanıtını \"başarılı\" gibi işleyebilirsin."
+    },
+    {
+      "id": 12,
+      "slug": "promise-race",
+      "question": "# `Promise.race` ne yapar? İlk settle olan kazanır; diğerleri iptal edilir mi? Reject önce gelirse ne olur?",
+      "answer": "`Promise.race` ilk settle olanın sonucunu verir (resolve/reject). Diğer promise'lar iptal edilmez; arka planda çalışmaya devam eder. Reject önce gelirse `race` reject döner."
+    },
+    {
+      "id": 13,
+      "slug": "async-return-value",
+      "question": "# `async function f() { await x; return 2; }` — `f()` ne döner? `await f()` ne döner?",
+      "answer": "`f()` her zaman Promise döner. Bu promise `await x` ve `return 2` tamamlanınca `2` ile resolve olur. `await f()` → `2` (number)."
+    },
+    {
+      "id": 14,
+      "slug": "promise-then-chaining",
+      "question": "# `p.then(a).then(b).catch(c)` — `a` reject ederse `b` çalışır mı? `c` `a`'daki ve `b`'deki hataları yakalar mı?",
+      "answer": "`a` reject ederse `b` çalışmaz; zincir `c`'e düşer. `c` hem `a` hem `b` (ve önceki `then`'ler) reject'lerini yakalar. `catch`'ten sonra yeni bir promise döner; tekrar `then` zincirlenebilir."
+    },
+    {
+      "id": 15,
+      "slug": "setTimeout-vs-setImmediate",
+      "question": "# Node.js'te `setTimeout(fn, 0)` ile `setImmediate(fn)` sıralaması garanti mi? Hangisi genelde önce çalışır?",
+      "answer": "Sıra garanti değil; ortama bağlı. `setTimeout(0)` timer fazında, `setImmediate` check fazında. I/O callback içinden çağrılırsa `setImmediate` genelde önce çalışır. Kesin sıra gerekiyorsa aynı mekanizma kullan."
+    },
+    {
+      "id": 16,
+      "slug": "async-foreach",
+      "question": "# `arr.forEach(async (x) => { await f(x); })` — `forEach` `async` callback'i bekler mi? Tüm `f(x)` çağrıları \"paralel\" mi?",
+      "answer": "`forEach` callback'in dönüşünü beklemez; `async` fonksiyon Promise döndürür, `forEach` bunu kullanmaz. Çağrılar fiilen paralel başlar. Sıralı beklemek için `for...of` + `await` veya `reduce` + promise zinciri kullan."
+    },
+    {
+      "id": 17,
+      "slug": "unhandled-rejection",
+      "question": "# \"Unhandled promise rejection\" nedir? Nasıl önlenir? Node.js ve tarayıcıda nasıl dinlenir?",
+      "answer": "Promise reject edilip hiç `catch` / `try-catch` ile yakalanmazsa unhandled rejection oluşur. Her `then` zincirinde `.catch` veya `async` içinde `try/catch` kullan. `process.on('unhandledRejection', ...)` (Node) ve `unhandledrejection` (tarayıcı) ile loglayabilirsin."
+    },
+    {
+      "id": 18,
+      "slug": "async-iife",
+      "question": "# Top-level `await` yoksa `async` kodu nasıl çalıştırırsın? IIFE `(async () => { await ... })()` neden kullanılır?",
+      "answer": "`(async () => { await ... })()` hemen çalışan async IIFE; içinde `await` kullanılabilir. Dönen Promise'ı `.catch()` ile veya `then` ile dinlemek iyi fikir; unhandled rejection olmasın."
+    },
+    {
+      "id": 19,
+      "slug": "promise-finally",
+      "question": "# `Promise.finally` ne işe yarar? `then` / `catch` ile `finally` sıralaması nasıldır? `finally` içinde return ne etkiler?",
+      "answer": "`finally` resolve/reject fark etmeksizin çalışır; temizlik vb. için. Her zaman `then`/`catch`'ten sonra çalışır. `finally` kendi return değeri ile zinciri override etmez; önceki resolve/reject geçer (exception hariç)."
+    },
+    {
+      "id": 20,
+      "slug": "async-generator",
+      "question": "# `async function* g() { yield await f(); }` — `async generator` ne döner? `for await (...)` ile nasıl kullanılır?",
+      "answer": "Async generator `AsyncGenerator` döner; `next()` Promise döner. `for await (const x of g())` `g`'den gelen promise'ları sırayla `await` eder. Async iterable (stream, pagination) için kullanılır."
+    }
+  ]
+}

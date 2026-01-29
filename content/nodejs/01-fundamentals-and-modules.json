@@ -1,0 +1,65 @@
+{
+  "topic": "01-fundamentals-and-modules",
+  "questions": [
+    {
+      "id": 1,
+      "slug": "require-vs-import",
+      "question": "CommonJS `require` ile ES `import` farkı? Node’da ikisi birlikte kullanılır mı?",
+      "answer": "require senkron, runtime. import statik, modül yükleme. type:module ile ES; .cjs ile CJS. Karışık projede dikkat."
+    },
+    {
+      "id": 2,
+      "slug": "module-exports",
+      "question": "`module.exports` vs `exports` farkı? Neden `exports = ...` kullanılmaz?",
+      "answer": "exports, module.exports’a referans. exports = {...} referansı değiştirir, modül çıktısı değişmez. module.exports kullan."
+    },
+    {
+      "id": 3,
+      "slug": "__dirname-esm",
+      "question": "ES modülde `__dirname` yok. Nasıl elde edilir?",
+      "answer": "import { fileURLToPath } from 'url'; import { dirname } from 'path'; const __dirname = dirname(fileURLToPath(import.meta.url));"
+    },
+    {
+      "id": 4,
+      "slug": "npm-init",
+      "question": "`npm init` ve `package.json` script’leri ne işe yarar?",
+      "answer": "Proje tanımı, bağımlılıklar. scripts: start, test, vb. npm run X ile çalışır."
+    },
+    {
+      "id": 5,
+      "slug": "node-modules",
+      "question": "`node_modules` ve lock file (package-lock.json) neden önemli?",
+      "answer": "Bağımlılıklar burada. Lock file sürümleri sabitler; tutarlı kurulum. Genelde commit edilir."
+    },
+    {
+      "id": 6,
+      "slug": "process-argv",
+      "question": "`process.argv` ne içerir? CLI argümanları nasıl parse edilir?",
+      "answer": " [node, scriptPath, ...args]. Kendi parse veya minimist, yargs vb. kütüphane."
+    },
+    {
+      "id": 7,
+      "slug": "process-env",
+      "question": "`process.env` ne işe yarar? NODE_ENV?",
+      "answer": "Ortam değişkenleri. NODE_ENV development/production/test. Config, API URL vb. için kullanılır."
+    },
+    {
+      "id": 8,
+      "slug": "core-modules",
+      "question": "Node built-in (core) modüller neler? Örnek ver.",
+      "answer": "fs, path, http, events, stream, crypto, os, util vb. require('fs') ile; npm’e gerek yok."
+    },
+    {
+      "id": 9,
+      "slug": "require-cache",
+      "question": "`require` cache’i nasıl çalışır? Aynı modül iki kez require edilirse?",
+      "answer": "İlk require yükler, cache’e koyar. Sonrakiler cache’ten döner. require.cache’i değiştirerek yeniden yükleme mümkün ama dikkatli kullan."
+    },
+    {
+      "id": 10,
+      "slug": "debugger-inspect",
+      "question": "`node --inspect` ve debugger ne işe yarar?",
+      "answer": "Chrome DevTools veya VS Code ile debug. Breakpoint, step, inspect. Geliştirme ve hata ayıklama için."
+    }
+  ]
+}

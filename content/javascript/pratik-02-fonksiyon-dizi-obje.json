@@ -1,0 +1,65 @@
+{
+  "topic": "pratik-02-fonksiyon-dizi-obje",
+  "questions": [
+    {
+      "id": 1,
+      "slug": "yaz-flatten",
+      "question": "`flatten(arr)` yaz: tek seviye iç içe diziyi düzleştirsin. `[1, [2, 3], [4, [5]]]` → `[1, 2, 3, 4, [5]]`. `flat(1)` kullanma; `reduce` veya döngü ile yap.",
+      "answer": "```js\nfunction flatten(arr) {\n  return arr.reduce((acc, x) => acc.concat(Array.isArray(x) ? x : [x]), []);\n}\n```\n\nVeya `for` + `push` / `spread` ile. Sadece bir seviye; `[5]` kalır."
+    },
+    {
+      "id": 2,
+      "slug": "yaz-groupby",
+      "question": "`groupBy(arr, key)` yaz. `key` bir string ise obje property adı (örn. `\"type\"`); obje elemanlarında `obj[key]` değerine göre grupla. Sonuç `{ \"a\": [...], \"b\": [...] }` formatında.",
+      "answer": "```js\nfunction groupBy(arr, key) {\n  return arr.reduce((acc, item) => {\n    const k = item[key];\n    if (!acc[k]) acc[k] = [];\n    acc[k].push(item);\n    return acc;\n  }, {});\n}\n```\n\n`key` fonksiyon olacak şekilde `groupBy(arr, fn)` da genişletilebilir."
+    },
+    {
+      "id": 3,
+      "slug": "yaz-debounce",
+      "question": "`debounce(fn, ms)` yaz. Dönen fonksiyon `ms` boyunca tekrar çağrılmazsa en son çağrıda `fn` çalışsın. Timer sıfırlansın.",
+      "answer": "```js\nfunction debounce(fn, ms) {\n  let t;\n  return function (...args) {\n    clearTimeout(t);\n    t = setTimeout(() => fn.apply(this, args), ms);\n  };\n}\n```\n\n`this` korunur; `apply` ile args geçilir."
+    },
+    {
+      "id": 4,
+      "slug": "yaz-unique",
+      "question": "`unique(arr)` yaz: dizideki **tekrarları** kaldır, ilk geçişi tut. Primitive’ler için yeterli. `Set` veya `filter` + `indexOf` kullan.",
+      "answer": "```js\nfunction unique(arr) {\n  return [...new Set(arr)];\n}\n```\n\n`filter` ile: `arr.filter((x, i) => arr.indexOf(x) === i)`. Set daha kısa ve genelde hızlı."
+    },
+    {
+      "id": 5,
+      "slug": "yaz-deep-clone",
+      "question": "Sadece primitive, düz obje ve dizi (iç içe) için `deepClone(obj)` yaz. `structuredClone` kullanma; recurse ile kopyala.",
+      "answer": "```js\nfunction deepClone(obj) {\n  if (obj === null || typeof obj !== 'object') return obj;\n  const out = Array.isArray(obj) ? [] : {};\n  for (const k of Object.keys(obj)) out[k] = deepClone(obj[k]);\n  return out;\n}\n```\n\nDöngüsel referans yok sayılır; gerekirse `WeakMap` ile takip edilir."
+    },
+    {
+      "id": 6,
+      "slug": "duzelt-reduce-toplam",
+      "question": "Bu kod toplamı yanlış hesaplıyor. **Hatayı bul** ve düzelt; sonra çalıştırıp doğrula.\n\n```js\nconst nums = [1, 2, 3, 4];\nconst sum = nums.reduce((acc, n) => acc + n);\nconsole.log(sum);\n```",
+      "answer": "`reduce` ilk `acc` değeri yok; ilk eleman `acc` olur, ikinci elemandan itibaren `n`. Burada `1 + 2 + 3 + 4` olur, toplam 10 — aslında doğru. Ama genel kullanım için initial value vermek daha iyi:\n\n```js\nconst sum = nums.reduce((acc, n) => acc + n, 0);\n```\n\nEğer “yanlış” boş dizi ise: `[].reduce(...)` initial olmadan hata verir. `, 0` ekleyince `[]` → 0."
+    },
+    {
+      "id": 7,
+      "slug": "yaz-curry-add",
+      "question": "`add` curry olsun: `add(1)(2)(3)` → 6, `add(1, 2)(3)` → 6. En az bir argüman her çağrıda var; toplam 3 sayı gelince sonucu dön.",
+      "answer": "```js\nfunction add(...args) {\n  const sum = (a, b) => a + b;\n  const run = (...next) => {\n    const all = [...args, ...next];\n    if (all.length >= 3) return all.slice(0, 3).reduce(sum, 0);\n    return add(...all);\n  };\n  return run;\n}\n```\n\nDaha esnek: `run` içinde `length >= N` veya “boş çağrı” ile `valueOf` kullanımı yapılabilir."
+    },
+    {
+      "id": 8,
+      "slug": "yaz-chunk",
+      "question": "`chunk(arr, size)` yaz. Diziyi `size`’lık parçalara böl. `chunk([1,2,3,4,5], 2)` → `[[1,2],[3,4],[5]]`.",
+      "answer": "```js\nfunction chunk(arr, size) {\n  const out = [];\n  for (let i = 0; i < arr.length; i += size) out.push(arr.slice(i, i + size));\n  return out;\n}\n```\n\n`reduce` ile de yazılabilir."
+    },
+    {
+      "id": 9,
+      "slug": "yaz-obj-from-pairs",
+      "question": "`fromPairs(pairs)` yaz: `[[k1,v1],[k2,v2]]` → `{ k1: v1, k2: v2 }`. `Object.fromEntries` kullanma; döngü ile yap.",
+      "answer": "```js\nfunction fromPairs(pairs) {\n  const obj = {};\n  for (const [k, v] of pairs) obj[k] = v;\n  return obj;\n}\n```\n\n`reduce`: `pairs.reduce((o,[k,v])=>(o[k]=v,o),{})`."
+    },
+    {
+      "id": 10,
+      "slug": "yaz-memoize",
+      "question": "`memoize(fn)` yaz. `fn` tek primitive argüman alıyor. Aynı argümanla tekrar çağrıda cache’ten dön; ilk seferde `fn`’i çağırıp sonucu sakla.",
+      "answer": "```js\nfunction memoize(fn) {\n  const cache = new Map();\n  return function (x) {\n    if (cache.has(x)) return cache.get(x);\n    const v = fn(x);\n    cache.set(x, v);\n    return v;\n  };\n}\n```\n\nÇoklu argüman için key üret (örn. `JSON.stringify(args)` veya `[].join`); primitive ile burada tek argüman yeterli."
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "topic": "06-styling-and-assets",
+  "questions": [
+    {
+      "id": 1,
+      "slug": "css-modules",
+      "question": "CSS Modules Next’te nasıl kullanılır? Dosya adı?",
+      "answer": "*.module.css import; class’lar unique. Component-scoped. Import alanı otomatik."
+    },
+    {
+      "id": 2,
+      "slug": "global-css",
+      "question": "Global CSS nereye import edilir? App Router’da?",
+      "answer": "app/layout.tsx veya _app (Pages). Bir kez, root layout. Global stiller burada."
+    },
+    {
+      "id": 3,
+      "slug": "tailwind-next",
+      "question": "Next.js’te Tailwind nasıl kurulur? Özel config?",
+      "answer": "tailwind.config, postcss. content: app, components path’leri. Theme extend vb. config’te."
+    },
+    {
+      "id": 4,
+      "slug": "sass-support",
+      "question": "Sass/SCSS kullanımı? `.module.scss`?",
+      "answer": "sass yüklü; .scss import. .module.scss CSS Modules gibi. Global veya module."
+    },
+    {
+      "id": 5,
+      "slug": "css-in-js",
+      "question": "styled-components / Emotion Next’te nasıl kullanılır? SSR?",
+      "answer": "Registry (styled-components) veya emotion cache; _document / layout’ta. SSR uyumlu kurulum gerekir."
+    },
+    {
+      "id": 6,
+      "slug": "next-font",
+      "question": "`next/font` ne sağlar? Google font optimization?",
+      "answer": "Font’ları self-host eder; layout shift azalır. next/font/google vb. className ile uygulanır."
+    },
+    {
+      "id": 7,
+      "slug": "image-src",
+      "question": "`next/image` için external `src` nasıl izin verilir?",
+      "answer": "next.config images.domains veya remotePatterns. Güvenlik için sadece gerekli domain’ler."
+    },
+    {
+      "id": 8,
+      "slug": "static-assets",
+      "question": "Static dosyalar (img, font) nereye konur? `public`?",
+      "answer": "public/ kökünden serve edilir. /file.png → public/file.png. Referans / ile başlar."
+    },
+    {
+      "id": 9,
+      "slug": "layout-shift",
+      "question": "Font ve image ile layout shift nasıl önlenir?",
+      "answer": "next/font, next/image size/fill. Placeholder, skeleton. Önceden boyut belirleme."
+    },
+    {
+      "id": 10,
+      "slug": "dark-mode",
+      "question": "Dark mode Next’te nasıl uygulanır? Class vs media?",
+      "answer": "Class: html class toggle, CSS .dark. Media: prefers-color-scheme. next-themes gibi lib ile persist + toggle."
+    }
+  ]
+}

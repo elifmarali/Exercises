@@ -1,0 +1,14 @@
+"use strict";
+const questions = [
+  { slug: "route-handler-basics", question: "App Router’da Route Handler (GET, POST) nasıl tanımlanır?", answer: "route.ts veya route.js. export async function GET(req), POST(req) vb. Request/Response kullanılır." },
+  { slug: "route-vs-pages-api", question: "`app/.../route.ts` vs `pages/api` farkı?", answer: "App route handler app/ içinde, yaşamı route ile. pages/api ayrı API route’ları. App Router projede app/ route kullanılır." },
+  { slug: "read-body", question: "POST body Route Handler’da nasıl okunur?", answer: "await request.json() veya request.text() / formData(). Content-Type’a göre uygun metot." },
+  { slug: "response-helpers", question: "NextResponse.json, redirect ne işe yarar?", answer: "NextResponse.json(body) JSON + header. redirect(url) 302/307. Standart Response da kullanılabilir." },
+  { slug: "server-actions-basics", question: "Server Action nedir? 'use server' nerede yazılır?", answer: "Form veya client’tan çağrılan server fonksiyonu. 'use server' dosya veya fn başında. Mutasyon, form submit." },
+  { slug: "server-action-form", question: "Form’u Server Action ile submit etmek nasıl yapılır?", answer: "action={serverAction}. FormData action’a gider. Sonuç useActionState / useFormState ile (veya redirect) işlenir." },
+  { slug: "action-revalidate", question: "Server Action sonrası cache nasıl güncellenir?", answer: "revalidatePath veya revalidateTag çağrılır. Action içinde mutation sonrası ilgili path/tag invalidate edilir." },
+  { slug: "route-segment-config", question: "Route Handler’da dynamic, revalidate nasıl verilir?", answer: "export const dynamic = 'force-dynamic', revalidate = 0 vb. Segment config ile." },
+  { slug: "edge-runtime", question: "Route Handler Edge’de nasıl çalıştırılır?", answer: "export const runtime = 'edge'. Node API’ler kısıtlı; hızlı, global dağıtım." },
+  { slug: "api-auth", question: "Route Handler’da auth nasıl kontrol edilir?", answer: "Cookie/header oku; session validate. Middleware ile koruma veya handler içinde check. Gerekirse 401/403 dön." },
+];
+module.exports = { questions };

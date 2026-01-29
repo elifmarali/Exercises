@@ -1,0 +1,65 @@
+{
+  "topic": "05-http-and-express",
+  "questions": [
+    {
+      "id": 1,
+      "slug": "http-createServer",
+      "question": "`http.createServer` ile basit sunucu nasıl yazılır?",
+      "answer": "createServer((req, res) => { ... }). req url, method, headers; res writeHead, write, end. Listen(port)."
+    },
+    {
+      "id": 2,
+      "slug": "req-url-method",
+      "question": "`req.url` ve `req.method` ne içerir? Query string nasıl parse edilir?",
+      "answer": "url path + query. method GET, POST vb. URL parse: url.parse veya new URL. Query parse: querystring veya URLSearchParams."
+    },
+    {
+      "id": 3,
+      "slug": "res-status-headers",
+      "question": "Response status ve header nasıl gönderilir?",
+      "answer": "res.writeHead(status, headers) veya res.setHeader + res.statusCode. Sonra res.end(body)."
+    },
+    {
+      "id": 4,
+      "slug": "express-basics",
+      "question": "Express’te route ve middleware nasıl tanımlanır?",
+      "answer": "app.get('/path', handler). app.use(middleware). Router ile gruplama. next() sonraki middleware’e geçer."
+    },
+    {
+      "id": 5,
+      "slug": "express-middleware-order",
+      "question": "Middleware sırası neden önemli?",
+      "answer": "Tanım sırasıyla çalışır. Auth, body parse, route’lar. Yanlış sıra davranışı bozar."
+    },
+    {
+      "id": 6,
+      "slug": "express-body-parser",
+      "question": "POST body JSON nasıl okunur?",
+      "answer": "express.json() middleware. req.body obje olur. Raw için express.raw, form için express.urlencoded."
+    },
+    {
+      "id": 7,
+      "slug": "express-error-handler",
+      "question": "Express’te merkezi hata yakalama nasıl yapılır?",
+      "answer": "4 parametreli middleware (err, req, res, next). En sonda use. Async hatalar next(err) veya wrapper ile iletilmeli."
+    },
+    {
+      "id": 8,
+      "slug": "express-router",
+      "question": "Express Router ne işe yarar? Nasıl kullanılır?",
+      "answer": "Route gruplama. const r = express.Router(); r.get(...); app.use('/api', r). Modüler yapı."
+    },
+    {
+      "id": 9,
+      "slug": "req-params-query",
+      "question": "`req.params` ve `req.query` farkı?",
+      "answer": "params route’tan (/user/:id). query ?key=value. İkisi de req üzerinde."
+    },
+    {
+      "id": 10,
+      "slug": "express-static",
+      "question": "`express.static` ne yapar?",
+      "answer": "Dosya sunar. app.use(express.static('public')). /file → public/file. Öncelik sırası dikkat."
+    }
+  ]
+}

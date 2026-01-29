@@ -1,0 +1,14 @@
+"use strict";
+const questions = [
+  { slug: "build-output", question: "`next build` çıktısı neler içerir? .next klasörü?", answer: "Static sayfalar, server chunks, cache. .next içinde build artifacts. Standalone output seçilebilir." },
+  { slug: "vercel-deploy", question: "Vercel’e deploy nasıl yapılır? Git entegrasyonu?", answer: "Git bağla, build command: next build. Otomatik env, preview. Vercel Next’i optimize eder." },
+  { slug: "standalone-output", question: "`output: 'standalone'` ne işe yarar? Node ile self-host?", answer: "Minimal .next/standalone; node_modules gerekmez. Docker veya node server ile self-host." },
+  { slug: "env-production", question: "Production’da env değişkenleri nasıl verilir?", answer: "Platform (Vercel vb.) env ayarları. .env.production; NEXT_PUBLIC_ client’a gider. Secret’lar server-only." },
+  { slug: "docker-next", question: "Next.js Docker ile nasıl çalıştırılır? Multi-stage?", answer: "Build stage: npm run build. Run stage: standalone + node. Multi-stage ile image küçük tutulur." },
+  { slug: "static-export-limit", question: "`output: 'export'` ile neler yapılamaz?", answer: "API routes, SSR, ISR, middleware, dynamic Server Components. Tam static SPA-benzeri." },
+  { slug: "cdn-assets", question: "Static asset’ler CDN’den nasıl serve edilir?", answer: "assetPrefix veya CDN’e _next/static kopyalama. next/config. Vercel / platform CDN kullanımı." },
+  { slug: "analytics-speed", question: "Analytics ve speed (Core Web Vitals) nasıl izlenir?", answer: "Vercel Analytics, Analytics.js, Web Vitals report. next/script, SEO bileşenleri." },
+  { slug: "preview-env", question: "Preview (PR) ortamında farklı env nasıl kullanılır?", answer: "Platform preview env (Vercel branch env). Farklı API URL, feature flag vb." },
+  { slug: "error-tracking", question: "Production hata takibi (Sentry vb.) Next’te nasıl kurulur?", answer: "Sentry next integration. _error override, instrumentation. Client + server yakalama." },
+];
+module.exports = { questions };

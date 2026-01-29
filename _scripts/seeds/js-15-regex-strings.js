@@ -1,0 +1,14 @@
+"use strict";
+const questions = [
+  { slug: "regex-literal-vs-constructor", question: "`/ab+c/` ile `new RegExp('ab+c')` farkı nedir? Dinamik pattern’de hangisi kullanılır?", answer: "Literal statik; RegExp constructor dinamik string kabul eder. Escape farkı: string’de `\\\\` regex’te `\\` olur." },
+  { slug: "test-vs-exec", question: "`regex.test()` ile `regex.exec()` farkı nedir? Global flag (`g`) ikisini nasıl etkiler?", answer: "`test` boolean döner. `exec` eşleşme detayı (gruplar, index) döner. `g` ile `exec` her çağrıda sonraki eşleşmeye ilerler; `test` da lastIndex’i günceller." },
+  { slug: "string-match-matchAll", question: "`str.match(/x/g)` ile `str.matchAll(/x/g)` farkı nedir? `matchAll` ne döner?", answer: "`match` ile `g`: tüm eşleşen substring’ler. `matchAll`: her eşleşme için gruplar, index içeren iterator. Detay gerekiyorsa `matchAll`." },
+  { slug: "replace-callback", question: "`str.replace(regex, fn)` callback ne alır? Dinamik değiştirme nasıl yapılır?", answer: "fn(match, p1, p2, ..., offset, str) alır. Dönüş değeri yerine geçecek string. Grup ve konum bilgisiyle dinamik replace yapılabilir." },
+  { slug: "regex-groups", question: "Capturing group `(a)|(b)` ve non-capturing `(?:a)` ne işe yarar?", answer: "`(a)` eşleşeni yakalar; `match[1]` vb. `(?:a)` grubu yakalamaz, sadece gruplama. Backreference ve replace’te captured group kullanılır." },
+  { slug: "anchor-boundary", question: "`^`, `$`, `\\b` ne anlama gelir? Multiline flag `m` nasıl etkiler?", answer: "`^` başlangıç, `$` bitiş. `m` ile satır başı/sonu. `\\b` kelime sınırı. `^`/`$` tüm string’e veya (m ile) satıra göre davranır." },
+  { slug: "string-includes-indexOf", question: "`includes` ile `indexOf` farkı? `NaN` aramada sorun var mı?", answer: "`includes` boolean, `indexOf` indeks (-1 yoksa). `'abc'.includes('')` → true. `indexOf(NaN)` eşleşmez; `includes` de NaN’da tutarlı değil, dizi `includes` farklı." },
+  { slug: "slice-substring-substr", question: "`slice`, `substring`, `substr` farkları neler? Negatif indeks?", answer: "`slice` negatif indeks destekler (sondan). `substring` negatifi 0 sayar; start>end yer değiştirir. `substr` deprecated; length ile keser." },
+  { slug: "trim-normalize", question: "`trim` ne keser? Unicode boşluklar dahil mi? `normalize` ne işe yarar?", answer: "`trim` baştaki/sondaki whitespace’i (space, tab, vb.) keser. Unicode boşluklar genelde dahil. `normalize` NFD/NFC ile birleşik karakter normalleştirmesi yapar." },
+  { slug: "template-literals", question: "Template literal `\\`${x}\\`` içinde expression nasıl yazılır? Tagged template nedir?", answer: "`${expression}` her türlü ifade. Tagged: `tag\\`a${x}b\\`` → `tag(['a','b'], x)`. Raw string, i18n, SQL vb. için kullanılır." },
+];
+module.exports = { questions };

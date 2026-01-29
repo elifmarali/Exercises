@@ -1,0 +1,65 @@
+{
+  "topic": "02-operators-and-expressions",
+  "questions": [
+    {
+      "id": 1,
+      "slug": "arithmetic-ops",
+      "question": "`+`, `-`, `*`, `%` operatörleri `NaN` veya `Infinity` ile nasıl davranır? `0/0`, `1/0` sonuçları nelerdir?",
+      "answer": "`0/0` → `NaN`. `1/0` → `Infinity`, `-1/0` → `-Infinity`. `NaN` ile aritmetik `NaN` üretir. `Infinity` ile işlemler mantıksal kurallara uyar (örn. `Infinity * 0` → `NaN`)."
+    },
+    {
+      "id": 2,
+      "slug": "short-circuit-and-or",
+      "question": "`a && b` ve `a || b` short-circuit davranışı nedir? Dönüş değeri her zaman boolean mı?",
+      "answer": "`&&`: ilk falsy’de durur, onu döner; hepsi truthy’se sonuncuyu. `||`: ilk truthy’de durur, onu döner; hepsi falsy’se sonuncuyu. Sonuç boolean olmak zorunda değil; değer döner."
+    },
+    {
+      "id": 3,
+      "slug": "logical-not",
+      "question": "`!x` tipi nedir? `!!x` ne işe yarar? `!'hello'` ve `!0` sonuçları nelerdir?",
+      "answer": "`!` her zaman boolean döner. `!'hello'` → `false`, `!0` → `true`. `!!x` değeri boolean’a çevirir (truthy → `true`, falsy → `false`)."
+    },
+    {
+      "id": 4,
+      "slug": "comparison-abstract",
+      "question": "`==` abstract equality nasıl çalışır? `1 == '1'`, `null == undefined`, `[] == false` sonuçları nelerdir?",
+      "answer": "Tip farklıysa coercion yapılır. `1 == '1'` → `true`. `null == undefined` → `true`. `[] == false` → `true` ([] → '' → 0, false → 0). Öngörülebilirlik için `===` tercih edilir."
+    },
+    {
+      "id": 5,
+      "slug": "strict-equality",
+      "question": "`===` ile `==` farkı nedir? `NaN === NaN` ne döner? `Object.is` ne zaman kullanılır?",
+      "answer": "`===` tip ve değer aynı olmalı; coercion yok. `NaN === NaN` → `false`. `Object.is(NaN, NaN)` → `true`; `Object.is(0, -0)` → `false`. NaN ve ±0 ayrımında `Object.is` kullanılır."
+    },
+    {
+      "id": 6,
+      "slug": "spread-rest",
+      "question": "Spread (`...arr`) ile rest (`...args`) parametre farkı nedir? `Math.max(...[1,2,3])` ne döner?",
+      "answer": "Rest: fonksiyon parametresinde kalanları diziye toplar. Spread: iterable’ı elemanlara açar. `Math.max(...[1,2,3])` → `3`; spread dizi yerine `1,2,3` argümanları verir."
+    },
+    {
+      "id": 7,
+      "slug": "exponentiation",
+      "question": "`**` operatörü nedir? `2 ** 10`, `2 ** -1` sonuçları nelerdir? `Math.pow` ile fark var mı?",
+      "answer": "Üs alma. `2 ** 10` → 1024, `2 ** -1` → 0.5. `**` right-associative (`2 ** 3 ** 2` → `2 ** 9`). `Math.pow` ile sonuç aynı; syntax farkı."
+    },
+    {
+      "id": 8,
+      "slug": "optional-chaining",
+      "question": "`obj?.a?.b` nasıl çalışır? `obj` veya `a` `null`/`undefined` ise ne döner? `obj?.()` ne anlama gelir?",
+      "answer": "Zincirde `null`/`undefined`’a rastlanırsa erişim durur, `undefined` döner. `obj?.()` optional fonksiyon çağrısı; `obj` yoksa çağrı yapılmaz, `undefined` döner."
+    },
+    {
+      "id": 9,
+      "slug": "nullish-coalescing",
+      "question": "`??` ile `||` farkı nedir? `0 ?? 1` ve `0 || 1` sonuçları nelerdir? Hangi durumda `??` tercih edilir?",
+      "answer": "`??` sadece `null` ve `undefined` için sağ tarafı kullanır. `0 ?? 1` → 0, `0 || 1` → 1. Varsayılan verirken 0 veya '' geçerliyse `??` kullanılmalı."
+    },
+    {
+      "id": 10,
+      "slug": "assignment-ops",
+      "question": "`+=`, `-=`, `*=` gibi compound assignment’lar tipi nasıl etkiler? `let s = 'x'; s += 1` ne üretir?",
+      "answer": "`s += 1` → `'x1'`; string + number concatenation. Diğer operatörler sayısal coercion yapar. `+=` string’de birleştirme, sayıda toplama."
+    }
+  ]
+}

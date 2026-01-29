@@ -1,0 +1,65 @@
+{
+  "topic": "pratik-01-tip-operator",
+  "questions": [
+    {
+      "id": 1,
+      "slug": "cikti-1-typeof-coercion",
+      "question": "Aşağıdaki kodun **çıktısını** yaz (console.log satırları sırayla ne basar?):\n\n```js\nlet a = null;\nlet b = typeof a;\nlet c = \"\" + a;\nconsole.log(b, c);\nconsole.log(0 == \"0\", 0 === \"0\");\nconsole.log([] + [], [] + {});\n```\n\nCevabını kod çalıştırmadan, adım adım mantıkla üret.",
+      "answer": "`b` → `\"object\"` (`typeof null`). `c` → `\"null\"` (`\"\" + null` string coercion).\n- `console.log(b, c)` → `object null`\n- `0 == \"0\"` → `true`, `0 === \"0\"` → `false`\n- `[] + []` → `\"\"`, `[] + {}` → `\"[object Object]\"`\n\nPratik: Tarayıcı veya Node ile çalıştırıp doğrula."
+    },
+    {
+      "id": 2,
+      "slug": "yaz-sayilari-topla",
+      "question": "`sum(a, b)` adında bir fonksiyon yaz. İki sayı alıp toplamlarını dönsün. Eğer argümanlar sayı değilse (veya eksikse) `NaN` dönmeli; `Number` coercion kullanma, sadece gerçek sayı kabul et.\n\nÖrnek: `sum(1, 2)` → 3, `sum(\"1\", 2)` → `NaN`, `sum(1)` → `NaN`.",
+      "answer": "```js\nfunction sum(a, b) {\n  if (typeof a !== 'number' || typeof b !== 'number' || Number.isNaN(a) || Number.isNaN(b)) return NaN;\n  return a + b;\n}\n```\n\nVeya `Number.isFinite` ile:\n```js\nfunction sum(a, b) {\n  if (!Number.isFinite(a) || !Number.isFinite(b)) return NaN;\n  return a + b;\n}\n```"
+    },
+    {
+      "id": 3,
+      "slug": "duzelt-var-let-loop",
+      "question": "Bu kod 0,1,2 yerine 3,3,3 basıyor. **Neden?** Sadece **tek bir kelime** değiştirerek (var→let veya let→var) doğru çıktıyı al. Kodu çalıştırıp doğrula.\n\n```js\nfor (var i = 0; i < 3; i++) {\n  setTimeout(() => console.log(i), 10);\n}\n```",
+      "answer": "`var` function scope; döngü bitince `i === 3`. `setTimeout` callback'leri aynı `i`'ye bakıyor → 3,3,3.\n\n`var` → `let` yap. `let` block scope; her iterasyonda ayrı `i`. Çıktı: 0, 1, 2."
+    },
+    {
+      "id": 4,
+      "slug": "yaz-saf-mi",
+      "question": "`isPureNumber(n)` yaz: `n` yalnızca sonlu bir sayıysa (sayı tipinde, `NaN` ve `Infinity` değilse) `true`, değilse `false` dönsün. `isNaN` / `Number.isNaN` ve `isFinite` / `Number.isFinite` farkını bilerek seç.",
+      "answer": "```js\nfunction isPureNumber(n) {\n  return typeof n === 'number' && Number.isFinite(n);\n}\n```\n\n`Number.isFinite` `NaN` ve `Infinity` için `false` verir; coercion yapmaz. `isFinite(\"1\")` `true` olurdu, `Number.isFinite(\"1\")` `false`."
+    },
+    {
+      "id": 5,
+      "slug": "cikti-2-optional-nullish",
+      "question": "Çıktıyı yaz (kod çalıştırmadan):\n\n```js\nconst x = 0;\nconst y = null;\nconst z = undefined;\nconsole.log(x || 1, y || 1, z || 1);\nconsole.log(x ?? 1, y ?? 1, z ?? 1);\n```",
+      "answer": "`||`: İlk falsy’de sağa geçer. `x || 1` → 1, `y || 1` → 1, `z || 1` → 1.\n\n`??`: Sadece `null` / `undefined`’ta sağa geçer. `x ?? 1` → 0, `y ?? 1` → 1, `z ?? 1` → 1."
+    },
+    {
+      "id": 6,
+      "slug": "yaz-clamp",
+      "question": "`clamp(n, min, max)` yaz: `n < min` ise `min`, `n > max` ise `max`, else `n` dönsün. Sayı olmayan veya `min > max` için makul davran (örn. `NaN` veya `min`).",
+      "answer": "```js\nfunction clamp(n, min, max) {\n  if (typeof n !== 'number' || Number.isNaN(n)) return NaN;\n  if (min > max) return NaN; // veya min\n  if (n < min) return min;\n  if (n > max) return max;\n  return n;\n}\n```\n\nKısa: `Math.min(max, Math.max(min, n))` (NaN / min>max kontrolü yok)."
+    },
+    {
+      "id": 7,
+      "slug": "duzelt-destructuring-default",
+      "question": "Amaç: `opts` verilmezse `{ size: 10 }` kullan. Bu kod `size` hep 10 üretiyor; `opts = { size: 0 }` verince de 10 oluyor. **Neden?** Düzelt.\n\n```js\nfunction create(opts = { size: 10 }) {\n  const { size = 10 } = opts;\n  return { size };\n}\n```",
+      "answer": "Default `size = 10` sadece `undefined`’ta devreye girer. `opts = { size: 0 }` ile `size` 0; doğru. Ama `opts = {}` ile `size` `undefined` → 10. Sorun `opts` default’unda: `opts = {}` verince `{ size: 10 }` kullanılmıyor, `size` yok → 10. Eğer “`opts.size` yoksa 10” isteniyorsa mevcut mantık doğru. “`opts` yoksa `{ size: 10 }`” için:\n\n```js\nfunction create(opts) {\n  const { size = 10 } = opts ?? {};\n  return { size };\n}\n```"
+    },
+    {
+      "id": 8,
+      "slug": "yaz-deep-equality-primitive",
+      "question": "Sadece **primitive** ve **düz obje/dizi** (iç içe objeler dahil) için `deepEqual(a, b)` yaz. `===` ile primitive, recurse ile obje/dizi. Date, RegExp, Map ihmal.",
+      "answer": "```js\nfunction deepEqual(a, b) {\n  if (a === b) return true;\n  if (a == null || b == null || typeof a !== 'object' || typeof b !== 'object') return false;\n  const keysA = Object.keys(a), keysB = Object.keys(b);\n  if (keysA.length !== keysB.length) return false;\n  return keysA.every(k => keysB.includes(k) && deepEqual(a[k], b[k]));\n}\n```\n\nArray için `Object.keys` indeksleri verir; yeterli. Önce `Array.isArray` ile tip uyumu da kontrol edilebilir."
+    },
+    {
+      "id": 9,
+      "slug": "cikti-3-object-is",
+      "question": "Çıktıyı yaz:\n\n```js\nconsole.log(Object.is(NaN, NaN), NaN === NaN);\nconsole.log(Object.is(0, -0), 0 === -0);\nconsole.log(Object.is({}, {}));\n```",
+      "answer": "`Object.is(NaN, NaN)` → true, `NaN === NaN` → false.\n`Object.is(0, -0)` → false, `0 === -0` → true.\n`Object.is({}, {})` → false (farklı referans)."
+    },
+    {
+      "id": 10,
+      "slug": "yaz-pick-omit",
+      "question": "`pick(obj, keys)` ve `omit(obj, keys)` yaz. `pick`: sadece `keys`’teki property’leri içeren yeni obje. `omit`: `keys`’tekiler hariç. Orijinali değiştirme.",
+      "answer": "```js\nfunction pick(obj, keys) {\n  return Object.fromEntries(keys.filter(k => k in obj).map(k => [k, obj[k]]));\n}\nfunction omit(obj, keys) {\n  const set = new Set(keys);\n  return Object.fromEntries(Object.entries(obj).filter(([k]) => !set.has(k)));\n}\n```\n\nAlternatif: `pick` için `keys.reduce((a,k) => (k in obj && (a[k]=obj[k]), a), {})`, `omit` için `keys` dışındakileri `reduce` veya `Object.entries` + `filter` ile topla."
+    }
+  ]
+}

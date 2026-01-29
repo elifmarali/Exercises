@@ -1,0 +1,65 @@
+{
+  "topic": "04-file-system-and-path",
+  "questions": [
+    {
+      "id": 1,
+      "slug": "fs-sync-vs-async",
+      "question": "`fs.readFileSync` vs `fs.readFile`? Sync kullanımı ne zaman riskli?",
+      "answer": "Async non-blocking; sync event loop’u bloklar. Genelde async tercih. Sync script, başlangıç vb. sınırlı kullanım."
+    },
+    {
+      "id": 2,
+      "slug": "fs-promises",
+      "question": "`fs.promises` API ne sağlar?",
+      "answer": "Promise tabanlı fs; async/await ile kullanım. fs.promises.readFile vb. Callback’e gerek kalmaz."
+    },
+    {
+      "id": 3,
+      "slug": "path-join-resolve",
+      "question": "`path.join` vs `path.resolve` farkı?",
+      "answer": "join segment’leri birleştirir. resolve mutlak path üretir; cwd’den. .. işlenir. Cross-platform için ikisi de kullanılır."
+    },
+    {
+      "id": 4,
+      "slug": "__dirname-path",
+      "question": "`path.join(__dirname, 'public')` neden kullanılır?",
+      "answer": "Çalışan script’in dizinine göre public path. Göreli path’ler güvenli birleştirilir."
+    },
+    {
+      "id": 5,
+      "slug": "fs-exists",
+      "question": "Dosya var mı kontrolü nasıl yapılır? `fs.exists` neden kullanılmaz?",
+      "answer": "fs.exists deprecated; race condition. fs.access veya open; ENOENT ile yokluk. Stat da kullanılabilir."
+    },
+    {
+      "id": 6,
+      "slug": "readdir-recursive",
+      "question": "Dizinleri recursive okumak nasıl yapılır? `fs.readdir` ile?",
+      "answer": "readdir ile giriş; alt dizinlerde recursion veya fs.readdir sync recursive { recursive: true } (Node 10+)."
+    },
+    {
+      "id": 7,
+      "slug": "write-file-append",
+      "question": "Dosyaya ekleme (append) nasıl yapılır?",
+      "answer": "fs.appendFile veya createWriteStream { flags: 'a' }. Mevcut içerik korunur."
+    },
+    {
+      "id": 8,
+      "slug": "mkdir-recursive",
+      "question": "İç içe `mkdir` (recursive) nasıl yapılır?",
+      "answer": "fs.mkdir(path, { recursive: true }). Üst dizinler yoksa oluşturulur."
+    },
+    {
+      "id": 9,
+      "slug": "path-normalize",
+      "question": "`path.normalize` ve `path.sep` ne işe yarar?",
+      "answer": "normalize .., ., çift slash düzenler. sep platform ayırıcı (/ veya \\). Cross-platform path için."
+    },
+    {
+      "id": 10,
+      "slug": "fs-watch",
+      "question": "Dosya/dizin değişikliği nasıl izlenir?",
+      "answer": "fs.watch (ve fs.watchFile). Event’ler change, rename. Bazen duplicate; debounce veya lib kullanılabilir."
+    }
+  ]
+}

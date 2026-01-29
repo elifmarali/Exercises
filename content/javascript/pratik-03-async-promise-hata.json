@@ -1,0 +1,65 @@
+{
+  "topic": "pratik-03-async-promise-hata",
+  "questions": [
+    {
+      "id": 1,
+      "slug": "cikti-micro-macro",
+      "question": "Çıktı sırasını yaz (1–6):\n\n```js\nconsole.log(1);\nsetTimeout(() => console.log(2), 0);\nPromise.resolve().then(() => console.log(3));\nconsole.log(4);\nqueueMicrotask(() => console.log(5));\nconsole.log(6);\n```",
+      "answer": "1, 4, 6, 3, 5, 2. Önce senkron (1,4,6). Sonra microtask’lar (3,5). En sonda macrotask (setTimeout → 2)."
+    },
+    {
+      "id": 2,
+      "slug": "yaz-fetch-with-timeout",
+      "question": "`fetchWithTimeout(url, ms)` yaz. `fetch(url)` çalışsın; `ms` içinde cevap gelmezse **reject** et. `AbortController` kullan.",
+      "answer": "```js\nfunction fetchWithTimeout(url, ms) {\n  const c = new AbortController();\n  const t = setTimeout(() => c.abort(), ms);\n  return fetch(url, { signal: c.signal })\n    .finally(() => clearTimeout(t));\n}\n```\n\n`finally` ile timer temizlenir; reject’te de çalışır."
+    },
+    {
+      "id": 3,
+      "slug": "yaz-sleep",
+      "question": "`sleep(ms)` yaz: `ms` ms bekleyip resolve eden bir Promise dönsün. `await sleep(1000)` gibi kullanılacak.",
+      "answer": "```js\nfunction sleep(ms) {\n  return new Promise(resolve => setTimeout(resolve, ms));\n}\n```"
+    },
+    {
+      "id": 4,
+      "slug": "yaz-promise-all-settled-summary",
+      "question": "`allSettledSummary(promises)` yaz. `Promise.allSettled` gibi çalışsın; sonuç olarak `{ fulfilled: number, rejected: number }` dönsün.",
+      "answer": "```js\nasync function allSettledSummary(promises) {\n  const results = await Promise.allSettled(promises);\n  return results.reduce(\n    (acc, r) => (r.status === 'fulfilled' ? acc.fulfilled++ : acc.rejected++, acc),\n    { fulfilled: 0, rejected: 0 }\n  );\n}\n```"
+    },
+    {
+      "id": 5,
+      "slug": "duzelt-async-foreach",
+      "question": "Amaç: `items` üzerinde sırayla `asyncTask(x)` çalışsın, bittiğinde `done` loglansın. Bu kod `done`’u beklenmeden basıyor. **Düzelt.**\n\n```js\nasync function run(items) {\n  items.forEach(async (x) => await asyncTask(x));\n  console.log('done');\n}\n```",
+      "answer": "`forEach` callback’in Promise’ını beklemez. `for...of` + `await` kullan:\n\n```js\nasync function run(items) {\n  for (const x of items) await asyncTask(x);\n  console.log('done');\n}\n```\n\nParalel istersen `Promise.all(items.map(x => asyncTask(x)))`; sıra kaybolur."
+    },
+    {
+      "id": 6,
+      "slug": "yaz-retry",
+      "question": "`retry(fn, n)` yaz. `fn` async; reject ederse en fazla `n` kez tekrar dene. İlk resolve’ta o değeri dön; hep reject’te son reject’i fırlat.",
+      "answer": "```js\nasync function retry(fn, n) {\n  let last;\n  for (let i = 0; i <= n; i++) {\n    try {\n      return await fn();\n    } catch (e) {\n      last = e;\n    }\n  }\n  throw last;\n}\n```"
+    },
+    {
+      "id": 7,
+      "slug": "yaz-my-race",
+      "question": "`myRace(promises)` yaz. `Promise.race` gibi; ilk **settle** olan (resolve veya reject) neyse onun sonucunu döndürsün. `Promise.race` kullanma.",
+      "answer": "```js\nfunction myRace(promises) {\n  return new Promise((resolve, reject) => {\n    for (const p of promises) Promise.resolve(p).then(resolve, reject);\n  });\n}\n```\n\nİlk `then` veya `catch` tetiklenince `resolve`/`reject` bir kez çağrılır; diğerleri yok sayılır."
+    },
+    {
+      "id": 8,
+      "slug": "cikti-async-await-sira",
+      "question": "Çıktı sırası ne olur?\n\n```js\nasync function f() {\n  console.log(1);\n  await Promise.resolve();\n  console.log(2);\n}\nconsole.log(3);\nf();\nconsole.log(4);\n```",
+      "answer": "3, 1, 4, 2. Önce senkron 3; `f()` başlar, 1 basar. `await` microtask’a geçer; 4 basılır. Sonra microtask, 2."
+    },
+    {
+      "id": 9,
+      "slug": "yaz-wrap-callback",
+      "question": "`promisify(fn)` yaz. `fn` callback-style: `(err, result) => {}` son argüman. `promisify(fn)(arg)` Promise dönsün; resolve `result`, reject `err`.",
+      "answer": "```js\nfunction promisify(fn) {\n  return function (...args) {\n    return new Promise((resolve, reject) => {\n      fn(...args, (err, result) => {\n        if (err) reject(err);\n        else resolve(result);\n      });\n    });\n  };\n}\n```"
+    },
+    {
+      "id": 10,
+      "slug": "duzelt-try-catch-async",
+      "question": "Bu kod `throw`’u yakalamıyor; Unhandled rejection oluyor. **Neden?** Düzelt.\n\n```js\nfunction get() {\n  fetch('/api').then(r => r.json()).then(d => { throw new Error('fail'); });\n}\ntry {\n  get();\n} catch (e) {\n  console.log('caught', e);\n}\n```",
+      "answer": "`get()` senkron; sadece `fetch` zincirini başlatır, Promise döndürmez. `throw` then içinde, sonraki tick’te; try/catch o anda yok.\n\nDüzeltme: `get` async yap, `await fetch` + `await` zinciri, `throw` async içinde. Çağıranda `await get()` + try/catch veya `get().catch(...)`."
+    }
+  ]
+}

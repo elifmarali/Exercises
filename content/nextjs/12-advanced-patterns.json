@@ -1,0 +1,65 @@
+{
+  "topic": "12-advanced-patterns",
+  "questions": [
+    {
+      "id": 1,
+      "slug": "instrumentation",
+      "question": "`instrumentation.ts` ne işe yarar?",
+      "answer": "Server ve edge startup’ta bir kez çalışır. Tracing, global setup. next config ile açılır."
+    },
+    {
+      "id": 2,
+      "slug": "turbopack",
+      "question": "Turbopack nedir? `next dev --turbo`?",
+      "answer": "Yeni dev bundler (Rust). Daha hızlı HMR. next dev --turbo ile deneysel."
+    },
+    {
+      "id": 3,
+      "slug": "middleware-edge",
+      "question": "Middleware neden Edge’de çalışır? Avantajları?",
+      "answer": "Hız, global dağıtım. Auth, redirect, A/B. Node API kısıtlı."
+    },
+    {
+      "id": 4,
+      "slug": "server-actions-progressive",
+      "question": "Server Actions “progressive enhancement” nasıl?",
+      "answer": "JS yokken form submit çalışır. action + formBehavior. Fallback."
+    },
+    {
+      "id": 5,
+      "slug": "parallel-data",
+      "question": "Paralel data fetching App Router’da nasıl yapılır?",
+      "answer": "Aynı component’te birden fazla await; Promise.all değil, doğrudan await. React otomatik parallelize eder."
+    },
+    {
+      "id": 6,
+      "slug": "route-handlers-multiple",
+      "question": "Aynı route’ta GET ve POST birlikte nasıl kullanılır?",
+      "answer": "route.ts’te export GET, export POST. Method’a göre ayrılır."
+    },
+    {
+      "id": 7,
+      "slug": "experimental-features",
+      "question": "Deneysel özellikler (PPR, etc.) nasıl açılır?",
+      "answer": "next.config experimental: { ppr: true, ... }. Sürüm ve stabilite kontrolü."
+    },
+    {
+      "id": 8,
+      "slug": "monorepo-next",
+      "question": "Monorepo’da Next (Turborepo, etc.) nasıl yapılandırılır?",
+      "answer": "Apps/packages. Workspace, next root. Shared config, build order."
+    },
+    {
+      "id": 9,
+      "slug": "i18n-routing",
+      "question": "Next’te i18n routing (locale) nasıl yapılır?",
+      "answer": "next-intl, middleware’de locale. App Router’da [locale] segment. Mesajlar, format."
+    },
+    {
+      "id": 10,
+      "slug": "plugin-next",
+      "question": "Next.js plugin nasıl yazılır? Config wrap?",
+      "answer": "withX(nextConfig) => ({ ...nextConfig, ... }). Webpack, redirect, env ekleme."
+    }
+  ]
+}

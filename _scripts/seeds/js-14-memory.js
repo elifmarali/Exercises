@@ -1,0 +1,14 @@
+"use strict";
+const questions = [
+  { slug: "gc-basics", question: "JavaScript’te garbage collection nasıl çalışır? Referans sayımı vs mark-and-sweep?", answer: "Modern motorlar mark-and-sweep (ve benzeri) kullanır. Erişilemeyen bellek toplanır. Sadece referans sayımı circular reference’ta yetersiz kalır." },
+  { slug: "memory-leak-common", question: "Yaygın bellek sızıntısı kaynakları neler? Global, timer, closure örnekleri?", answer: "Global’e yazma, temizlenmeyen timer/listener, closure’da büyük veri tutma, DOM referansları. Cleanup (removeEventListener, clearInterval) ve gereksiz referansları bırakma önemli." },
+  { slug: "closure-memory", question: "Closure bellek sızıntısına nasıl yol açar? Ne yapılmalı?", answer: "Closure lexical ortamı canlı tutar. Büyük veri veya DOM referansı tutulursa GC toplayamaz. Gerekmedikçe büyük veriyi closure’da tutma; listener’ları kaldır." },
+  { slug: "detached-dom", question: "“Detached DOM node” nedir? Neden sızıntı yaratır?", answer: "DOM’dan çıkarılmış ama JS referansı duran node. Tarayıcı sayfada göstermese bile referans olduğu sürece bellek tutulur. Referansları null’la." },
+  { slug: "heap-snapshot", question: "Chrome DevTools heap snapshot ne işe yarar? Bellek analizinde nasıl kullanılır?", answer: "Anlık heap görüntüsü; obje sayıları, tutulan bellek. Retained size ile “gerçekten ne tutuluyor” görülür. Karşılaştırmalı snapshot’larla sızıntı aranır." },
+  { slug: "weakref-weakmap", question: "`WeakMap` ve `WeakRef` ne işe yarar? “Weak” neden önemli?", answer: "Key’ler zayıf referans; başka referans kalmazsa GC toplayabilir. WeakMap’te key obje olmalı. Cache, meta veri için kullanılır; sızıntıyı azaltır." },
+  { slug: "v8-hidden-class", question: "V8 “hidden class” nedir? Obje şekli neden performansı etkiler?", answer: "Motor obje yapısını internal “shape” ile optimize eder. Property ekleme sırası veya sonradan farklı şekil (ör. property ekleme) optimizasyonu bozabilir." },
+  { slug: "array-prealloc", question: "Dizi önceden boyutlandırma (`new Array(n)`) ne zaman faydalı? Her zaman gerekli mi?", answer: "Çok sayıda index’e sırayla yazılacaksa bazen faydalı. Genelde `[]` ve `push` yeterli; motorlar bunu iyi optimize eder. Erken optimizasyon yerine ölçüm yap." },
+  { slug: "delete-vs-null", question: "Property’yi `delete` ile silmek vs `null` atamak: bellek ve performans açısından fark var mı?", answer: "`delete` property’yi kaldırır; obje şekli değişebilir. `null` atama referansı keser, property kalır. Bellek açısından büyük fark yok; “yok” semantics’i farklı." },
+  { slug: "performance-memory-tradeoff", question: "Performans ile bellek kullanımı arasında tipik trade-off’lar neler? Örnek ver.", answer: "Cache: hız artar, bellek tüketir. Lazy load: bellek ertelenir, ilk erişim yavaş. Büyük buffer vs chunk’lı işlem benzeri seçimler. Ölçümle karar ver." },
+];
+module.exports = { questions };

@@ -1,0 +1,14 @@
+"use strict";
+const questions = [
+  { slug: "this-call-site", question: "`this` nasıl belirlenir? “Call site” neden önemli?", answer: "Çağrı yerine (call site) göre belirlenir; tanım yeri değil. `obj.f()`, `f()`, `new f()`, `f.call(ctx)` farklı `this` verir." },
+  { slug: "this-default-binding", question: "Default binding nedir? Strict vs non-strict farkı var mı?", answer: "Tek başına `f()` gibi çağrıda `this` global (non-strict) veya `undefined` (strict)." },
+  { slug: "implicit-binding", question: "Implicit binding ne demek? `obj.f()` çağrısında `this` ne olur?", answer: "`obj.f()` içinde `this` === `obj`. Çağrıdan hemen önceki obje (context object) `this`’i verir." },
+  { slug: "explicit-binding", question: "`call`, `apply`, `bind` ne yapar? `bind` ile `call` farkı?", answer: "`call(ctx, ...args)` ve `apply(ctx, args)` `this`’i açıkça verir, hemen çağırır. `bind` yeni fonksiyon döner; `this` bağlı, çağrı sonra yapılır." },
+  { slug: "new-binding", question: "`new F()` ile `this` nasıl oluşur? Constructor ne döndürmeli?", answer: "Yeni obje oluşturulur, `this` ona bağlanır. `return` object değilse (veya yoksa) bu yeni obje döner." },
+  { slug: "arrow-this-again", question: "Ok fonksiyonu `this`’i neden “override” etmez? `call`/`apply` neden işe yaramaz?", answer: "Ok fonksiyonunun kendi `this`’i yok; lexical `this` kullanır. `call`/`apply`/`bind` `this`’i değiştirmez." },
+  { slug: "lost-this", question: "“Lost `this`” ne demek? `const g = obj.f; g()` çağrısında `this` ne olur?", answer: "`g` artık “ ownership” olmadan çağrılıyor; default binding. `this` global veya undefined. `bind` veya arrow ile korunur." },
+  { slug: "callback-this", question: "`setTimeout(obj.f, 100)` neden `this`’i kaybettirir? Nasıl düzeltilir?", answer: "`f` referans olarak geçiyor; çağrıda `obj` yok. `setTimeout(() => obj.f(), 100)` veya `obj.f.bind(obj)` kullanılır." },
+  { slug: "this-class", question: "`class` metodunda `this` ne olur? Instance metodları nasıl bağlanır?", answer: "`this` instance’a referans. Sınıf alanı veya constructor’da arrow kullanılmazsa, metodu instance’a “bind” etmek gerekebilir (event handler vb.)." },
+  { slug: "global-this", question: "Node modülünde üst seviye `this` ne olur? Tarayıcıdaki `window` ile karşılaştır.", answer: "ES modülde `this` `undefined`. CommonJS’te `module.exports`. Tarayıcıda global `window`; `globalThis` her ortamda global objeyi verir." },
+];
+module.exports = { questions };

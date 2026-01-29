@@ -1,0 +1,54 @@
+"use strict";
+const questions = [
+  {
+    slug: "yaz-env-next-public",
+    question: `Client’ta \`process.env.NEXT_PUBLIC_API_URL\` kullanmak için \`.env.local\`’de nasıl tanımlanır? Örnek değer ver.`,
+    answer: `\`NEXT_PUBLIC_API_URL=https://api.example.com\`. Önek \`NEXT_PUBLIC_\` olmalı; yoksa client’a gönderilmez.`,
+  },
+  {
+    slug: "yaz-dockerfile-next",
+    question: `Next standalone output ile minimal Dockerfile nasıl yazılır? \`output: 'standalone'\`, \`node .next/standalone/server.js\` kullan.`,
+    answer: `Build stage: \`node\` image, \`npm run build\`. Run stage: \`node .next/standalone/server.js\` (ve \`copy .next/static\` vb. gerekebilir; \`next build\` standalone için doc’a bak).`,
+  },
+  {
+    slug: "yaz-vercel-env",
+    question: `Vercel’de production’da farklı \`API_URL\` kullanmak için nereye girilir? (Kod değil, nerede ayar yapıldığı.)`,
+    answer: `Vercel proje → Settings → Environment Variables. \`API_URL\` ekle, Production seç.`,
+  },
+  {
+    slug: "yaz-health-route",
+    question: `\`/api/health\` Route Handler yaz. \`200\` ve \`{ ok: true }\` dönsün.`,
+    answer: `\`app/api/health/route.ts\`: \`export async function GET() { return NextResponse.json({ ok: true }); }\`.`,
+  },
+  {
+    slug: "yaz-dynamic-config",
+    question: `\`next.config\`’te \`redirect\`: \`/eski\` → \`/yeni\` kalıcı yönlendirme nasıl tanımlanır?`,
+    answer: `\`redirects: async () => [{ source: '/eski', destination: '/yeni', permanent: true }]\`.`,
+  },
+  {
+    slug: "yaz-rewrite",
+    question: `\`/api/proxy\` isteği aslında \`https://external.com/api\`’ye gitsin; URL değişmesin. \`rewrites\` ile nasıl yazılır?`,
+    answer: `\`rewrites: async () => [{ source: '/api/proxy', destination: 'https://external.com/api' }]\` (path devam ediyorsa \`/api/proxy/:path*\` + \`destination\`’da \`:path\`).`,
+  },
+  {
+    slug: "yaz-output-export",
+    question: `Tam static export (SPA gibi) için \`next.config\`’te ne ayarlanır?`,
+    answer: `\`output: 'export'\`. \`next build\` \`out\` üretir; SSR/API route kullanılamaz.`,
+  },
+  {
+    slug: "yaz-basic-middleware",
+    question: `\`middleware.ts\` root’ta. Tüm isteklerde \`request.headers.get('x-custom') === 'block'\` ise \`403\` dönsün; değilse \`NextResponse.next()\`.`,
+    answer: `\`if (request.headers.get('x-custom') === 'block') return new NextResponse(null, { status: 403 }); return NextResponse.next();\`.`,
+  },
+  {
+    slug: "yaz-script-strategy",
+    question: `Üçüncü parti analytics script’i sayfa yüklendikten sonra, blocking etmeden çalışsın. \`next/script\` ile hangi \`strategy\` kullanılır?`,
+    answer: `\`<Script src="..." strategy="lazyOnload" />\` veya \`afterInteractive\`. \`lazyOnload\` en geç yüklenir.`,
+  },
+  {
+    slug: "yaz-env-server-only",
+    question: `\`DATABASE_URL\` sadece server’da kullanılacak. \`NEXT_PUBLIC_\` olmadan \`.env.local\`’de tanımlanırsa client’ta görünür mü?`,
+    answer: `Hayır. \`NEXT_PUBLIC_\` yoksa sadece server (API routes, Server Components, vb.) görür; client bundle’a eklenmez.`,
+  },
+];
+module.exports = { questions };

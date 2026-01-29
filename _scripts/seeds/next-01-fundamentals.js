@@ -1,0 +1,14 @@
+"use strict";
+const questions = [
+  { slug: "next-vs-cra", question: "Next.js ile CRA farkı? SSR, routing, API route?", answer: "Next: SSR/SSG, file-based routing, API routes, optimizations. CRA: SPA, client-only. Next full-stack ve SEO için daha uygun." },
+  { slug: "file-based-routing", question: "File-based routing nasıl çalışır? `pages/users/[id].tsx` ne anlama gelir?", answer: "Dosya yolu = route. users/[id] dinamik segment. index = klasör kökü. Dosya adı route’u belirler." },
+  { slug: "pages-app-router", question: "Pages Router vs App Router farkı? Hangi Next sürümünde?", answer: "Pages: pages/ + getServerSideProps vb. App: app/ + Server Components, layout, loading. Next 13+ App Router önerilir." },
+  { slug: "link-prefetch", question: "`<Link>` prefetch ne yapar? Ne zaman kapatılır?", answer: "Viewport’taki Link’ler önceden yüklenir. prefetch={false} ile kapatılır. Dinamik, sık değişen sayfalarda bazen kapatılır." },
+  { slug: "image-component", question: "`next/image` ne sağlar? `width`/`height` veya `fill`?", answer: "Lazy load, modern format, responsive. Boyut için width/height veya fill + parent position relative. Remote için config gerekir." },
+  { slug: "head-meta", question: "Sayfa bazlı `<title>`, meta tags nasıl verilir?", answer: "Pages: next/head veya getLayout. App: metadata export veya generateMetadata. SEO ve social için." },
+  { slug: "env-vars", question: "Next.js’te env değişkenleri nasıl kullanılır? `NEXT_PUBLIC_` ne işe yarar?", answer: "process.env.NEXT_PUBLIC_* client’ta görünür. Diğerleri sadece server. .env.local, .env.production vb." },
+  { slug: "static-export", question: "Tamamen static export (SPA gibi) Next’ten nasıl yapılır?", answer: "next export (Pages) veya output: 'export' (App). Dinamik route’lar için getStaticPaths gerekir." },
+  { slug: "base-path", question: "`basePath` ne işe yarar? Alt dizinde deploy için?", answer: "Tüm route’lara prefix ekler. Asset prefix ile birlikte subpath deploy’da kullanılır." },
+  { slug: "next-config", question: "`next.config.js` ile neler yapılandırılır?", answer: "Redirect, rewrite, env, images domain, webpack, output (standalone, export) vb. Temel Next ayarları." },
+];
+module.exports = { questions };
