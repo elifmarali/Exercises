@@ -1,0 +1,1 @@
+Geçerlidir; farklı block’larda shadowing. Aynı block’ta `let x; let x;` `SyntaxError`. İç block’taki `x` dıştakini gizler; dıştaki `x` içeride görünmez.

@@ -1,0 +1,1 @@
+`Boolean('false')` → `true` (non-empty string truthy). `Boolean('')` → `false`. `Number(true)` → `1`, `Number(false)` → `0`. String `"false"` boolean’a çevrilmez; içerik değil, tip ve “falsy” kuralları geçerli.

@@ -1,0 +1,1 @@
+`JSON.stringify(1n)` ne yapar? BigInt neden JSON’da doğrudan kullanılamaz, nasıl serialize edilir?

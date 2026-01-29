@@ -1,0 +1,1 @@
+`Object.assign` hedefe property'leri “assign” eder; getter/setter’lar kopyalanmaz, sadece o anki value (getter’ın dönüşü) kopyalanır. Spread `{...obj}` de özellik tanımlarını değil, property descriptor’ları tam taşımaz; accessor’lar genelde data property’ye dönüşür. Accessor’ları korumak için `Object.getOwnPropertyDescriptor` / `defineProperty` ile manuel kopya gerekir.

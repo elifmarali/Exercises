@@ -1,0 +1,1 @@
+`let x; console.log(x);` ne basar? `let x;` ile `var x;` farkı (hoisting / TDZ dışında)?

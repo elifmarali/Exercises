@@ -1,0 +1,1 @@
+`{}` `Object.prototype`'tan türer; `toString`, `hasOwnProperty` vb. vardır. `Object.create(null)` prototipsiz “saf” obje; prototype zinciri yok. `in`, `hasOwnProperty` gibi `Object.prototype`’a dayanan kullanımlar `Object.create(null)`’da kullanılamaz. Map benzeri key-value depolarda, `"__proto__"` vb. ile çakışma istemediğinde tercih edilir.

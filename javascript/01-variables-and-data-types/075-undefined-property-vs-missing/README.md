@@ -1,0 +1,1 @@
+`const o = { a: undefined }; 'a' in o` ve `o.b` (yok) nasıl farklıdır? `in` vs `obj.prop === undefined` ne zaman ayrışır?

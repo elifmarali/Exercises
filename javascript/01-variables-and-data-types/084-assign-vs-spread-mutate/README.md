@@ -1,0 +1,1 @@
+`Object.assign(target, src)` `target`’ı değiştirir mi? Spread `{...a, ...b}` hedefi mutate eder mi?

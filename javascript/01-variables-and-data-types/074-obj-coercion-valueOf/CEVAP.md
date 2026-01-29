@@ -1,0 +1,1 @@
+`+{}` → `NaN`. Önce `valueOf` denenir; `Object` için obje döner. Sonra `toString` → `"[object Object]"`; bu sayıya çevrilince `NaN`. `+[]` → `0` (`[].toString()` → `""`, `Number("")` → `0`).

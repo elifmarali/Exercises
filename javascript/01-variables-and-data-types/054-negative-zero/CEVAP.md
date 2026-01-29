@@ -1,0 +1,1 @@
+IEEE 754’te `+0` ve `-0` ayrı değerler. `0 === -0` → `true`. `Object.is(0, -0)` → `false`. `1/0` → `Infinity`, `1/-0` → `-Infinity`. İşaretli sıfır bazen hesaplarda önemli; `Object.is` ile ayırt edilebilir.

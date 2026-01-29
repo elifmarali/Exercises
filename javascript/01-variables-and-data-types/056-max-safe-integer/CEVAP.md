@@ -1,0 +1,1 @@
+`2^53 - 1` (`9007199254740991`). Bu aralık dışında tam sayılar float’ta tek bir değerle temsil edilemez; precision kaybı olur. `Number.isSafeInteger(x)` `x` bu aralıkta mı ve tam sayı mı diye bakar. Büyük tam sayılar için `BigInt` kullanılmalı.

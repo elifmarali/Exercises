@@ -1,0 +1,1 @@
+Obje referansları neden hep truthy? `Boolean({})`, `Boolean([])` ne döner? `!!{}` ne döner?

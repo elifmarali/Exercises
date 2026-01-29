@@ -1,0 +1,1 @@
+Non-strict’te `arguments` ile parametre senkron; `arguments[0]=9` `a`’yı da değiştirir, `9` döner. Strict’te `arguments` parametrelerden ayrılır; `arguments[0]=9` `a`’yı etkilemez, `1` döner. Rest `...args` kullanımı `arguments`’tan kaçınmayı sağlar.

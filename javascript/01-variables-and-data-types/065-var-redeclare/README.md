@@ -1,0 +1,1 @@
+`var x = 1; var x = 2; console.log(x);` ne basar? `var` ile aynı scope’ta tekrar bildirim neden hataya yol açmaz?

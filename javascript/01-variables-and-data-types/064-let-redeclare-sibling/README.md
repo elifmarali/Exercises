@@ -1,0 +1,1 @@
+`let x = 1; { let x = 2; }` geçerli mi? Aynı `let` block’ta `let x` tekrar yazılabilir mi?

@@ -1,0 +1,1 @@
+`Number.MAX_SAFE_INTEGER` nedir? Bu sınır aşıldığında ne olur? `Number.isSafeInteger` ne işe yarar?

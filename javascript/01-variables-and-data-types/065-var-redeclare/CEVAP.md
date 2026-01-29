@@ -1,0 +1,1 @@
+`2` basar. Aynı scope’ta `var` yeniden bildirimi geçerlidir; tek binding vardır, son atama geçerli olur. Bu davranış hata riski ve okunabilirlik sorunları yaratabildiği için `let`/`const` tercih edilir.

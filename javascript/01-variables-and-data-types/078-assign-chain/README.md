@@ -1,0 +1,1 @@
+`let a = b = 0;` `b` nereye yazılır (strict / non-strict)? Bu pattern neden riskli?

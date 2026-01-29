@@ -1,0 +1,1 @@
+`typeof null === 'object'` neden “tarihsel hata” sayılır? Düzeltilmemesinin gerekçesi ne olabilir?

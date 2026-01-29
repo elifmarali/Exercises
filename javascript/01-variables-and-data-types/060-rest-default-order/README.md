@@ -1,0 +1,1 @@
+`function f(a, b = 1, ...r) {}` geçerli mi? Rest parametre ile default parametre sıralaması nasıl olmalı?

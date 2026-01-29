@@ -1,0 +1,1 @@
+`undefined` basar. `let x;` bildirimde atama yoksa `undefined`; TDZ sadece okuma ile ilgili, tanımsız değişken okumada `ReferenceError`. `var x;` de `undefined`; fark, `var`’ın okunabilir olması (hoisting), `let`’in TDZ’de okunamaması.

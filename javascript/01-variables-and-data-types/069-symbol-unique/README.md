@@ -1,0 +1,1 @@
+`Symbol('id') === Symbol('id')` ne döner? `Symbol.for('id') === Symbol.for('id')` ne döner?

@@ -1,0 +1,1 @@
+`Object.fromEntries([['a',1],['b',2]])` ne döner? `Object.entries` ile ters dönüşüm nasıl yapılır?

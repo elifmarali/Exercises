@@ -1,0 +1,1 @@
+IEEE 754 standardı `NaN !== NaN` der. Kontrol: `Number.isNaN(x)` veya `x !== x` (sadece NaN için `true`). `Object.is(NaN, NaN)` → `true`; `Object.is` “SameValue” karşılaştırması yapar.

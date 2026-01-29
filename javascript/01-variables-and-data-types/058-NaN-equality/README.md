@@ -1,0 +1,1 @@
+`NaN === NaN` neden `false`? `NaN` ile eşitlik kontrolü nasıl yapılır? `Object.is(NaN, NaN)` ne döner?

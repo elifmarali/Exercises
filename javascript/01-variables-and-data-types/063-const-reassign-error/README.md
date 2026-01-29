@@ -1,0 +1,1 @@
+`const x = 1; x = 2;` hangi hata türünü verir? `const` ile atama `TypeError` mı `SyntaxError` mı?

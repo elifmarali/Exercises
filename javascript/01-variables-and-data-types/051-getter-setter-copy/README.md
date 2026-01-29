@@ -1,0 +1,1 @@
+Shallow copy (`{...obj}`, `Object.assign`) getter/setter'ları nasıl kopyalar? Accessor'lar taşınır mı?

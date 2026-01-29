@@ -1,0 +1,1 @@
+Ok fonksiyonunun kendi `arguments`’ı yoktur; `arguments` kullanılırsa dış scope’tan çözülür (varsa). Rest parametre kullan: `(...args) => { }`.

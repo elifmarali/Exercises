@@ -1,0 +1,1 @@
+`let x = '5'; x++; console.log(x);` ne basar? `++` / `--` operatörü tipi nasıl etkiler?

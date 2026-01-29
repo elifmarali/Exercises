@@ -1,0 +1,1 @@
+Geçerlidir. Rest (`...r`) her zaman son parametre olmalı; default parametreler ondan önce gelebilir. `f(1)` → `a=1`, `b=1`, `r=[]`; `f(1,2,3,4)` → `a=1`, `b=2`, `r=[3,4]`.

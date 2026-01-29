@@ -1,0 +1,1 @@
+`Number('42')` ile `new Number('42')` farkı nedir? `Number` constructor `new` olmadan nasıl davranır?

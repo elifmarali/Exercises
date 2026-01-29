@@ -1,0 +1,1 @@
+`seal`: evet, mevcut property’lerin değeri değiştirilebilir; ekleme/silme yapılamaz. `freeze`: hayır, hem ekleme/silme hem mevcut property değerleri değiştirilemez. İkisi de shallow; iç içe objeler mutate edilebilir.

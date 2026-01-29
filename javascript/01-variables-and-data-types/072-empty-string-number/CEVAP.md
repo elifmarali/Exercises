@@ -1,0 +1,1 @@
+`Number('')` → `0`. `Number('   ')` → `0` (boşluk trim edilir). `parseInt('')` → `NaN`. String’den sayıya çevirirken `''` ile `0` ayrımı gerekebilir; `parseInt` boş string’de `NaN` verir.

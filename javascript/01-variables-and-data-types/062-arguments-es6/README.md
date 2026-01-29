@@ -1,0 +1,1 @@
+`function f(a, b) { arguments[0] = 9; return a; }` `f(1,2)` ne döner? Strict’te `arguments` nasıl değişir?

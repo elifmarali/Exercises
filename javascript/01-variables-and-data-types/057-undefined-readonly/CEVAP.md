@@ -1,0 +1,1 @@
+Strict mode’da `undefined`’a atama `TypeError` verir. Eski (non-strict, non-module) ortamlarda `undefined = 1` mümkündü; bu yüzden `void 0` kullanılırdı. Modül ve strict ortamda `undefined` güvenle kullanılır.

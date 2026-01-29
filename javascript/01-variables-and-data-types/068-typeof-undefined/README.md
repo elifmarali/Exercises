@@ -1,0 +1,1 @@
+`typeof undefined` ne döner? Tanımlanmamış değişken için `typeof x` (x hiç yok) ne döner?

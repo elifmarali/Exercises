@@ -1,0 +1,1 @@
+`Symbol.iterator`, `Symbol.toStringTag` ne işe yarar? “Well-known” Symbol’ler neden önemli?

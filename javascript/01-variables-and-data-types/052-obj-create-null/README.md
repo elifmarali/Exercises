@@ -1,0 +1,1 @@
+`Object.create(null)` ile `{}` arasındaki fark nedir? `Object.create(null)` ne zaman tercih edilir?

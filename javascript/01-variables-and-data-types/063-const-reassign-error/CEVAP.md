@@ -1,0 +1,1 @@
+Çalışma zamanında `TypeError` (strict’te “Assignment to constant variable”). `const` bildirimi geçerlidir; hata atama satırında oluşur. `const` ile yeniden bildirim `SyntaxError` verir.

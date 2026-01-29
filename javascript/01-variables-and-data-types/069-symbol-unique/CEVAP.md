@@ -1,0 +1,1 @@
+`Symbol('id') === Symbol('id')` → `false` (her `Symbol()` benzersiz). `Symbol.for('id')` global registry’den aynı key için aynı symbol’i döner; `Symbol.for('id') === Symbol.for('id')` → `true`.

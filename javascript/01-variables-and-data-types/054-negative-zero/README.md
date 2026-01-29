@@ -1,0 +1,1 @@
+`-0` nedir? `0 === -0`, `Object.is(0, -0)` sonuçları nelerdir? `1 / 0` ve `1 / -0` ne döner?

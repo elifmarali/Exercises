@@ -1,0 +1,1 @@
+`function f(a, a) {}` strict ve non-strict’te nasıl davranır?

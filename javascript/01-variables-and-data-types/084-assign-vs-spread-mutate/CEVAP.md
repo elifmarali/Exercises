@@ -1,0 +1,1 @@
+`Object.assign(target, src)` `target`’ı mutate eder ve `target`’ı döner. `{...a, ...b}` yeni obje oluşturur; `a` ve `b` değişmez. Immutable güncellemeler için spread tercih edilir.

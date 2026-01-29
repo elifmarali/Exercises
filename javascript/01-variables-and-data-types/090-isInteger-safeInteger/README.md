@@ -1,0 +1,1 @@
+`Number.isInteger(1.0)`, `Number.isInteger(1.1)`, `Number.isSafeInteger(2**53)` ne döner?

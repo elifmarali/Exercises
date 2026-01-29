@@ -1,0 +1,1 @@
+`Object.create(Object.prototype)` ile `{}` farkı var mı? `Object.create` ikinci parametre ne işe yarar?

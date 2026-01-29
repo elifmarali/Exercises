@@ -1,0 +1,1 @@
+`Symbol.iterator` `for..of` ve spread’in kullandığı metodu tanımlar. `Symbol.toStringTag` `Object.prototype.toString` çıktısını özelleştirir. Well-known symbol’ler dil davranışını genişletmek için kullanılır; override edilmez, dokümente edilmiş semantik vardır.

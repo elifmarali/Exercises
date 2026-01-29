@@ -1,0 +1,1 @@
+`Object.fromEntries([['a',1],['b',2]])` → `{ a: 1, b: 2 }`. `Object.entries(obj)` → `[['a',1],['b',2]]`. `Map` → obje: `Object.fromEntries(map)`. Obje → `Map`: `new Map(Object.entries(obj))`.

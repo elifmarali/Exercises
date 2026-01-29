@@ -1,0 +1,1 @@
+`Number('42')` primitive `42` döner (conversion). `new Number('42')` `Number` instance (object) döner. `new` olmadan `Number`, `String`, `Boolean` conversion yapar; `new` ile wrapper object oluşturur. Wrapper kullanma.

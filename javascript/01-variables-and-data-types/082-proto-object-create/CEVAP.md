@@ -1,0 +1,1 @@
+Pratikte `Object.create(Object.prototype)` ile `{}` aynı prototipe sahip obje üretir. `Object.create(proto, descriptors)` ikinci argümanla property descriptor’lar tanımlanabilir; `Object.defineProperties` gibi.

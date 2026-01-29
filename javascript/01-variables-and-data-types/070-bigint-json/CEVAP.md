@@ -1,0 +1,1 @@
+`JSON.stringify(1n)` `TypeError` (BigInt JSON’da yok). Çözüm: `String(1n)` veya `1n.toString()` ile string’e çevirip JSON’a yaz; parse’ta `BigInt(...)` ile geri al. Özel `toJSON` veya replacer da kullanılabilir.

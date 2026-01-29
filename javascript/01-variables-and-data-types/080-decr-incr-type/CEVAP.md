@@ -1,0 +1,1 @@
+`x++` `x`’i number’a çevirir, artırır, sonucu atar. `x` → `6` (number). `console.log(x)` → `6`. `'5' + 1` string birleştirme yapar, `'5'++` sayısal artırma.

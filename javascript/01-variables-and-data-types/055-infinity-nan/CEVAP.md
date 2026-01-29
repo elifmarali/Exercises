@@ -1,0 +1,1 @@
+`typeof Infinity` → `"number"`. `isFinite(NaN)` → `false` (NaN finite değil). `Number.isFinite(NaN)` → `false`. `isFinite('1')` → `true` (coercion); `Number.isFinite('1')` → `false`. Sadece gerçek sayı kontrolü için `Number.isFinite` tercih edilir.

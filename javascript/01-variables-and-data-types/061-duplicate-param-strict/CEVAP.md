@@ -1,0 +1,1 @@
+Strict’te `SyntaxError` (duplicate parametre yasak). Non-strict’te geçerli; ikinci `a` öncelikli, hoisting ile son atama kullanılır. Modern kodda strict kullan; duplicate parametre yazma.

@@ -1,0 +1,1 @@
+`{...[]}` → `{}` (dizi enumerable own property’lere sahip değil; indices `0,1,...` own değil genelde). `{...null}` ve `{...undefined}` → `{}` (yayılacak obje yok, boş obje). Spread’de `null`/`undefined` atlanır; hata vermez.

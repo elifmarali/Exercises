@@ -1,0 +1,1 @@
+`Object.seal` altında mevcut property’nin `value`’su değiştirilebilir mi? `Object.freeze` altında?

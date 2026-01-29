@@ -1,0 +1,1 @@
+İlk implementasyonda tip tag’lerden biri “object” için kullanılmış, `null` aynı tag’i almış; bu yüzden `typeof null === 'object'` kalmış. Düzeltme mevcut kodları kıracağı için yapılmıyor. Kontrol için `x === null` veya `x == null` (null/undefined birlikte) kullan.

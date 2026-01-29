@@ -1,0 +1,1 @@
+`+{ }` ne üretir? `valueOf` ve `toString` coercion sırası nasıldır?

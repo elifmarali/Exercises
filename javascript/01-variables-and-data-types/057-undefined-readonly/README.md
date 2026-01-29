@@ -1,0 +1,1 @@
+Strict mode’da `undefined`’a atama yapılabilir mi? `undefined` globalde override edilebilir mi (eski ortamlarda)?

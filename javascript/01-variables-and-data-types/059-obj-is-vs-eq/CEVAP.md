@@ -1,0 +1,1 @@
+`===` `NaN !== NaN` ve `0 === -0` kabul eder. `Object.is` “SameValue”: `Object.is(NaN, NaN)` → `true`, `Object.is(0, -0)` → `false`. Diğer değerlerde `===` ile aynı. `Object.is` NaN ve ±0 ayrımı için kullanılır.

@@ -1,0 +1,1 @@
+`parseFloat('3.14px')` → `3.14` (baştan sayıyı alır). `Number('3.14px')` → `NaN` (tüm string sayı olmalı). CSS değeri, `"10px"` gibi string’lerde `parseFloat`; tam sayı string’de `Number` veya `parseInt(_, 10)`.

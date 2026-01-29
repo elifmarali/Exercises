@@ -1,0 +1,1 @@
+`(10).toString(2)` → `"1010"`, `(255).toString(16)` → `"ff"`. `parseInt` radix verilmezse `"0x..."` hex kabul eder, `"0"` ile başlayanlar octal yorumlanabilir (deprecated). Her zaman `parseInt(s, 10)` gibi radix belirt.

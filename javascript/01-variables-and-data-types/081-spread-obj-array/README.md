@@ -1,0 +1,1 @@
+`{...[]}` ve `{...null}` ne üretir? Obje spread’de `null`/ `undefined` nasıl davranır?

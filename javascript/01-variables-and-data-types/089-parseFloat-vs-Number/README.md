@@ -1,0 +1,1 @@
+`parseFloat('3.14px')` ve `Number('3.14px')` ne döner? Hangi durumda hangisi kullanılmalı?

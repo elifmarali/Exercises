@@ -1,0 +1,1 @@
+`'a' in o` → `true`, `'b' in o` → `false`. `o.a` ve `o.b` ikisi de `undefined` dönebilir. “Property var mı?” için `in`; “değer undefined mı?” için `obj.p === undefined`. Kasıtlı `undefined` atanmış property ile hiç olmayan property’yi ayırmak için `in` kullanılır.

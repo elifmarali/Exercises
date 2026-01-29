@@ -1,0 +1,1 @@
+ES2020’de insertion order (eklenme sırası) garanti. Önce integer-like key’ler (küçükten büyüğe), sonra string key’ler (eklenme sırası), sonra Symbol’ler. `for..in`, `Object.keys`, `Object.getOwnPropertyNames` bu sırayı yansıtır; `Object.getOwnPropertySymbols` ayrı.

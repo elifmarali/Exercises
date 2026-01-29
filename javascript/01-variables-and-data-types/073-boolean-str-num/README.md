@@ -1,0 +1,1 @@
+`Boolean('false')`, `Boolean('')`, `Number(true)` ne döner?

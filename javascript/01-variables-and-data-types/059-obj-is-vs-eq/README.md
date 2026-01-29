@@ -1,0 +1,1 @@
+`Object.is` ile `===` farkı nedir? `Object.is(NaN, NaN)`, `Object.is(0, -0)` ne döner?

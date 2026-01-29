@@ -1,0 +1,1 @@
+`(10).toString(2)`, `(255).toString(16)` ne döner? `parseInt` radix parametresi neden önemli?

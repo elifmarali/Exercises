@@ -1,0 +1,1 @@
+`Number.isInteger(1.0)` → `true` (1.0 === 1). `Number.isInteger(1.1)` → `false`. `Number.isSafeInteger(2**53)` → `false` (`2**53` safe aralık dışında). `isInteger` tam sayı kontrolü, `isSafeInteger` güvenli tam sayı aralığı kontrolü.

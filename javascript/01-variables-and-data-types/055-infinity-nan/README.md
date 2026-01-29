@@ -1,0 +1,1 @@
+`Infinity`, `-Infinity` tipi nedir? `typeof Infinity`, `isFinite(NaN)`, `Number.isFinite(NaN)` ne döner?

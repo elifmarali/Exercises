@@ -1,0 +1,1 @@
+`typeof undefined` → `"undefined"`. Tanımlanmamış `x` için `typeof x` → `"undefined"` (ReferenceError vermez). `typeof` güvenli kontrol için kullanılır; ama `let x;` (uninitialized) için de `"undefined"` döner.

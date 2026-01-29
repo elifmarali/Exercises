@@ -1,0 +1,1 @@
+Obje key'lerinin sırası garanti mi? String key, Symbol, number-like key sıralaması nasıldır?

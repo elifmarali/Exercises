@@ -1,0 +1,1 @@
+Object’ler (dizi dahil) heap’te referansla tutulur; hiçbir obje “boş” sayılmaz. `Boolean({})` → `true`, `Boolean([])` → `true`. `!!{}` → `true`. “Boş” kontrolü `Array.isArray(x) && x.length === 0` veya `Object.keys(x).length === 0` gibi yapılır.

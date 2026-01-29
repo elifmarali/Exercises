@@ -1,0 +1,1 @@
+Virgül operatörü soldan sağa değerlendirir, en sağdaki değeri döner. `x` → `3`. Pratikte `for` içinde `for (i=0, j=0; ...)` veya bazen `return (a, b)` gibi kullanımlar görülür; okunabilirlik için fazla kullanılmamalı.

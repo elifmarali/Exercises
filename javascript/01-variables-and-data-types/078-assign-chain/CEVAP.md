@@ -1,0 +1,1 @@
+`b = 0` önce değerlendirilir; `b` hiç bildirilmemişse non-strict’te global’e yazılır, `a = b` atanır. Strict’te `b` tanımsızsa `ReferenceError`. Zincir atama yerine `let a = 0; let b = 0;` veya `let a = 0, b = 0;` kullan.
