@@ -1,0 +1,1 @@
+`Object.assign` ile spread `{...a, ...b}` shallow copy açısından farklı mı? `Object.assign({}, a)` ile `{...a}` aynı mı?

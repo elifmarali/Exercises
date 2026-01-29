@@ -1,0 +1,1 @@
+İkisi de shallow copy yapar. `{...a}` esasen `Object.assign({}, a)` ile aynı sonucu üretir. `Object.assign` hedefi mutate eder; spread hedefi yok, yeni obje oluşturur. Nested referanslar her ikisinde de paylaşılır.

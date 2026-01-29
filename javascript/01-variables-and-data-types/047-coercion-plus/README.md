@@ -1,0 +1,1 @@
+`1 + '2'`, `1 - '2'`, `+'3'` sonuçları nelerdir? `+` operatörü string vs number birleşiminde neden farklı davranır?

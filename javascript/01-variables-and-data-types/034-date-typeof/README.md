@@ -1,0 +1,1 @@
+# `typeof new Date()` ne döner? `Date` objeleri `==` / `===` ile karşılaştırılınca neden beklenmedik sonuçlar çıkabilir? Tarih karşılaştırması nasıl yapılmalı?

@@ -1,0 +1,1 @@
+`1 + '2'` → `"12"` (string concatenation; biri string olunca diğeri string'e çevrilir). `1 - '2'` → `-1` (sayı çıkarma; `'2'` number'a çevrilir). `+'3'` → `3` (unary `+` numeric coercion). `+` hem toplama hem concatenation olduğu için tip önceliği string'e kayar; `-` sadece sayısal.

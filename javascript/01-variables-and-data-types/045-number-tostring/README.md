@@ -1,0 +1,1 @@
+# `(42).toString()` ile `String(42)` arasında fark var mı? `null` ve `undefined` için `String(...)` ne döner?

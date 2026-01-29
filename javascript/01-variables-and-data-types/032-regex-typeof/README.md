@@ -1,0 +1,1 @@
+# `typeof /abc/` ne döner? Regex’ler primitive mi, object mi? `RegExp` constructor ile literal `/.../` arasında pratik fark var mı?

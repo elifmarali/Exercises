@@ -1,0 +1,1 @@
+`{} + []` ve `[] + {}` ifadelerinin sonuçları nelerdir? Obje ve dizi `toString` / `valueOf` coercion'da nasıl kullanılır?

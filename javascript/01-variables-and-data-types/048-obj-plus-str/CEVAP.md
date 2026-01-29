@@ -1,0 +1,1 @@
+`[] + {}` → `"[object Object]"` (önce `[].toString()` → `""`, `{}.toString()` → `"[object Object]"`, concatenation). `{} + []` ortama göre değişir: block + unary `+` olarak parse edilirse `+[]` → `0`. Obje/dizi coercion'da `valueOf` sonra `toString` denenir; string bağlamda `toString` kullanılır.

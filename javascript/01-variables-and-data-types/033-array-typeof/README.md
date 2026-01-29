@@ -1,0 +1,1 @@
+# `typeof []` neden `"object"`? Dizileri objelerden ayırmak için hangi yöntemler kullanılır ve neden `Array.isArray` tercih edilir?

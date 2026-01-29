@@ -1,0 +1,1 @@
+# `label: { let x = 1; }` geçerli mi? Label’lar scope oluşturur mu? `break label` ile block’tan çıkış nasıl kullanılır?

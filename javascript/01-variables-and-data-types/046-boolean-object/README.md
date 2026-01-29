@@ -1,0 +1,1 @@
+# `Boolean(new Boolean(false))` ne döner? Neden? `new Boolean(...)` kullanımı neden önerilmez?

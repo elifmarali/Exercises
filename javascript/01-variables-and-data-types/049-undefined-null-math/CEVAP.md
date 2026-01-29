@@ -1,0 +1,1 @@
+`undefined + 1` → `NaN` (`Number(undefined)` → `NaN`). `null + 1` → `1` (`Number(null)` → `0`). `undefined + 'x'` → `"undefinedx"` (string concatenation). Sayısal bağlamda `undefined` `NaN`, `null` `0`'a çevrilir.

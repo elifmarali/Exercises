@@ -1,0 +1,1 @@
+# `'abc'[0] = 'x'` neden `'abc`'i değiştirmez? Okuma `'abc'[1]` ne döner? String’ler “array-like” mıdır?

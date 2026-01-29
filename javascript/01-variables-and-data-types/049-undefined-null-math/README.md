@@ -1,0 +1,1 @@
+`undefined + 1`, `null + 1`, `undefined + 'x'` sonuçları nelerdir?
