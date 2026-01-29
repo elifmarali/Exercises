@@ -1,0 +1,1 @@
+Playwright config, baseURL next dev. Sayfa objeleri, auth fixture. next dev ile koşulur.

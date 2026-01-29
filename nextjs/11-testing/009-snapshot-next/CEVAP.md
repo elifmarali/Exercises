@@ -1,0 +1,1 @@
+Dikkatli kullan; UI sık değişince gürültü. Kritik layout için. Genelde RTL ile davranış testi tercih edilir.

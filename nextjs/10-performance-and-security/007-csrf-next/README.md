@@ -1,0 +1,1 @@
+Next’te CSRF önleme?

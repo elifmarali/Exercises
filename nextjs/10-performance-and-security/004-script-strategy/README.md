@@ -1,0 +1,1 @@
+`next/script` strategy’leri (beforeInteractive, afterInteractive, lazyOnload)?

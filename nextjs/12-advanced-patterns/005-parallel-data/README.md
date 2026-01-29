@@ -1,0 +1,1 @@
+Paralel data fetching App Router’da nasıl yapılır?

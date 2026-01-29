@@ -1,0 +1,1 @@
+Middleware veya route içinde ip/token say; limit aşınca 429. Upstash vb. ile.

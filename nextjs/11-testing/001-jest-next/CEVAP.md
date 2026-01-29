@@ -1,0 +1,1 @@
+jest, jest-environment-jsdom. next/jest config. TypeScript, path alias.

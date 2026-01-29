@@ -1,0 +1,1 @@
+`/search?q=foo` sayfasında `q` parametresini okuyup ekranda göster. App Router `page.tsx`; `searchParams` kullan.

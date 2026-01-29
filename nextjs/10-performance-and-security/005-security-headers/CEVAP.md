@@ -1,0 +1,1 @@
+next.config headers. Middleware’de de eklenebilir.

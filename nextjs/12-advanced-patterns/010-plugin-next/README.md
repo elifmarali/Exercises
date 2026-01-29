@@ -1,0 +1,1 @@
+Next.js plugin nasıl yazılır? Config wrap?

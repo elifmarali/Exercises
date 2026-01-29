@@ -1,0 +1,1 @@
+Lazy load component. ssr: false ile client-only. Modal, ağır bileşenler.

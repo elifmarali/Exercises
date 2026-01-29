@@ -1,0 +1,1 @@
+withX(nextConfig) => ({ ...nextConfig, ... }). Webpack, redirect, env ekleme.

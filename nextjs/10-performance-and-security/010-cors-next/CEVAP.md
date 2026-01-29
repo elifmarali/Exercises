@@ -1,0 +1,1 @@
+API route’da Response header’ları. next.config headers. Cors lib veya manuel Access-Control-*.

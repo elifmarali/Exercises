@@ -1,0 +1,1 @@
+`app/products/loading.tsx` oluştur: `export default function Loading() { return <p>Yükleniyor...</p>; }`.

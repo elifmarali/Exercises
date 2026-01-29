@@ -1,0 +1,1 @@
+Sayfa için `<title>` ve `<meta name="description">` vermek üzere `metadata` export’unu yaz.

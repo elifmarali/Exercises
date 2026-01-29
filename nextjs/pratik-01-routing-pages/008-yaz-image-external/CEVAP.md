@@ -1,0 +1,1 @@
+`images: { remotePatterns: [{ protocol: 'https', hostname: 'example.com', pathname: '/**' }] }` veya `domains: ['example.com']` (eski).

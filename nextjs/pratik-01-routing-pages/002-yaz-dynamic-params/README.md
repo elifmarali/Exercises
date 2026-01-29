@@ -1,0 +1,1 @@
+`app/users/[id]/page.tsx` içinde `id`’i nasıl alırsın? (App Router, async sayfa.)

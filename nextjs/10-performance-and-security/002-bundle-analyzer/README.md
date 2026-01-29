@@ -1,0 +1,1 @@
+Bundle analizi nasıl yapılır? @next/bundle-analyzer?

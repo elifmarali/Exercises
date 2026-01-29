@@ -1,0 +1,1 @@
+Yeni dev bundler (Rust). Daha hızlı HMR. next dev --turbo ile deneysel.

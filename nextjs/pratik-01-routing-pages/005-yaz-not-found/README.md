@@ -1,0 +1,1 @@
+`/users/[id]` sayfasında kullanıcı yoksa 404 göstermek için ne yaparsın? `notFound()` kullan.

@@ -1,0 +1,1 @@
+Aynı component’te birden fazla await; Promise.all değil, doğrudan await. React otomatik parallelize eder.

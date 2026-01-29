@@ -1,0 +1,1 @@
+`next/dynamic` ne işe yarar? SSR’ı kapatma?

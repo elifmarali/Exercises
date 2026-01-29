@@ -1,0 +1,1 @@
+`const sp = await searchParams;` (`searchParams` Promise). `const q = sp.get('q') ?? '';` → `<div>Aranan: {q}</div>`.

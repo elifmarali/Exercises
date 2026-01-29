@@ -1,0 +1,1 @@
+Yükleme sırası ve öncelik. beforeInteractive kritik script; lazyOnload en sona.

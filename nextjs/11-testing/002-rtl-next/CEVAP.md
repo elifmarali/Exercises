@@ -1,0 +1,1 @@
+Standart RTL. Custom render ile Router, Theme wrapper. App Router’da server component mocking.

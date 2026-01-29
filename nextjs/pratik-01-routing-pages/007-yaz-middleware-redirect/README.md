@@ -1,0 +1,1 @@
+Middleware ile `/admin` isteğini `/login`’e yönlendir. `next.config` kullanmadan; `middleware.ts` ile.

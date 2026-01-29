@@ -1,0 +1,1 @@
+Deneysel özellikler (PPR, etc.) nasıl açılır?

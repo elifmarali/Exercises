@@ -1,0 +1,1 @@
+Hız, global dağıtım. Auth, redirect, A/B. Node API kısıtlı.

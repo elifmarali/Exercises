@@ -1,0 +1,1 @@
+jest.setup’ta process.env. .env.test. Her test öncesi gerekirse assign.

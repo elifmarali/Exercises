@@ -1,0 +1,1 @@
+Güvenlik header’ları (CSP, X-Frame-Options) nasıl eklenir?

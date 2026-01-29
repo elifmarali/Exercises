@@ -1,0 +1,1 @@
+next-intl, middleware’de locale. App Router’da [locale] segment. Mesajlar, format.

@@ -1,0 +1,1 @@
+`<Link href={`/users/${id}`}>...</Link>` veya `<Link href={`/users/${user.id}`}>...</Link>`.

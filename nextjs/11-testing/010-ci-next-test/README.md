@@ -1,0 +1,1 @@
+CI’da Next testleri nasıl koşulur?

@@ -1,0 +1,1 @@
+jest.mock('next/image', () => ({ __esModule: true, default: (props) => <img {...props} /> })).

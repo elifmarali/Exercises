@@ -1,0 +1,1 @@
+Async render, fetch mock. Node ortamında; RTL ile render async component.

@@ -1,0 +1,1 @@
+Next’in varsayılan performans optimizasyonları neler?

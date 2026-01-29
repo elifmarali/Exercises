@@ -1,0 +1,1 @@
+`next/image` ile `https://example.com/logo.png` göstermek için `next.config`’te ne eklenmeli?

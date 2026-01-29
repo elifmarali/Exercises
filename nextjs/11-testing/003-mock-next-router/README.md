@@ -1,0 +1,1 @@
+`useRouter`, `usePathname` nasıl mock’lanır?

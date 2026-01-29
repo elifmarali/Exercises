@@ -1,0 +1,1 @@
+Next.js’te Jest nasıl kurulur? jest.config?

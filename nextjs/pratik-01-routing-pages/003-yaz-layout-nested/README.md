@@ -1,0 +1,1 @@
+`app/dashboard/layout.tsx` ve `app/dashboard/page.tsx` olsun. Layout’ta ortak `<nav>`, sayfada `<h1>Dashboard</h1>`. Yapıyı kısaca yaz.

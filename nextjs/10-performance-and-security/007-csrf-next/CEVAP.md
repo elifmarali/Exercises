@@ -1,0 +1,1 @@
+SameSite cookie, token (API route + form). Server Action’lar Post + token ile korunabilir.

@@ -1,0 +1,1 @@
+JSX escape by default. dangerouslySetInnerHTML kullanılıyorsa sanitize. Aynı React kuralları.

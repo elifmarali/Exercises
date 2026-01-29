@@ -1,0 +1,1 @@
+JS yokken form submit çalışır. action + formBehavior. Fallback.

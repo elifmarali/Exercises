@@ -1,0 +1,1 @@
+Plugin ile ANALYZE=true next build. Chunk boyutları, duplicate tespit.

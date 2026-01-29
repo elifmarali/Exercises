@@ -1,0 +1,1 @@
+Image optimize, font optimize, code split, prefetch. Build’de minify, tree-shake.

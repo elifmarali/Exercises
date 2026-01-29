@@ -1,0 +1,1 @@
+Server component nasıl test edilir?

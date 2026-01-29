@@ -1,0 +1,1 @@
+next.config experimental: { ppr: true, ... }. Sürüm ve stabilite kontrolü.

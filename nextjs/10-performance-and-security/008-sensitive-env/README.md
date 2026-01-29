@@ -1,0 +1,1 @@
+Hassas env client’a nasıl sızmaz?

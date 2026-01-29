@@ -1,0 +1,1 @@
+Snapshot test Next’te önerilir mi?

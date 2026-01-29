@@ -1,0 +1,1 @@
+`const router = useRouter();` → `router.push('/dashboard');`. `'use client'` gerekli.

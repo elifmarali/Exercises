@@ -1,0 +1,1 @@
+Server ve edge startup’ta bir kez çalışır. Tracing, global setup. next config ile açılır.

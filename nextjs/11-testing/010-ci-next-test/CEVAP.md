@@ -1,0 +1,1 @@
+next build && jest. Env (NEXT_PUBLIC_ test değerleri). Cache jest, next.

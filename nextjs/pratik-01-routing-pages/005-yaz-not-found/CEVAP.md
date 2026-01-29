@@ -1,0 +1,1 @@
+`import { notFound } from 'next/navigation';` + fetch sonrası `if (!user) notFound();`. `app/not-found.tsx` varsa onu kullanır.

@@ -1,0 +1,1 @@
+Layout: `<nav>...</nav><main>{children}</main>`. Page: `<h1>Dashboard</h1>`. `/dashboard` açılınca layout sarar, `children` yerine page render olur.

@@ -1,0 +1,1 @@
+Request simüle et; fetch veya node fetch. Status, body assert. Mock DB/service.

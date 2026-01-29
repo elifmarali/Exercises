@@ -1,0 +1,1 @@
+Aynı route’ta GET ve POST birlikte nasıl kullanılır?

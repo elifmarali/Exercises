@@ -1,0 +1,1 @@
+Client component’te `useRouter` ile programatik yönlendirme nasıl yapılır? `/dashboard`’a git.

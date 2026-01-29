@@ -1,0 +1,1 @@
+Next’te i18n routing (locale) nasıl yapılır?

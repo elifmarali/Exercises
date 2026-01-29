@@ -1,0 +1,1 @@
+NEXT_PUBLIC_ olmayanlar server-only. API key backend’de; client’a geçmez.

@@ -1,0 +1,1 @@
+App Router’da `/users/[id]` sayfasına giden `<Link>` nasıl yazılır? `id` değişkenden geliyor.

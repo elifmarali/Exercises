@@ -1,0 +1,1 @@
+`matcher` `/admin.*`, içerde cookie vs. yoksa `NextResponse.redirect(new URL('/login', req.url))` dön.

@@ -1,0 +1,1 @@
+route.ts’te export GET, export POST. Method’a göre ayrılır.
