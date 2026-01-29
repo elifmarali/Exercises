@@ -1,0 +1,1 @@
+Ağır bir `Modal` component’i var. Sadece "Aç" tıklanınca yüklensin. `React.lazy` + `Suspense` kullan; fallback "Yükleniyor...".

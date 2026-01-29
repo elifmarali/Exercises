@@ -1,0 +1,1 @@
+`Greeting`: `name?: string`. `name` varsa "Merhaba, {name}!", yoksa "Merhaba, misafir!" render et.

@@ -1,0 +1,1 @@
+`<MemoChild onClick={() => doSomething(x)} />` kullanılıyor. `x` her render’da aynı olsa bile child sürekli re-render oluyor. Neden? Nasıl düzeltilir?

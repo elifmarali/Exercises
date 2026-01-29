@@ -1,0 +1,1 @@
+Mount’ta `GET /api/users` ile kullanıcı listesi çek. `loading`, `users`, `error` state. `useEffect(..., [])`. Listeyi render et.

@@ -1,0 +1,1 @@
+`title: string` prop alan component. Mount’ta `document.title = title` yap; unmount’ta eski haline (örn. `""`) döndür. Cleanup’ta geri al.

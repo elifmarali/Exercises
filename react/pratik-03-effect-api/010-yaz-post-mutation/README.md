@@ -1,0 +1,1 @@
+"Kaydet" butonu. Tıklanınca `POST /api/save` ile `{ name }` gönder. Loading durumunda buton disabled olsun; başarı/hata mesajı göster.

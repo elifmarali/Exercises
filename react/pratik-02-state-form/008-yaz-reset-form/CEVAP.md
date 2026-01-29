@@ -1,0 +1,1 @@
+`setName(''); setEmail('')` veya tek state `setForm({ name: '', email: '' })`. Buton `type="button"` olsun; form submit tetiklenmesin.

@@ -1,0 +1,1 @@
+XSS React’ta nasıl oluşur? `dangerouslySetInnerHTML` ne zaman riskli?

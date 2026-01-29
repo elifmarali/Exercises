@@ -1,0 +1,1 @@
+`query` state. Effect deps `[query]`. Effect içinde `const t = setTimeout(() => fetch(...), 300)`; cleanup `return () => clearTimeout(t)`.

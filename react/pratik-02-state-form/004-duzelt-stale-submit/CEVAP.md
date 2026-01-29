@@ -1,0 +1,1 @@
+Handler’ı `user`’a bağlı tutma; form `submit`’te güncel state’i oku. Form’u `useRef` ile uncontrolled yapıp `FormData` ile almak veya reducer / form lib kullanmak da alternatif. En basiti: `user`’ı doğrudan o anki state’ten okuyup, effect vs. ile güncellememek; gerekirse `useRef` ile güncel `user` tutulup handler’da `ref.current` okunur.

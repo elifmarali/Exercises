@@ -1,0 +1,1 @@
+Memory: XSS’te erişilmez ama yenilemede gider. HttpOnly cookie: XSS’te JS erişemez. localStorage XSS’e açık. Trade-off’lar var.

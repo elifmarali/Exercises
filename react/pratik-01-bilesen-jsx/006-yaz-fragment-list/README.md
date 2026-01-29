@@ -1,0 +1,1 @@
+Bir component iki `<p>` döndürmeli; ekstra wrapper div olmasın. Fragment kullan.

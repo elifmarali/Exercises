@@ -1,0 +1,1 @@
+Testte `ThemeProvider` ile sarmalamak istiyorsun. Custom `render` yaz: `renderWithTheme(ui)` içinde `ThemeProvider` + RTL `render`.

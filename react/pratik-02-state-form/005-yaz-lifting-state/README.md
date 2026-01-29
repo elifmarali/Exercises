@@ -1,0 +1,1 @@
+İki kardeş component: biri "Artır" butonu, diğeri sayıyı gösteriyor. State’i parent’ta tut; "lifting state up" uygula.

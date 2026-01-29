@@ -1,0 +1,1 @@
+İsim ve email formu. "Sıfırla" butonu tıklanınca alanlar boşalsın. State’i nasıl sıfırlarsın?

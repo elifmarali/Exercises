@@ -1,0 +1,1 @@
+`Card` component’i: `title` (string) ve `children`. Başlık kalın, altında `children` render edilsin. TSX ile yaz.

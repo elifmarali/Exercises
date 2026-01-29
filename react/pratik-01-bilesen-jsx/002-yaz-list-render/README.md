@@ -1,0 +1,1 @@
+`items: string[]` prop alan bir component yaz. Her elemanı `<li>` içinde listele; `key` olarak index kullanma, `item`’ın kendisini kullan (eşsiz olduğunu varsay).

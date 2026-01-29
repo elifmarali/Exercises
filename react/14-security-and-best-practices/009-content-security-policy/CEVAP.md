@@ -1,0 +1,1 @@
+Script, style, fetch kaynaklarını kısıtlar. XSS etkisini azaltır. report-uri / nonce ile React uyumlu CSP kurulabilir.

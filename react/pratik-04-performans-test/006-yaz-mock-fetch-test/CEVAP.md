@@ -1,0 +1,1 @@
+`jest.spyOn(global,'fetch').mockResolvedValue({ json: async () => [{ id:1, name:'Ali' }] })`. `render(<UserList />)` → `expect(await screen.findByText('Ali')).toBeInTheDocument()`.

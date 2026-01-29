@@ -1,0 +1,1 @@
+Arama input’u. Yazmayı bıraktıktan 300ms sonra `/api/search?q=...` çağrılsın. Debounce için `useEffect` + `setTimeout` cleanup kullan.

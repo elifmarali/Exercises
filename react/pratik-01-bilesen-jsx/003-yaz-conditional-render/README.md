@@ -1,0 +1,1 @@
+`status: 'idle' | 'loading' | 'error'` prop’u alan component. `idle` → "Hazır", `loading` → "Yükleniyor...", `error` → "Hata" render et. `if` veya ternary kullan.

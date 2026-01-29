@@ -1,0 +1,1 @@
+API key ve secret’lar nereye konmamalı? `REACT_APP_` env nasıl kullanılır?

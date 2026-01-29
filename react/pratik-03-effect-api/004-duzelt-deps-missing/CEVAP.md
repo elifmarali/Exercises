@@ -1,0 +1,1 @@
+Dependency array’e `[userId]` ekle. Böylece `userId` değişince effect yeniden çalışır.

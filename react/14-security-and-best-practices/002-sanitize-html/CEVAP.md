@@ -1,0 +1,1 @@
+DOMPurify vb. ile strip/escape. Sadece izin verilen tag/attr. Sanitize edilmeden dangerouslySetInnerHTML kullanılmamalı.

@@ -1,0 +1,1 @@
+`javascript:` veya `data:` URL’leri neden tehlikeli? `href` ve `window.open`?

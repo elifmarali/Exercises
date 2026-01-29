@@ -1,0 +1,1 @@
+Parent’ta `const [n, setN] = useState(0)`. Bir child’a `onIncrement` ve `n`, diğerine `n` prop geçir. Artır butonu `onClick={onIncrement}` ile `setN(c => c + 1)` çağırsın.

@@ -1,0 +1,1 @@
+`{count && <span>Adet: {count}</span>}` kullanılıyor; `count === 0` iken "0" render ediliyor. Düzelt.

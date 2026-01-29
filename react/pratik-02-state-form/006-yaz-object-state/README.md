@@ -1,0 +1,1 @@
+`{ name: string; age: number }` state. İki input ile güncelle; **immutable** güncelleme (obje mutate etme).

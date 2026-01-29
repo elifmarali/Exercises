@@ -1,0 +1,1 @@
+Genel injection önleme (XSS, etc.) React’ta neler yapılmalı?

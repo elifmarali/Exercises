@@ -1,0 +1,1 @@
+`items: string[]` prop. "Filtrele" input’u; sadece içerenleri listele. Filtre metnini state’te tut; liste **türetilmiş** (filter) olsun, ayrı state’e kopyalama.

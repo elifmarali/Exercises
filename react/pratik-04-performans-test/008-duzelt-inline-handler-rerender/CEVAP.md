@@ -1,0 +1,1 @@
+Handler her seferinde yeni referans. `useCallback` kullan: `onClick={useCallback(() => doSomething(x), [x])}`. Böylece `x` değişmedikçe referans aynı kalır.

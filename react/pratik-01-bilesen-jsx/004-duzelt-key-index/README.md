@@ -1,0 +1,1 @@
+Liste `key={index}` kullanıyor; öğe silinince yanlış eşleşme oluyor. `items` `{ id: number; name: string }[]`. `key`’i `id` yap ve kodu düzelt.

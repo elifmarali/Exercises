@@ -1,0 +1,1 @@
+`Counter` (sayı + Artır butonu) için React Testing Library ile test: ilk 0, Artır’a tıklanınca 1. `render`, `screen`, `userEvent` kullan.

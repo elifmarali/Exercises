@@ -1,0 +1,1 @@
+Escape by default (JSX). User input’u HTML’e koymadan önce sanitize. Risky API’leri (dangerouslySetInnerHTML, eval) minimize et.

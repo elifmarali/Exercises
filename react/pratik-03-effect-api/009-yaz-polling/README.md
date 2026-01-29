@@ -1,0 +1,1 @@
+Her 5 saniyede `/api/status` çek. `useEffect` + `setInterval`; cleanup’ta interval’i temizle. Sonucu state’te tut, göster.

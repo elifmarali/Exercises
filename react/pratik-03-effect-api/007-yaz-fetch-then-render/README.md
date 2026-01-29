@@ -1,0 +1,1 @@
+`/api/config` çek; gelen `{ theme: 'dark'|'light' }`’a göre bir `<div>`’e `data-theme={theme}` ver. Loading ve hata durumunu da handle et.

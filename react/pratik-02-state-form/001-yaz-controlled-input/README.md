@@ -1,0 +1,1 @@
+Tek `<input>` ve `<p>`: input’a yazılan metin aynı anda `<p>` içinde gösterilsin (controlled). `useState` kullan.

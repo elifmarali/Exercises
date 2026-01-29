@@ -1,0 +1,1 @@
+Her saniye `console.log` basan bir `useEffect`. Cleanup’ta interval’i `clearInterval` ile temizle.

@@ -1,0 +1,1 @@
+Parent `onClick` handler’ı child’a prop geçiriyor; handler her render’da yeni. Child `memo` ile sarılı. `useCallback` ile handler’ı sabitle; deps’i doğru ver.

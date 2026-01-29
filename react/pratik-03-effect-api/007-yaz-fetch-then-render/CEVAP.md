@@ -1,0 +1,1 @@
+`loading`, `config`, `error` state. Fetch → set config. `config` varsa `<div data-theme={config.theme}>...</div>`; loading/error için ayrı UI.

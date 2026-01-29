@@ -1,0 +1,1 @@
+`UserList` mount’ta `/api/users` çekip listeliyor. Testte `fetch` mock’la; `[{ id:1, name: 'Ali' }]` dön. Render sonrası "Ali" görünene kadar bekle (`findBy`).

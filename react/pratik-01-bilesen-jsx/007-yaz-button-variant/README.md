@@ -1,0 +1,1 @@
+`Button` yaz: `label`, `variant?: 'primary' | 'secondary'`. `variant`’a göre `className` `btn-primary` veya `btn-secondary` olsun.

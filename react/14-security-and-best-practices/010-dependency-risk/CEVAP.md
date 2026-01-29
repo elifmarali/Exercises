@@ -1,0 +1,1 @@
+Az bağımlılık, güvenilir paketler, lockfile, audit, güncelleme. Mümkünse kritik kod kendi yazılır.

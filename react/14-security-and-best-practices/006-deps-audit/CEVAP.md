@@ -1,0 +1,1 @@
+npm audit known vulnerability’leri listeler. Düzeltme: update, override. CI’da audit kullanılabilir.

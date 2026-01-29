@@ -1,0 +1,1 @@
+`items` (büyük dizi) ve `query` var. Filtre `items.filter(i => i.includes(query))`. Bu hesabı `useMemo` ile cache’le; `query` veya `items` değişmedikçe tekrarlanmasın.

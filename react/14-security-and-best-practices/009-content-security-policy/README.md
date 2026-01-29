@@ -1,0 +1,1 @@
+Content-Security-Policy (CSP) ne işe yarar? React uygulamasında?

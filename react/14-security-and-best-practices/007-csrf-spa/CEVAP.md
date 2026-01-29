@@ -1,0 +1,1 @@
+SameSite cookie, CSRF token (backend ile uyumlu). API’ler REST + CORS + auth iyi yapılandırılmalı.

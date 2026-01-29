@@ -1,0 +1,1 @@
+`setCount` re-render → effect tekrar → yine `setCount` → döngü. Count’u effect’te güncellemeyi kaldır veya deps’ten `count`’u çıkar; sadece mount’ta bir kez çalışacaksa `[]`.

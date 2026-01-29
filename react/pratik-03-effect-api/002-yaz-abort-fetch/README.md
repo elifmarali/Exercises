@@ -1,0 +1,1 @@
+`id` prop’a göre `/api/user/:id` çek. `id` değişince önceki istek iptal edilsin (unmount veya deps değişimi). `AbortController` kullan.

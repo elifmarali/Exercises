@@ -1,0 +1,1 @@
+Token / auth bilgisi nerede saklanır? localStorage vs cookie vs memory?

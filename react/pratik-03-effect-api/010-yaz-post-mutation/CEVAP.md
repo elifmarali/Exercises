@@ -1,0 +1,1 @@
+`loading`, `message` state. `handleSave` async: `setLoading(true)` → `fetch(..., { method:'POST', body: JSON.stringify({name}), headers: {'Content-Type':'application/json'} })` → set message → `setLoading(false)`. Buton `disabled={loading}`.

@@ -1,0 +1,1 @@
+Kullanıcı girdisi HTML’e konursa script çalışabilir. dangerouslySetInnerHTML ile içerik konuyorsa mutlaka sanitize.

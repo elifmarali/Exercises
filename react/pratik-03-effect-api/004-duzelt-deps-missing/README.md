@@ -1,0 +1,1 @@
+Effect `userId` ile fetch yapıyor ama deps `[]`. `userId` değişince yeniden fetch olmuyor. Düzelt.

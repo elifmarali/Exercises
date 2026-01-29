@@ -1,0 +1,1 @@
+SPA’da CSRF nasıl önlenir? SameSite cookie, token?

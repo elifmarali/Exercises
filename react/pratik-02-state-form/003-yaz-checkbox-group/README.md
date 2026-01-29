@@ -1,0 +1,1 @@
+`options: { id: string; label: string }[]` prop. Her biri için checkbox; seçilenler `selected: string[]` state’te tutulsun. (Id’lerle)

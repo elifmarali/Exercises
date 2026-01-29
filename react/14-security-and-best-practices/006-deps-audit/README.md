@@ -1,0 +1,1 @@
+Bağımlılık güvenlik açıkları nasıl taranır? `npm audit` ne yapar?

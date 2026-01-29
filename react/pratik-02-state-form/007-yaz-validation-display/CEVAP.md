@@ -1,0 +1,1 @@
+`value` + `onChange`, `onBlur`’da `touched=true`, `error = !value.includes('@')`. `touched && error` ise mesajı render et.

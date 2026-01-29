@@ -1,0 +1,1 @@
+`filterText` state. `filtered = items.filter(i => i.includes(filterText))`. Listeyi `filtered`’dan render et.

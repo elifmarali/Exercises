@@ -1,0 +1,1 @@
+Submit handler içinde `user` state’i okunuyor; bazen eski değer geliyor. Closure kaynaklı. Nasıl düzeltilir? (Kodu yazmadan kısaca açıkla.)

@@ -1,0 +1,1 @@
+`ListItem` sadece `name` prop alıyor; pahalı render yapıyor (simüle et). Listede yüzlerce var. Gereksiz re-render’ı `React.memo` ile azalt. Kodu yaz.

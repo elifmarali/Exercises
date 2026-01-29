@@ -1,0 +1,1 @@
+`count != null && count > 0 && <span>...</span>` veya `count > 0 ? <span>...</span> : null`. Böylece 0’da "0" çıkmaz.

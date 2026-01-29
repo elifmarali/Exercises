@@ -1,0 +1,1 @@
+Email input. Blur’da validasyon: `@` yoksa "Geçerli email girin" göster. State: `value`, `touched`, `error`.

@@ -1,0 +1,1 @@
+Effect’te `const id = setInterval(() => fetch('/api/status').then(r=>r.json()).then(setStatus), 5000)`; `return () => clearInterval(id)`. `[]` deps.

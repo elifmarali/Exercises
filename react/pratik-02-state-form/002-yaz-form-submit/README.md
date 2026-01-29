@@ -1,0 +1,1 @@
+İsim ve email alanları olan bir form. Submit’te `e.preventDefault` yap, state’ten değerleri `console.log` ile yazdır.

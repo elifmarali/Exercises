@@ -1,0 +1,1 @@
+Tıklanınca script çalıştırabilir. href’te kullanıcı URL’i validate/sanitize; scheme whitelist. window.open’da da dikkat.

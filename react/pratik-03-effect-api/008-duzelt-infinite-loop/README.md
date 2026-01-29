@@ -1,0 +1,1 @@
+Effect içinde `setCount(c => c + 1)` var; deps `[count]`. Sonsuz döngü oluşuyor. Neden? Nasıl kırarısın?

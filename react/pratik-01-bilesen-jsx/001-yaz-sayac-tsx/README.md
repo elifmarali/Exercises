@@ -1,0 +1,1 @@
+TSX ile `Counter` component’i yaz: bir sayı, "Artır" ve "Azalt" butonları. State `useState<number>(0)`. Prop yok.

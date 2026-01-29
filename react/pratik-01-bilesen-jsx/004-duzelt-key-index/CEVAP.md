@@ -1,0 +1,1 @@
+`key={item.id}` kullan. Index yerine stable id; silme/ekleme sonrası doğru reconcile.

@@ -1,0 +1,1 @@
+Client’a secret konmaz; build’e girer. REACT_APP_ env de client’ta görünür. Hassas işler backend’de.
