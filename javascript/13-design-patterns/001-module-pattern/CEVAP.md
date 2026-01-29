@@ -1,0 +1,1 @@
+IIFE veya modül ile dışa kapalı state; sadece export edilenler erişilebilir. Closure sayesinde “private” değişkenler korunur.

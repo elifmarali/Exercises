@@ -1,0 +1,1 @@
+Property’yi `delete` ile silmek vs `null` atamak: bellek ve performans açısından fark var mı?

@@ -1,0 +1,1 @@
+Ok fonksiyonunun kendi `this`’i yok; lexical `this` kullanır. `call`/`apply`/`bind` `this`’i değiştirmez.

@@ -1,0 +1,1 @@
+`g` artık “ ownership” olmadan çağrılıyor; default binding. `this` global veya undefined. `bind` veya arrow ile korunur.

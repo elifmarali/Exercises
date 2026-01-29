@@ -1,0 +1,1 @@
+`class` metodunda `this` ne olur? Instance metodları nasıl bağlanır?

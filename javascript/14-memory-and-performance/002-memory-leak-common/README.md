@@ -1,0 +1,1 @@
+Yaygın bellek sızıntısı kaynakları neler? Global, timer, closure örnekleri?

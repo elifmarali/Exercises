@@ -1,0 +1,1 @@
+`str.match(/x/g)` ile `str.matchAll(/x/g)` farkı nedir? `matchAll` ne döner?

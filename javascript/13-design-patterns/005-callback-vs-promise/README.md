@@ -1,0 +1,1 @@
+Callback tabanlı API ile Promise tabanlı API farkı? Pattern açısından ne değişir?

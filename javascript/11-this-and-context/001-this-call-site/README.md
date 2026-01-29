@@ -1,0 +1,1 @@
+`this` nasıl belirlenir? “Call site” neden önemli?

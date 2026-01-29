@@ -1,0 +1,1 @@
+`WeakMap` ve `WeakRef` ne işe yarar? “Weak” neden önemli?

@@ -1,0 +1,1 @@
+Çevrilemez; `TypeError`. `String(sym)` sadece `sym.description` için; genel coercion’da Symbol’ler hariç tutulur.

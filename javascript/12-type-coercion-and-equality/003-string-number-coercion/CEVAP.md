@@ -1,0 +1,1 @@
+Biri string ise concatenation. `1 + '2'` → `'12'`, `'1' + 2` → `'12'`. İkisi de sayıysa toplama.

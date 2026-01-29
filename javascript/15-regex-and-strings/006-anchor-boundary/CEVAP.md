@@ -1,0 +1,1 @@
+`^` başlangıç, `$` bitiş. `m` ile satır başı/sonu. `\b` kelime sınırı. `^`/`$` tüm string’e veya (m ile) satıra göre davranır.

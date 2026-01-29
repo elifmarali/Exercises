@@ -1,0 +1,1 @@
+`call`, `apply`, `bind` ne yapar? `bind` ile `call` farkı?

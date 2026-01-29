@@ -1,0 +1,1 @@
+Revealing module pattern nedir? “Reveal” edilenler ne anlama gelir?

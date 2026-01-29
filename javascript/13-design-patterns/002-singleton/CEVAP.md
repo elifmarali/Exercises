@@ -1,0 +1,1 @@
+Tek instance. Modül zaten tek yüklenir; export edilen obje singleton gibi kullanılabilir. Class ile instance kontrolü de yapılabilir.

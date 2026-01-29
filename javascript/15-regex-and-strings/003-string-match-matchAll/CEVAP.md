@@ -1,0 +1,1 @@
+`match` ile `g`: tüm eşleşen substring’ler. `matchAll`: her eşleşme için gruplar, index içeren iterator. Detay gerekiyorsa `matchAll`.

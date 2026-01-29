@@ -1,0 +1,1 @@
+Coercion’dan kaçınmak için ne yapılır? `===` ve açık dönüşüm ne sağlar?

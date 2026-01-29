@@ -1,0 +1,1 @@
+`valueOf` önce denenir; primitive dönmezse `toString`. `Symbol.toPrimitive` varsa o öncelikli. Sayı bağlamında `valueOf` → `toString`; string’de genelde `toString`.

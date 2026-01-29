@@ -1,0 +1,1 @@
+Decorator veya mixin pattern nedir? Davranışı nesneye “ekleme” nasıl yapılır?

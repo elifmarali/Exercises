@@ -1,0 +1,1 @@
+Key’ler zayıf referans; başka referans kalmazsa GC toplayabilir. WeakMap’te key obje olmalı. Cache, meta veri için kullanılır; sızıntıyı azaltır.

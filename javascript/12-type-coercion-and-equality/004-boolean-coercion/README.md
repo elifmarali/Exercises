@@ -1,0 +1,1 @@
+`if (x)` gibi bağlamda boolean coercion nasıl yapılır? Falsy listesi?

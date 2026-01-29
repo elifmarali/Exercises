@@ -1,0 +1,1 @@
+`setTimeout(obj.f, 100)` neden `this`’i kaybettirir? Nasıl düzeltilir?

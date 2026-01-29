@@ -1,0 +1,1 @@
+`===` tip dönüşümü yapmaz. `Number(x)`, `String(x)`, `Boolean(x)` ile açık dönüşüm; `==` yerine `===` tercih edilir.

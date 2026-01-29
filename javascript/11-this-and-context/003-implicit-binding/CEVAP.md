@@ -1,0 +1,1 @@
+`obj.f()` içinde `this` === `obj`. Çağrıdan hemen önceki obje (context object) `this`’i verir.

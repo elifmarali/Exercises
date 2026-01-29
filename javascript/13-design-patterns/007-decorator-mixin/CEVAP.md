@@ -1,0 +1,1 @@
+Mixin: birden fazla kaynaktan özellik kopyalama veya birleştirme. Decorator: mevcut nesneyi sarmalayıp davranış ekleme. Object.assign, composition.

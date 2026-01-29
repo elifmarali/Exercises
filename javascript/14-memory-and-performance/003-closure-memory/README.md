@@ -1,0 +1,1 @@
+Closure bellek sızıntısına nasıl yol açar? Ne yapılmalı?

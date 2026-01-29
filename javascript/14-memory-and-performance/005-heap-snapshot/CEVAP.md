@@ -1,0 +1,1 @@
+Anlık heap görüntüsü; obje sayıları, tutulan bellek. Retained size ile “gerçekten ne tutuluyor” görülür. Karşılaştırmalı snapshot’larla sızıntı aranır.

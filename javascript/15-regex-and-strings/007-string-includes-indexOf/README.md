@@ -1,0 +1,1 @@
+`includes` ile `indexOf` farkı? `NaN` aramada sorun var mı?

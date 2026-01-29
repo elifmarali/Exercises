@@ -1,0 +1,1 @@
+`/ab+c/` ile `new RegExp('ab+c')` farkı nedir? Dinamik pattern’de hangisi kullanılır?

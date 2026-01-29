@@ -1,0 +1,1 @@
+Geçici wrapper obje oluşturulur, metot çalışır, obje atılır. Primitive’ler için otomatik boxing.

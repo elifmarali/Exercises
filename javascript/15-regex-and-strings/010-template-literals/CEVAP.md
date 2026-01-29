@@ -1,0 +1,1 @@
+`${expression}` her türlü ifade. Tagged: `tag\`a${x}b\`` → `tag(['a','b'], x)`. Raw string, i18n, SQL vb. için kullanılır.

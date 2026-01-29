@@ -1,0 +1,1 @@
+Implicit binding ne demek? `obj.f()` çağrısında `this` ne olur?

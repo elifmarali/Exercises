@@ -1,0 +1,1 @@
+`1 + '2'` ve `'1' + 2` sonuçları nelerdir? `+` operatörü ne zaman birleştirme yapar?

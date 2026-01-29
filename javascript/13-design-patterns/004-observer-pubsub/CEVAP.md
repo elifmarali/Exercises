@@ -1,0 +1,1 @@
+Yayıncı olay yayınlar; aboneler dinler. `EventEmitter` benzeri subscribe/emit yapısı; loosely coupled iletişim sağlar.

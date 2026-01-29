@@ -1,0 +1,1 @@
+`new F()` ile `this` nasıl oluşur? Constructor ne döndürmeli?

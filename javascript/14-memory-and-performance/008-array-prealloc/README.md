@@ -1,0 +1,1 @@
+Dizi önceden boyutlandırma (`new Array(n)`) ne zaman faydalı? Her zaman gerekli mi?

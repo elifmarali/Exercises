@@ -1,0 +1,1 @@
+`f` referans olarak geçiyor; çağrıda `obj` yok. `setTimeout(() => obj.f(), 100)` veya `obj.f.bind(obj)` kullanılır.

@@ -1,0 +1,1 @@
+`trim` ne keser? Unicode boşluklar dahil mi? `normalize` ne işe yarar?

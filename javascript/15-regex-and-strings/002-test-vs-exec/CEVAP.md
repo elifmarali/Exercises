@@ -1,0 +1,1 @@
+`test` boolean döner. `exec` eşleşme detayı (gruplar, index) döner. `g` ile `exec` her çağrıda sonraki eşleşmeye ilerler; `test` da lastIndex’i günceller.

@@ -1,0 +1,1 @@
+`[].toString()` → `''`. `[1,2]` → `'1,2'`. `[null]` → `'null'` (elemanlar toString ile).

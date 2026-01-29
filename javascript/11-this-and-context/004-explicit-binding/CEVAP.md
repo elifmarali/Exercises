@@ -1,0 +1,1 @@
+`call(ctx, ...args)` ve `apply(ctx, args)` `this`’i açıkça verir, hemen çağırır. `bind` yeni fonksiyon döner; `this` bağlı, çağrı sonra yapılır.

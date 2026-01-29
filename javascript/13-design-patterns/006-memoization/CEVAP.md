@@ -1,0 +1,1 @@
+Aynı girdi için önceki sonucu saklama. Closure + Map/Object ile cache; girdi anahtar, çıktı saklanır. Pure fonksiyonlarda güvenle kullanılır.

@@ -1,0 +1,1 @@
+`Number('')`, `Number(null)`, `Number(undefined)`, `Number('  	 ')` sonuçları?

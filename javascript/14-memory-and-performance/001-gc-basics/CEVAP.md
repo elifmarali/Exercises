@@ -1,0 +1,1 @@
+Modern motorlar mark-and-sweep (ve benzeri) kullanır. Erişilemeyen bellek toplanır. Sadece referans sayımı circular reference’ta yetersiz kalır.

@@ -1,0 +1,1 @@
+fn(match, p1, p2, ..., offset, str) alır. Dönüş değeri yerine geçecek string. Grup ve konum bilgisiyle dinamik replace yapılabilir.

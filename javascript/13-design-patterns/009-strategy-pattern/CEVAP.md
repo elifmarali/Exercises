@@ -1,0 +1,1 @@
+Farklı stratejiler (fonksiyon/obje) aynı arayüzle kullanılır; çağıran hangisini kullanacağını seçer. Polymorphism benzeri esneklik.

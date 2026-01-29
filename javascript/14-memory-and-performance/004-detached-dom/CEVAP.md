@@ -1,0 +1,1 @@
+DOM’dan çıkarılmış ama JS referansı duran node. Tarayıcı sayfada göstermese bile referans olduğu sürece bellek tutulur. Referansları null’la.

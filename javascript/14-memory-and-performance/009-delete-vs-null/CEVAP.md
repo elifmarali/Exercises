@@ -1,0 +1,1 @@
+`delete` property’yi kaldırır; obje şekli değişebilir. `null` atama referansı keser, property kalır. Bellek açısından büyük fark yok; “yok” semantics’i farklı.

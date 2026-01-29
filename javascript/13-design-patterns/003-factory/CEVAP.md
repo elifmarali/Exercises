@@ -1,0 +1,1 @@
+Nesne oluşturmayı sarmalayan fonksiyon; tip, config’e göre farklı obje dönebilir. `new`’den kaçınmak veya karmaşık kurulum için kullanılır.

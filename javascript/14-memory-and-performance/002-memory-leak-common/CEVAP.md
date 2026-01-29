@@ -1,0 +1,1 @@
+Global’e yazma, temizlenmeyen timer/listener, closure’da büyük veri tutma, DOM referansları. Cleanup (removeEventListener, clearInterval) ve gereksiz referansları bırakma önemli.

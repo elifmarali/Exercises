@@ -1,0 +1,1 @@
+`(a)` eşleşeni yakalar; `match[1]` vb. `(?:a)` grubu yakalamaz, sadece gruplama. Backreference ve replace’te captured group kullanılır.

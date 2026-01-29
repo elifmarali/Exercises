@@ -1,0 +1,1 @@
+`slice` negatif indeks destekler (sondan). `substring` negatifi 0 sayar; start>end yer değiştirir. `substr` deprecated; length ile keser.

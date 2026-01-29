@@ -1,0 +1,1 @@
+Singleton pattern nedir? JS’te basit singleton nasıl uygulanır?

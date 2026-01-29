@@ -1,0 +1,1 @@
+`null == undefined` → true (özel kural). Diğer değerlerle karşılaştırmada normal coercion kuralları uygulanır.

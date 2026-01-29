@@ -1,0 +1,1 @@
+ToBoolean: falsy → false, diğerleri true. Falsy: false, 0, -0, 0n, '', null, undefined, NaN.

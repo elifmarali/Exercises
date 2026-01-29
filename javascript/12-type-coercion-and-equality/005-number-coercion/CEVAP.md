@@ -1,0 +1,1 @@
+`Number('')` → 0. `Number(null)` → 0. `Number(undefined)` → NaN. `Number('  	 ')` → 0 (boşluk trim).

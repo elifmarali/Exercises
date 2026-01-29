@@ -1,0 +1,1 @@
+`slice`, `substring`, `substr` farkları neler? Negatif indeks?

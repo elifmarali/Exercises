@@ -1,0 +1,1 @@
+Çok sayıda index’e sırayla yazılacaksa bazen faydalı. Genelde `[]` ve `push` yeterli; motorlar bunu iyi optimize eder. Erken optimizasyon yerine ölçüm yap.

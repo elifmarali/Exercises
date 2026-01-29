@@ -1,0 +1,1 @@
+`Symbol` number veya string’e zorla çevrilebilir mi? `+Symbol()` veya `'' + Symbol()`?

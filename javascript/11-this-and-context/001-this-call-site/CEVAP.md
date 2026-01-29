@@ -1,0 +1,1 @@
+Çağrı yerine (call site) göre belirlenir; tanım yeri değil. `obj.f()`, `f()`, `new f()`, `f.call(ctx)` farklı `this` verir.

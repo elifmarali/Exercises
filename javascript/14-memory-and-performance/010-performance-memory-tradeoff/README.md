@@ -1,0 +1,1 @@
+Performans ile bellek kullanımı arasında tipik trade-off’lar neler? Örnek ver.

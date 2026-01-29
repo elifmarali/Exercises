@@ -1,0 +1,1 @@
+Ok fonksiyonu `this`’i neden “override” etmez? `call`/`apply` neden işe yaramaz?

@@ -1,0 +1,1 @@
+Closure lexical ortamı canlı tutar. Büyük veri veya DOM referansı tutulursa GC toplayamaz. Gerekmedikçe büyük veriyi closure’da tutma; listener’ları kaldır.

@@ -1,0 +1,1 @@
+Module pattern nedir? Closure ile private state nasıl sağlanır?

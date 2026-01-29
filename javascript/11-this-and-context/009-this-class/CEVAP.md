@@ -1,0 +1,1 @@
+`this` instance’a referans. Sınıf alanı veya constructor’da arrow kullanılmazsa, metodu instance’a “bind” etmek gerekebilir (event handler vb.).

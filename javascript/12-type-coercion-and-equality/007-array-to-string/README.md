@@ -1,0 +1,1 @@
+`[].toString()`, `[1,2].toString()`, `[null].toString()` sonuçları nelerdir?

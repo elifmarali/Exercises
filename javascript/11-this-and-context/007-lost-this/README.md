@@ -1,0 +1,1 @@
+“Lost `this`” ne demek? `const g = obj.f; g()` çağrısında `this` ne olur?

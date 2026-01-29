@@ -1,0 +1,1 @@
+Factory pattern ne işe yarar? Constructor yerine factory fonksiyon ne zaman tercih edilir?

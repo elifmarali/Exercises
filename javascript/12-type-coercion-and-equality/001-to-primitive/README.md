@@ -1,0 +1,1 @@
+Obje primitive’e nasıl çevrilir? `valueOf` ve `toString` sırası nedir?

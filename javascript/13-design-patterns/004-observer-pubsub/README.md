@@ -1,0 +1,1 @@
+Observer / pub-sub pattern nedir? Event emitter nasıl örnek olur?

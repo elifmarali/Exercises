@@ -1,0 +1,1 @@
+`==` karşılaştırmasında `null` ve `undefined` nasıl davranır? `null == undefined`?

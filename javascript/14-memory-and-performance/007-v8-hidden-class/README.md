@@ -1,0 +1,1 @@
+V8 “hidden class” nedir? Obje şekli neden performansı etkiler?

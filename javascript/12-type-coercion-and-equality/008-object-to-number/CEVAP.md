@@ -1,0 +1,1 @@
+`+{}` → NaN (`toString` → `'[object Object]'` sayı değil). `+[]` → 0 (`[].toString()` → `''`, `Number('')` → 0).

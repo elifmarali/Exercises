@@ -1,0 +1,1 @@
+Callback: sonuç veya hata fonksiyona verilir. Promise: then/catch veya async/await; zincirleme ve hata yönetimi daha düzenli.

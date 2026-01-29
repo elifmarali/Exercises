@@ -1,0 +1,1 @@
+`new` ile constructor vs factory kullanımı: artı ve eksileri neler?

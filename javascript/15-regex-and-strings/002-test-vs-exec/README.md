@@ -1,0 +1,1 @@
+`regex.test()` ile `regex.exec()` farkı nedir? Global flag (`g`) ikisini nasıl etkiler?

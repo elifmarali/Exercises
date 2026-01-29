@@ -1,0 +1,1 @@
+`str.replace(regex, fn)` callback ne alır? Dinamik değiştirme nasıl yapılır?

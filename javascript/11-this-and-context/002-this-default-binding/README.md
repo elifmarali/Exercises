@@ -1,0 +1,1 @@
+Default binding nedir? Strict vs non-strict farkı var mı?

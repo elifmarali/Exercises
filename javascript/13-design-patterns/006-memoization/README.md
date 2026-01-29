@@ -1,0 +1,1 @@
+Memoization nedir? Pahalı fonksiyon sonuçları nasıl cache’lenir?

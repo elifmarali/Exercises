@@ -1,0 +1,1 @@
+Cache: hız artar, bellek tüketir. Lazy load: bellek ertelenir, ilk erişim yavaş. Büyük buffer vs chunk’lı işlem benzeri seçimler. Ölçümle karar ver.

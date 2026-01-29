@@ -1,0 +1,1 @@
+`includes` boolean, `indexOf` indeks (-1 yoksa). `'abc'.includes('')` → true. `indexOf(NaN)` eşleşmez; `includes` de NaN’da tutarlı değil, dizi `includes` farklı.

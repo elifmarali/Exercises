@@ -1,0 +1,1 @@
+Strategy pattern nedir? Algoritma seçimini runtime’da değiştirmek nasıl yapılır?

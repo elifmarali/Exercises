@@ -1,0 +1,1 @@
+Tek başına `f()` gibi çağrıda `this` global (non-strict) veya `undefined` (strict).

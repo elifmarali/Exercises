@@ -1,0 +1,1 @@
+ES modülde `this` `undefined`. CommonJS’te `module.exports`. Tarayıcıda global `window`; `globalThis` her ortamda global objeyi verir.

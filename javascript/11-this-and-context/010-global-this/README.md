@@ -1,0 +1,1 @@
+Node modülünde üst seviye `this` ne olur? Tarayıcıdaki `window` ile karşılaştır.

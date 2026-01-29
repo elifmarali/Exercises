@@ -1,0 +1,1 @@
+Private fonksiyonlar closure’da; sadece seçilenler döndürülür (reveal). Public API minimal ve net kalır.

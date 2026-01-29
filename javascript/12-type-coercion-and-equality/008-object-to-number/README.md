@@ -1,0 +1,1 @@
+`+{}` ve `+[]` sonuçları nelerdir? Neden?

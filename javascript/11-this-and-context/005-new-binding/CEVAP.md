@@ -1,0 +1,1 @@
+Yeni obje oluşturulur, `this` ona bağlanır. `return` object değilse (veya yoksa) bu yeni obje döner.

@@ -1,0 +1,1 @@
+JavaScript’te garbage collection nasıl çalışır? Referans sayımı vs mark-and-sweep?

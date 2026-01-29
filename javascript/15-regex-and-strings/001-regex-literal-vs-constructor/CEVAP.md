@@ -1,0 +1,1 @@
+Literal statik; RegExp constructor dinamik string kabul eder. Escape farkı: string’de `\\` regex’te `\` olur.

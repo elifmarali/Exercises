@@ -1,0 +1,1 @@
+Motor obje yapısını internal “shape” ile optimize eder. Property ekleme sırası veya sonradan farklı şekil (ör. property ekleme) optimizasyonu bozabilir.

@@ -1,0 +1,1 @@
+Constructor: `instanceof`, `new` zorunluluğu. Factory: `new` yok, farklı tipler dönebilir, encapsulation kolay. Tercih projeye ve takım convention’ına göre.

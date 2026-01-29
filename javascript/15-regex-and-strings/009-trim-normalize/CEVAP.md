@@ -1,0 +1,1 @@
+`trim` baştaki/sondaki whitespace’i (space, tab, vb.) keser. Unicode boşluklar genelde dahil. `normalize` NFD/NFC ile birleşik karakter normalleştirmesi yapar.
