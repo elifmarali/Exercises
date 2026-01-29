@@ -1,0 +1,1 @@
+PropTypes ile TypeScript farkı? TS kullanırken PropTypes gerekir mi?

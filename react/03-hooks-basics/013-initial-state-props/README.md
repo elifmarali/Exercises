@@ -1,0 +1,1 @@
+# `useState(props.initialCount)` — `initialCount` değişince state güncellenir mi? Props’tan türeyen ilk state’i sonradan güncellemek istersen ne yapılır?

@@ -1,0 +1,1 @@
+IP başına basit rate limit: aynı IP’den dakikada en fazla 10 istek. `Map<ip, { count, resetAt }` ile yap. `resetAt` geçtiyse sayacı sıfırla. Limit aşılırsa `429`.

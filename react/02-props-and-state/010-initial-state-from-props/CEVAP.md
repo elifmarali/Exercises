@@ -1,0 +1,1 @@
+`useState(propValue)` sadece ilk render’da kullanılır. Prop değişince güncellemek için `key` ile remount veya `useEffect` ile sync; dikkatli kullan, gereksiz sync’ten kaçın.

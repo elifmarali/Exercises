@@ -1,0 +1,1 @@
+Parent callback prop geçer (`onSave`, `onChange`). Child bu fonksiyonu çağırır; parent state günceller. Tek yönlü akış korunur.

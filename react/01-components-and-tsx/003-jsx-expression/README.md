@@ -1,0 +1,1 @@
+JSX içinde `{expression}` ile neler yazılabilir? Obje doğrudan `{{ }}` ile verilebilir mi?

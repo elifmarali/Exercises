@@ -1,0 +1,1 @@
+İkisi de prop tipi tanımlar. TS compile-time, PropTypes runtime. TS kullanıyorsan PropTypes genelde gereksiz.

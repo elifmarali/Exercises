@@ -1,0 +1,1 @@
+Belirli origin’lere CORS izni ver: `Access-Control-Allow-Origin`, `Access-Control-Allow-Methods`, `Access-Control-Allow-Headers`. Express middleware olarak yaz.

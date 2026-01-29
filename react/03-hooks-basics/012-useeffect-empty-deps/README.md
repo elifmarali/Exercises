@@ -1,0 +1,1 @@
+# `useEffect(fn, [])` kullanırken ESLint `exhaustive-deps` uyarısı veriyor. Uyarıyı kapatmak (`// eslint-disable-next-line`) ne zaman kabul edilebilir, ne zaman riskli?

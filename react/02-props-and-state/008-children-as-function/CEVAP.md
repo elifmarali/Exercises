@@ -1,0 +1,1 @@
+`children` veya prop olarak fonksiyon verilir; component state’i argüman olarak geçer. Custom hooks yaygınlaşınca alternatif olarak hooks tercih edilebilir.

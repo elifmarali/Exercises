@@ -1,0 +1,1 @@
+Paylaşılan state en yakın ortak parent’ta tutulur; props ile aşağı iner. İhtiyaç duyan en üst ortak component’te.

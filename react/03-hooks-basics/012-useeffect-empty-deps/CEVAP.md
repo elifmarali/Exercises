@@ -1,0 +1,1 @@
+Gerçekten sadece mount’ta çalması gereken (subscription, global listener) efektlerde kabul edilebilir. Eksik dependency sonucu stale closure veya yanlış davranış olacaksa dependency’yi eklemek gerekir; uyarıyı susturmak bug’a yol açar.

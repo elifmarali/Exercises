@@ -1,0 +1,1 @@
+# `useState(computeExpensive())` ile `useState(() => computeExpensive())` farkı nedir? Lazy initial state ne zaman kullanılmalı?

@@ -1,0 +1,1 @@
+# `useEffect` dependency olarak `[config]` kullanıyorsun; `config` her render’da `{ url: '/api' }` gibi yeni obje. Effect sürekli tetiklenir mi? Nasıl önlenir?

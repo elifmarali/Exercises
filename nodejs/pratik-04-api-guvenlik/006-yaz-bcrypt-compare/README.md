@@ -1,0 +1,1 @@
+`bcrypt` ile şifre doğrulama: `compare(plain, hashed)` async fonksiyonu yaz. `bcrypt.compare` kullan; `true`/`false` dönsün.

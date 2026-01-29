@@ -1,0 +1,1 @@
+# Hook'lar neden sadece üst seviyede ve React fonksiyonu içinde çağrılmalı? Koşul içinde `useState` veya döngüde `useEffect` neden yasak?

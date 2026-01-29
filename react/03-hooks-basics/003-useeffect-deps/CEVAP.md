@@ -1,0 +1,1 @@
+`[]`: sadece mount'ta. `[a,b]`: mount + `a` veya `b` değişince. Verilmezse: her render'dan sonra. Cleanup bir sonraki effect öncesi ve unmount'ta çalışır.

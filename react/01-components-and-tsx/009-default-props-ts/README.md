@@ -1,0 +1,1 @@
+TS'te default prop nasıl verilir?

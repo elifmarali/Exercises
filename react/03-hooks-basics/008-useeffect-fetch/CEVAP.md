@@ -1,0 +1,1 @@
+AbortController + `fetch` `signal` kullan veya bir `let cancelled = false` ile cleanup’ta `cancelled = true` yap; then içinde `if (cancelled) return` ile `setState`’i atlama. Böylece unmount sonrası state güncellemesi yapılmaz.

@@ -1,0 +1,1 @@
+Strict Mode mount → cleanup → mount simülasyonu yapar; effect iki kez çalışır. Amaç, cleanup’ın doğru yazıldığını görmek. Production’da Strict Mode kapalıysa tek mount vardır; effect bir kez çalışır.

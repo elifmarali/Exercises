@@ -1,0 +1,1 @@
+# `useEffect` içinde `addEventListener` ekleniyorsa cleanup'ta `removeEventListener` neden şart? Subscription / interval kullanırken cleanup nasıl yazılmalı?

@@ -1,0 +1,1 @@
+Handler çalıştığında `count` closure’daki değerdir; batch veya async ile güncel olmayabilir. Functional update `c` her zaman en güncel state’i alır; race olmaz. Özellikle aynı handler içinde birden fazla artış veya async’ten `setState` yapıyorsan tercih edilir.

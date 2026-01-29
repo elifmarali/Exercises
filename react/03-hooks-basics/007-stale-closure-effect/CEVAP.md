@@ -1,0 +1,1 @@
+Effect `[count]`’a bağlıysa, `count` değişince effect yeniden çalışır; o çalışmada `count` güncel. Ama effect içinde async iş varsa (örn. `fetch`), callback tamamlandığında `count` o anki değil eski olabilir (stale closure). Güncel değer için ref veya dependency’ye dahil etmek gerekir.

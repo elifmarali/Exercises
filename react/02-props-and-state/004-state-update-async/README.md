@@ -1,0 +1,1 @@
+`setState` güncellemesi senkron mu? Güncel state’e hemen erişilir mi?

@@ -1,0 +1,1 @@
+# React Strict Mode’da `useEffect` neden iki kez çalışıyor gibi görünüyor? Cleanup da iki kez çağrılıyor. Bu production’da da olur mu?

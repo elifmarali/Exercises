@@ -1,0 +1,1 @@
+# Aynı event handler içinde iki `setState` çağrısı tek render’da mı birleşir? `setTimeout` veya `fetch` callback’inde yapılan `setState` batch’lenir mi?

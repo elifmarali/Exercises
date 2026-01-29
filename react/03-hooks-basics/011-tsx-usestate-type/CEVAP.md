@@ -1,0 +1,1 @@
+`useState(0)` tipi `number`’dan çıkarır. Generic `useState<number>` açık tip verir. `useState<string | null>(null)` başlangıç `null`, sonra `string` atanabilecek state’i ifade eder; tip güvenliği artar.

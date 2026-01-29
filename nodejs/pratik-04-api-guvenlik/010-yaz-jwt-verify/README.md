@@ -1,0 +1,1 @@
+`Authorization: Bearer <jwt>` header’ından JWT’i al; `jsonwebtoken` ile `verify` et. Geçerliyse `req.user = payload` yap, değilse `401`. Middleware.

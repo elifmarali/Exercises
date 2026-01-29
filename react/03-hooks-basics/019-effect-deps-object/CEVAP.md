@@ -1,0 +1,1 @@
+Evet; referans her seferinde değiştiği için effect her render’da çalışır. `config.url` gibi primi deps’e koy, ya da `useMemo` ile `config`’i memoize et. Gerekirse `JSON.stringify` ile karşılaştırma yapılmaz; primitif veya memoize tercih edilir.

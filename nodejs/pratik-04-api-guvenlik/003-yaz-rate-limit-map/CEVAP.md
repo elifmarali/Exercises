@@ -1,0 +1,1 @@
+Middleware’de `const ip = req.ip || req.socket.remoteAddress`. Map’te `count` artır; `resetAt < Date.now()` ise sıfırla. `count > 10` → `res.status(429).json({ error: 'rate limit' })`; yoksa `next()`.

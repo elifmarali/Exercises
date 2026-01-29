@@ -1,0 +1,1 @@
+# `useEffect` içinde `fetch` yapılıyor. Component unmount olursa `setState` çağrısı "memory leak" uyarısına yol açabilir. Nasıl önlenir?

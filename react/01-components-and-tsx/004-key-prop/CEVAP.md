@@ -1,0 +1,1 @@
+React reconcile için identity kullanır. Mümkünse stable, unique id. Index sıra değişince veya ekleme/silme olunca sorun çıkarır.

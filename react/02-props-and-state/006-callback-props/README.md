@@ -1,0 +1,1 @@
+Child’dan parent’a bilgi geçmek nasıl yapılır? Callback prop pattern’i nedir?

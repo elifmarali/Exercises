@@ -1,0 +1,1 @@
+State ile ref ne zaman kullanılır? Re-render tetiklemeden değer tutmak?

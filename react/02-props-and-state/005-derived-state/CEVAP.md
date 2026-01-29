@@ -1,0 +1,1 @@
+Props veya mevcut state’ten hesaplanan değer. Mümkünse render’da hesapla; `useState`’e koyma. Özel durumda `useEffect` + sync veya `key` ile reset.

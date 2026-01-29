@@ -1,0 +1,1 @@
+Express’te `POST /api/users` body `{ email, age }` bekliyor. `email` string ve `@` içermeli; `age` 0–120 arası sayı. Değilse `400` ve `{ errors: [...] }` dön.

@@ -1,0 +1,1 @@
+Koşullu render için `&&` vs ternary? `count && <span>` riski?

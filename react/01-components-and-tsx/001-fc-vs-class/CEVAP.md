@@ -1,0 +1,1 @@
+FC hooks kullanır, daha az boilerplate. Class lifecycle ve this karmaşıklığı var. FC + hooks React'ın önerdiği yol.

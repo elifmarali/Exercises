@@ -1,0 +1,1 @@
+React hook çağrı sırasına göre state’i eşler. Koşul/döngü sırayı değiştirir; hook sayısı render’dan render’a farklılaşırsa eşleme bozulur. Her zaman aynı sırada, üst seviyede çağır.

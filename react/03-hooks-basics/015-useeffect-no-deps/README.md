@@ -1,0 +1,1 @@
+# `useEffect(fn)` — dependency array yok. Bu effect her render’dan sonra mı çalışır? Performans ve sonsuz döngü riski nasıl değerlendirilir?

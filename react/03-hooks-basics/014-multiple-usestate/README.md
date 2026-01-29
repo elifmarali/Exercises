@@ -1,0 +1,1 @@
+# Form için birçok alan var. Hepsi için ayrı `useState` mi, tek `useState` ile obje mi kullanılmalı? Artıları ve eksileri neler?

@@ -1,0 +1,1 @@
+Controlled: değer state’te, onChange ile güncellenir. Uncontrolled: ref veya DOM’dan okunur. Form yönetimi için genelde controlled tercih edilir.

@@ -1,0 +1,1 @@
+Composition: esnek layout. Config: davranış, veri. İkisi birlikte kullanılır.

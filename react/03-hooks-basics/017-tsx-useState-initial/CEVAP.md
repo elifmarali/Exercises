@@ -1,0 +1,1 @@
+`user?.name` veya `if (user) { ... user.name }`. TypeScript `user` null iken `user.name`’e izin vermez; `if` ile narrow edilince `user` `User` olur. `user!` assertion mümkün ama güvenli değil; tercih edilmez.

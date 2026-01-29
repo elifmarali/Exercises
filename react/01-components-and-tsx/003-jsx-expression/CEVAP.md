@@ -1,0 +1,1 @@
+Expression: değişken, fonksiyon çağrısı, ternary, map. Obje `{{ }}` ile verilir; dış `{}` JSX expression, iç `{}` obje literal.

@@ -1,0 +1,1 @@
+`pg` ile `SELECT * FROM users WHERE id = $1` sorgusu nasıl çalıştırılır? Parametre `id = 5`.

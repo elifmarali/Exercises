@@ -1,0 +1,1 @@
+Tek yönlü veri akışı; child props’u değiştirmez. Parent state güncellenince yeniden render, yeni props gelir.

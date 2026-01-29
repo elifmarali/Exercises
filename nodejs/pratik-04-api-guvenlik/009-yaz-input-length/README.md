@@ -1,0 +1,1 @@
+Body’deki `name` alanı en fazla 100 karakter olsun. Aşıyorsa `400` dön. Middleware veya route içinde kontrol.

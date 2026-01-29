@@ -1,0 +1,1 @@
+Ayrı `useState`: bağımsız güncelleme, gereksiz re-render azaltılabilir. Tek obje: tek `setState`, ama her tuşta tüm obje değişir. Küçük formlarda obje pratik; büyük formda `useReducer` veya form kütüphanesi (React Hook Form vb.) düşünülür.

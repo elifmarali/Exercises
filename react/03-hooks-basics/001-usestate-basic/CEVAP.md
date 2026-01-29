@@ -1,0 +1,1 @@
+React state güncellemeleri batch'lenir; aynı render içinde `setN(n+1)` iki kez `n`'i iki kere 0'dan okuyup 1 yazar, sonuç 1. Functional update `setN(c => c + 1)` güncel `c` ile çalışır; iki çağrı 2 artırır.

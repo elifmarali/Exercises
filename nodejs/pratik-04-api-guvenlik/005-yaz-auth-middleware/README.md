@@ -1,0 +1,1 @@
+`Authorization: Bearer <token>` header’ından token’ı al. Token `"secret123"` ise `req.user = { id: 1 }` yap, değilse `401` dön. Middleware yaz.

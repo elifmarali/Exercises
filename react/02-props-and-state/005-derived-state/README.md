@@ -1,0 +1,1 @@
+Derived state nedir? `props`’tan türetilen değer `useState`’te tutulmalı mı?

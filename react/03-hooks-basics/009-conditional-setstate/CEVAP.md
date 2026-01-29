@@ -1,0 +1,1 @@
+Hook kuralları `useState` vb. **çağrının** koşulda olmasını yasaklar. `setState` (dispatch) koşulda çağrılıyorsa sorun yok; sadece `useState` / `useEffect` koşul veya döngü içinde olmamalı.

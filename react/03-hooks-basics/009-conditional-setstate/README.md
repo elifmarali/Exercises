@@ -1,0 +1,1 @@
+# `if (condition) setState(x)` — koşula bağlı `setState` kullanmak Hook kurallarını ihlal eder mi? Hook’un kendisi koşul içinde değilse sorun var mı?

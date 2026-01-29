@@ -1,0 +1,1 @@
+Evet, her render’dan sonra çalışır. `fn` içinde `setState` yapılıyorsa ve bu da re-render tetikliyorsa sonsuz döngü oluşabilir. Gerekmedikçe depsiz effect kullanılmamalı; gerekiyorsa dependency’yi doğru belirle.

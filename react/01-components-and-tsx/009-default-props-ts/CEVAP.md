@@ -1,0 +1,1 @@
+Default parametre: `function Comp({ x = 1 }: Props)`. Optional `?:` ile tiplenir.

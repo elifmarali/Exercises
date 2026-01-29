@@ -1,0 +1,1 @@
+Hayır; batch’lenir, asenkron. Güncel değer için functional update `setState(prev => ...)` veya `useEffect` kullanılır.

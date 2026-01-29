@@ -1,0 +1,1 @@
+State mutate edilmemeli; aynı referans `setState`'e verilirse React değişikliği algılamayabilir. Spread ile yeni obje: `setState({ ...state, count: state.count + 1 })` veya `setState(s => ({ ...s, count: s.count + 1 }))`.

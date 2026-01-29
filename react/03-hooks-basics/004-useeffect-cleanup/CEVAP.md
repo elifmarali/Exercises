@@ -1,0 +1,1 @@
+Cleanup yapılmazsa listener/subscription unmount sonrası da kalır; memory leak ve "state update on unmounted component" uyarıları. Cleanup'ta aynı referansla `removeEventListener`, `clearInterval`, `unsubscribe` vb. yap.

@@ -1,0 +1,1 @@
+`useState` sadece ilk render’da initial değeri kullanır; `props.initialCount` değişince state değişmez. Güncellemek için `useEffect` ile `props.initialCount` değişiminde `setState` veya “key” ile component’i yeniden mount ettirmek gerekir.

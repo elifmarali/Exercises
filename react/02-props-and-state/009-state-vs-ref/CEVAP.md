@@ -1,0 +1,1 @@
+State: UI’a yansıyacak veri; değişince render. Ref: DOM, timer id, önceki değer vb.; değişince render gerekmez.

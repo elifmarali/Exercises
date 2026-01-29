@@ -1,0 +1,1 @@
+Function component ile class component farkı? Neden FC tercih edilir?

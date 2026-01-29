@@ -1,0 +1,1 @@
+React 18’de event handler, `setTimeout`, `fetch` callback’i vb. içindeki `setState`’ler otomatik batch’lenir. `flushSync` ile batch’i kırabilirsin. React 17 ve öncesinde sadece event handler içi batch’lenirdi.

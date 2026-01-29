@@ -1,0 +1,1 @@
+`children` bileşen içeriği. Tip: `React.ReactNode`. `props.children` ile render edilir.

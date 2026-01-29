@@ -1,0 +1,1 @@
+`count &&` count 0 ise 0 render edilir. Ternary veya `count > 0 &&` kullan.

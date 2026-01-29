@@ -1,0 +1,1 @@
+`React.FC` artık pek önerilmez (children implicit vs). `function Comp(props: Props)` veya `const Comp = (props: Props) => ...` tercih edilir.

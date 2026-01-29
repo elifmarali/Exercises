@@ -1,0 +1,1 @@
+Props neden read-only? Parent state değişince child nasıl güncellenir?

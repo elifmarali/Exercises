@@ -1,0 +1,1 @@
+DevTools ve hata mesajında isim. HOC / anonymous component'te ayarlanır.

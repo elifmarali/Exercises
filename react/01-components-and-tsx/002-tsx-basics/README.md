@@ -1,0 +1,1 @@
+TSX'te `React.FC` kullanmak hâlâ öneriliyor mu? Alternatif tip nasıl yazılır?

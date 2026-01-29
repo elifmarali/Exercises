@@ -1,0 +1,1 @@
+İhlal, hook’un **kendisinin** koşullu çağrılmasıyla olur. Custom hook içinde `useState` vb. kullanmak sorun değil; kurallar geçerli. Component, custom hook’u koşulda çağırıyorsa (örn. `if (x) useMyHook()`) ihlal component tarafındadır.

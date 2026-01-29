@@ -1,0 +1,1 @@
+Kullanıcıdan gelen `html` string’i XSS için basitçe "sanitize" etmek istiyorsun. `<script>` ve `onerror=` gibi ifadeleri kaldıran bir fonksiyon yaz (regex ile basit versiyon yeterli).

@@ -1,0 +1,1 @@
+Render props / “children as function” pattern’i nedir? Ne zaman kullanılır?

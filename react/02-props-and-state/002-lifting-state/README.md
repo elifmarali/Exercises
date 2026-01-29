@@ -1,0 +1,1 @@
+“Lifting state up” ne demek? State nereye konmalı?

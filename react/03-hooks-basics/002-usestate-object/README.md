@@ -1,0 +1,1 @@
+# `useState({ count: 0 })` — `setState({ count: state.count + 1 })` yerine `state.count++` yapıp `setState(state)` kullanmak neden yanlış? Immutable güncelleme nasıl yapılır?

@@ -1,0 +1,1 @@
+# `useEffect` içinde `console.log(count)` — effect `[count]` ile çalışıyorsa her zaman güncel `count` mu görülür? Closure "eski" `count` gösterebilir mi?

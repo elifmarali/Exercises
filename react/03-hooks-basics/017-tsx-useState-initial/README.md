@@ -1,0 +1,1 @@
+# TSX’te `useState<User | null>(null)` kullanıyorsun. `user` `null` iken `user.name` erişimi nasıl güvenli yapılır? Optional chaining dışında ne kullanılabilir?

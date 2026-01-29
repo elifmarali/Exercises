@@ -1,0 +1,1 @@
+# `useState` ile sayaç örneği: `const [n, setN] = useState(0)`. `setN(n + 1)` iki kez art arda çağrılırsa `n` kaç artar? Neden? Functional update `setN(c => c + 1)` kullanırsak fark ne olur?

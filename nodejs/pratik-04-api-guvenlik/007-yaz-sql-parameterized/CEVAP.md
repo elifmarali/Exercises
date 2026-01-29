@@ -1,0 +1,1 @@
+`const r = await client.query('SELECT * FROM users WHERE id = $1', [5]);` — parametreler dizi ile verilir, raw string concat yapılmaz.

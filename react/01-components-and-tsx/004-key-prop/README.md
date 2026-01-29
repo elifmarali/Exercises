@@ -1,0 +1,1 @@
+`key` neden gerekli? Listede index yerine ne kullanılmalı?

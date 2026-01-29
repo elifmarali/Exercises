@@ -1,0 +1,1 @@
+Composition (children) vs config (çok prop) ne zaman tercih edilir?

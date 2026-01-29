@@ -1,0 +1,1 @@
+# `setCount(count + 1)` ile `setCount(c => c + 1)` farkı tekrar: Event handler’da `count`’u okuyorsan neden functional update daha güvenli?

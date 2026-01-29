@@ -1,0 +1,1 @@
+State’i ilk değeri prop’tan alacak şekilde nasıl kurarsın? Prop değişince state güncellenir mi?

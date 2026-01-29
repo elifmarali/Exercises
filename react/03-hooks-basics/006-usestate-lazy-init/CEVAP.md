@@ -1,0 +1,1 @@
+İlk form her render’da `computeExpensive` çağırır. İkinci form sadece ilk render’da fonksiyonu çalıştırır; sonuç state’e yazılır. İlk değer pahalı hesaplamaysa lazy init tercih edilir.

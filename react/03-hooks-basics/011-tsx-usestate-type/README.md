@@ -1,0 +1,1 @@
+# TSX’te `useState<number>(0)` ile `useState(0)` farkı var mı? `useState<string | null>(null)` ne sağlar?
