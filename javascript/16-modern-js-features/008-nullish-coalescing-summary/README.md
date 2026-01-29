@@ -1,0 +1,1 @@
+`??` ile `||` özet farkı? Hangi durumda `??` kullanılmalı?

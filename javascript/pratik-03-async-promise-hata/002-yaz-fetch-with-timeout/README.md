@@ -1,0 +1,1 @@
+`fetchWithTimeout(url, ms)` yaz. `fetch(url)` çalışsın; `ms` içinde cevap gelmezse **reject** et. `AbortController` kullan.

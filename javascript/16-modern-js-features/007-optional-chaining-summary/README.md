@@ -1,0 +1,1 @@
+`?.` nerede kullanılır? `obj?.a?.b` ve `fn?.()` farkı?

@@ -1,0 +1,1 @@
+`promisify(fn)` yaz. `fn` callback-style: `(err, result) => {}` son argüman. `promisify(fn)(arg)` Promise dönsün; resolve `result`, reject `err`.

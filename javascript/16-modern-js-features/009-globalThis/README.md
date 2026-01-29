@@ -1,0 +1,1 @@
+`globalThis` nedir? Neden `window` veya `global` yerine kullanılır?

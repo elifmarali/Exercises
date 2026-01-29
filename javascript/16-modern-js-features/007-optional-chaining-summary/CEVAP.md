@@ -1,0 +1,1 @@
+Erişim zincirinde null/undefined’da durur, undefined döner. `fn?.()` optional çağrı; fn yoksa çağrı yapılmaz.

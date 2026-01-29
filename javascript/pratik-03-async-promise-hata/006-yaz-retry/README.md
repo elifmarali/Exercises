@@ -1,0 +1,1 @@
+`retry(fn, n)` yaz. `fn` async; reject ederse en fazla `n` kez tekrar dene. İlk resolve’ta o değeri dön; hep reject’te son reject’i fırlat.

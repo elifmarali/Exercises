@@ -1,0 +1,1 @@
+`class` ile `extends` ve `super` nasıl kullanılır? Static metot ne işe yarar?

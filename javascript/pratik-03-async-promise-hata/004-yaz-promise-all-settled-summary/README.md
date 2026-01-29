@@ -1,0 +1,1 @@
+`allSettledSummary(promises)` yaz. `Promise.allSettled` gibi çalışsın; sonuç olarak `{ fulfilled: number, rejected: number }` dönsün.

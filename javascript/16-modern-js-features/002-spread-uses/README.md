@@ -1,0 +1,1 @@
+Spread `...` nerelerde kullanılır? Clone, merge, fonksiyon argümanı örnekleri?

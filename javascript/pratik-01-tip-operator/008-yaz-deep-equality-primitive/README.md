@@ -1,0 +1,1 @@
+Sadece **primitive** ve **düz obje/dizi** (iç içe objeler dahil) için `deepEqual(a, b)` yaz. `===` ile primitive, recurse ile obje/dizi. Date, RegExp, Map ihmal.

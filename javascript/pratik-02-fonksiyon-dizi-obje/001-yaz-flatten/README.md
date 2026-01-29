@@ -1,0 +1,1 @@
+`flatten(arr)` yaz: tek seviye iç içe diziyi düzleştirsin. `[1, [2, 3], [4, [5]]]` → `[1, 2, 3, 4, [5]]`. `flat(1)` kullanma; `reduce` veya döngü ile yap.

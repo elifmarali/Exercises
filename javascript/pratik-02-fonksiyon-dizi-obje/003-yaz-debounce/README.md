@@ -1,0 +1,1 @@
+`debounce(fn, ms)` yaz. Dönen fonksiyon `ms` boyunca tekrar çağrılmazsa en son çağrıda `fn` çalışsın. Timer sıfırlansın.

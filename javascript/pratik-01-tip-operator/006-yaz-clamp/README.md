@@ -1,0 +1,1 @@
+`clamp(n, min, max)` yaz: `n < min` ise `min`, `n > max` ise `max`, else `n` dönsün. Sayı olmayan veya `min > max` için makul davran (örn. `NaN` veya `min`).

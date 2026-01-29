@@ -1,0 +1,1 @@
+`sleep(ms)` yaz: `ms` ms bekleyip resolve eden bir Promise dönsün. `await sleep(1000)` gibi kullanılacak.

@@ -1,0 +1,1 @@
+`groupBy(arr, key)` yaz. `key` bir string ise obje property adı (örn. `"type"`); obje elemanlarında `obj[key]` değerine göre grupla. Sonuç `{ "a": [...], "b": [...] }` formatında.

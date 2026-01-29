@@ -1,0 +1,1 @@
+`yield` duraklar; `next()` ile devam. Iterator döner; lazy sequence için uygun. `for...of` generator’ı tüketir.

@@ -1,0 +1,1 @@
+`memoize(fn)` yaz. `fn` tek primitive argüman alıyor. Aynı argümanla tekrar çağrıda cache’ten dön; ilk seferde `fn`’i çağırıp sonucu sakla.

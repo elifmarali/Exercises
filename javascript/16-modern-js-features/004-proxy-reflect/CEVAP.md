@@ -1,0 +1,1 @@
+Proxy obje üzerinde get/set/apply vb. trap’ler; davranışı özelleştirir. Reflect aynı işlemleri standart şekilde yapar; trap içinden default davranışı tetiklemek için kullanılır.

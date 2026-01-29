@@ -1,0 +1,1 @@
+`Symbol.iterator` ne işe yarar? `for...of` nasıl çalışır?

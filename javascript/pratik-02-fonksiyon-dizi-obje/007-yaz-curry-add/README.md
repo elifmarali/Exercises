@@ -1,0 +1,1 @@
+`add` curry olsun: `add(1)(2)(3)` → 6, `add(1, 2)(3)` → 6. En az bir argüman her çağrıda var; toplam 3 sayı gelince sonucu dön.

@@ -1,0 +1,1 @@
+`myRace(promises)` yaz. `Promise.race` gibi; ilk **settle** olan (resolve veya reject) neyse onun sonucunu döndürsün. `Promise.race` kullanma.

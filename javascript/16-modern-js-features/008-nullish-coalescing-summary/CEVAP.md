@@ -1,0 +1,1 @@
+`??` sadece null/undefined’da sağ tarafı kullanır. 0 veya '' geçerli değerken `||` bunları atar; bu durumda `??` tercih edilir.

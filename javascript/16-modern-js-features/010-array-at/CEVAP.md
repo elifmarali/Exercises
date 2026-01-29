@@ -1,0 +1,1 @@
+Negatif indeks sondan; `at(-1)` son eleman. `arr[arr.length-1]` ile aynı sonuç ama `at` daha okunaklı ve negatif index doğrudan desteklenir.

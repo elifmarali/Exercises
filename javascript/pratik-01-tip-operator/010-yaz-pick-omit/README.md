@@ -1,0 +1,1 @@
+`pick(obj, keys)` ve `omit(obj, keys)` yaz. `pick`: sadece `keys`’teki property’leri içeren yeni obje. `omit`: `keys`’tekiler hariç. Orijinali değiştirme.

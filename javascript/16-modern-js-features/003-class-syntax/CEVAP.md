@@ -1,0 +1,1 @@
+`extends` kalıtım; `super` üst sınıf constructor/metodu. `static` sınıfa ait; instance’da yok. `super()` constructor’da zorunlu (extends varsa).

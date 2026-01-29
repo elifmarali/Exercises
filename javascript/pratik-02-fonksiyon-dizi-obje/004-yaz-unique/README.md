@@ -1,0 +1,1 @@
+`unique(arr)` yaz: dizideki **tekrarları** kaldır, ilk geçişi tut. Primitive’ler için yeterli. `Set` veya `filter` + `indexOf` kullan.

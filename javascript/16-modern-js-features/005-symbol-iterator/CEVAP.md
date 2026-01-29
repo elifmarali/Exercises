@@ -1,0 +1,1 @@
+Iterable’ın iterator’ünü döndüren metot. `for...of` bu iterator’ü kullanır. Özel objelere iterasyon eklemek için `Symbol.iterator` tanımlanır.

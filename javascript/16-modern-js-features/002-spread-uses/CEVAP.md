@@ -1,0 +1,1 @@
+Dizi/obje clone: `[...a]`, `{...o}`. Merge: `{...a,...b}`. Argüman: `f(...args)`. Rest’ten farkı: rest toplar, spread açar.

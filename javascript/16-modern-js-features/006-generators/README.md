@@ -1,0 +1,1 @@
+Generator `function*` ve `yield` nasıl çalışır? Lazy iteration ile ilişkisi?

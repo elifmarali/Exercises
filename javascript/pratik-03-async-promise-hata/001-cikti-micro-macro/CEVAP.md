@@ -1,0 +1,1 @@
+1, 4, 6, 3, 5, 2. Önce senkron (1,4,6). Sonra microtask’lar (3,5). En sonda macrotask (setTimeout → 2).

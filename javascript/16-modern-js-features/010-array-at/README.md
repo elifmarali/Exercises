@@ -1,0 +1,1 @@
+`at(-1)` ne yapar? `arr[arr.length-1]` ile farkı?

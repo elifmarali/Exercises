@@ -1,0 +1,1 @@
+`isPureNumber(n)` yaz: `n` yalnızca sonlu bir sayıysa (sayı tipinde, `NaN` ve `Infinity` değilse) `true`, değilse `false` dönsün. `isNaN` / `Number.isNaN` ve `isFinite` / `Number.isFinite` farkını bilerek seç.

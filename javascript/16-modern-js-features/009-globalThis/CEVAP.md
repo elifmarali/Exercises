@@ -1,0 +1,1 @@
+Ortama göre global obje (window, global, self). Cross-platform kodda tek referans; `globalThis` kullanılır.

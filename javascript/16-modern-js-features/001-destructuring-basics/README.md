@@ -1,0 +1,1 @@
+Array ve object destructuring nasıl yapılır? Default değer ve rest ile kullanım?

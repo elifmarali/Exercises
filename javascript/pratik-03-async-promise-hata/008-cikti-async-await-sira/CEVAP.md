@@ -1,0 +1,1 @@
+3, 1, 4, 2. Önce senkron 3; `f()` başlar, 1 basar. `await` microtask’a geçer; 4 basılır. Sonra microtask, 2.

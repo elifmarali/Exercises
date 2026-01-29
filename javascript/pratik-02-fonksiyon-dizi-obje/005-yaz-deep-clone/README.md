@@ -1,0 +1,1 @@
+Sadece primitive, düz obje ve dizi (iç içe) için `deepClone(obj)` yaz. `structuredClone` kullanma; recurse ile kopyala.

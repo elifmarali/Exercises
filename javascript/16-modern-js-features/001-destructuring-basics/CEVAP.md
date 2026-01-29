@@ -1,0 +1,1 @@
+`const [a,b] = arr`, `const {x,y} = obj`. Default: `const [a=0] = []`. Rest: `const [a,...r] = arr` veya `const {x,...r} = obj`.
