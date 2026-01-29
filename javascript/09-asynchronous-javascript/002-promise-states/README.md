@@ -1,0 +1,1 @@
+# Promise'ın "pending", "fulfilled", "rejected" durumları ne demek? Bir Promise iki kez settle olabilir mi? `resolve` sonrası `reject` çağrılırsa ne olur?

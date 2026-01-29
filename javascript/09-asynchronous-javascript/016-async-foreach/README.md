@@ -1,0 +1,1 @@
+# `arr.forEach(async (x) => { await f(x); })` — `forEach` `async` callback'i bekler mi? Tüm `f(x)` çağrıları "paralel" mi?

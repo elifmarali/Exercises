@@ -1,0 +1,1 @@
+`catch` içinde hatayı yeniden fırlatmak nasıl yapılır? Neden önemli?

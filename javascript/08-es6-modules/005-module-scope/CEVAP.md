@@ -1,0 +1,1 @@
+Modül kendi scope’una sahiptir; üst seviye global değil. `var` da bu scope’ta kalır, global’e eklenmez.

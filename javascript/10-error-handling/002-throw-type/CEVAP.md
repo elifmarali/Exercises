@@ -1,0 +1,1 @@
+Herhangi bir değer atılabilir. `Error` instance’ı stack trace ve tutarlı yapı sağlar; string yerine `new Error` tercih edilir.

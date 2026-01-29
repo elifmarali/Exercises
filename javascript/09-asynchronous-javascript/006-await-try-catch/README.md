@@ -1,0 +1,1 @@
+# `async` fonksiyonda `await` hata verirse ne olur? `try/catch` olmazsa hata nereye gider? `.catch()` ile `try/catch` ne zaman tercih edilir?

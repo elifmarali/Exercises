@@ -1,0 +1,1 @@
+“Error” ile “exception” terimleri pratikte nasıl kullanılır? Fark var mı?

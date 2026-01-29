@@ -1,0 +1,1 @@
+Çalışabilir ama başlatma sırasına bağlı. Eksik veya undefined erişimine yol açabilir; mümkünse yapıyı düzeltmek gerekir.

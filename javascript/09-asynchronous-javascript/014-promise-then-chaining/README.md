@@ -1,0 +1,1 @@
+# `p.then(a).then(b).catch(c)` — `a` reject ederse `b` çalışır mı? `c` `a`'daki ve `b`'deki hataları yakalar mı?

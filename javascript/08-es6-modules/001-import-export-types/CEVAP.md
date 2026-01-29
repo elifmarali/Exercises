@@ -1,0 +1,1 @@
+Named: `export { a }; import { a }`. Default: `export default x; import x`. Bir modülde tek default; named birden fazla olabilir.

@@ -1,0 +1,1 @@
+`forEach` callback'in dönüşünü beklemez; `async` fonksiyon Promise döndürür, `forEach` bunu kullanmaz. Çağrılar fiilen paralel başlar. Sıralı beklemek için `for...of` + `await` veya `reduce` + promise zinciri kullan.

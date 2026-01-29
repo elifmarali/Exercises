@@ -1,0 +1,1 @@
+Sıra garanti değil; ortama bağlı. `setTimeout(0)` timer fazında, `setImmediate` check fazında. I/O callback içinden çağrılırsa `setImmediate` genelde önce çalışır. Kesin sıra gerekiyorsa aynı mekanizma kullan.

@@ -1,0 +1,1 @@
+# `p.then(...)` ile `await p` farkı nedir? Hangisi senkron "bloklar", hangisi kuyruğa ekler? Hata yakalama açısından fark var mı?

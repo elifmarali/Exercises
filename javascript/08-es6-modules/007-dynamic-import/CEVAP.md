@@ -1,0 +1,1 @@
+Promise döner; modül yüklendikten sonra resolve olur. Code-splitting, koşullu yükleme, lazy load için kullanılır.

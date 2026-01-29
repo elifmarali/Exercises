@@ -1,0 +1,1 @@
+Modülü tek obje gibi alır; named’ler `ns.x` olarak erişilir. Default export `ns.default` ile kullanılır.

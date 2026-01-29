@@ -1,0 +1,1 @@
+`window.onerror` yakalanmamış hataları yakalar; loglama veya raporlama için. Promise rejection’lar için `unhandledrejection` ayrı dinlenmeli.

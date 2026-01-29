@@ -1,0 +1,1 @@
+Koşul sağlanmazsa hata fırlatır. `assert.ok(x)` truthy kontrolü; `strictEqual` `===` ile karşılaştırır. Test ve invariant kontrolü için.

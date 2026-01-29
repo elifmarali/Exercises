@@ -1,0 +1,1 @@
+# Top-level `await` yoksa `async` kodu nasıl çalıştırırsın? IIFE `(async () => { await ... })()` neden kullanılır?

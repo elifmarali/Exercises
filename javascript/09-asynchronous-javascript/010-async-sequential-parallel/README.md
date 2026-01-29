@@ -1,0 +1,1 @@
+# `await a(); await b();` ile `await Promise.all([a(), b()])` farkı nedir? İkisi de "sıralı" mı çalışır?

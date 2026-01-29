@@ -1,0 +1,1 @@
+# `fetch` + `async/await` ile istek atıp JSON parse ederken `response.ok` kontrolü neden önemli? `fetch` 404'te reject mi eder?

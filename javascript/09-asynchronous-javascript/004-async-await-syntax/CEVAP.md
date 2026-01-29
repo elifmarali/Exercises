@@ -1,0 +1,1 @@
+`async` fonksiyon her zaman Promise döner; `return 1` → `Promise.resolve(1)`. `await` yalnızca `async` fonksiyon (veya top-level await destekleyen modül) içinde kullanılabilir. Top-level await ES2022 modül içinde.

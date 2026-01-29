@@ -1,0 +1,1 @@
+`import { x } from 'm'` ile alınan `x` yeniden atanabilir mi? Modül neden “read-only” sayılır?

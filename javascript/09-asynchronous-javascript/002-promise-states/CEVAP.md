@@ -1,0 +1,1 @@
+Promise tek sefer settle olur (fulfilled veya rejected). `resolve(x)` sonrası `reject` (veya tersi) görmezden gelinir; state değişmez. "Pending" → henüz settle olmamış.

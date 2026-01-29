@@ -1,0 +1,1 @@
+`fetch` HTTP hata status'larında (4xx, 5xx) reject etmez; sadece ağ hatası vb. reject. `response.ok` 2xx için `true`. Kontrol etmezsen 404 yanıtını "başarılı" gibi işleyebilirsin.

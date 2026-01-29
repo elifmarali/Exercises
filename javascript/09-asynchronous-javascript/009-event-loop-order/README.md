@@ -1,0 +1,1 @@
+# `setTimeout(f, 0)`, `Promise.resolve().then(g)`, `console.log('sync')` sırayla çağrılırsa çıktı sırası ne olur? Neden?

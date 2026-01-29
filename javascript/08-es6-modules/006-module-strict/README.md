@@ -1,0 +1,1 @@
+ES modülleri otomatik strict mode’da mı çalışır? `this` ne olur?

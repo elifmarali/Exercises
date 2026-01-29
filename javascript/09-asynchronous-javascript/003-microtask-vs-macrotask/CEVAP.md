@@ -1,0 +1,1 @@
+Microtask (Promise callback, `queueMicrotask`) macrotask'tan önce işlenir. Bir macrotask bitince tüm microtask kuyruğu boşaltılır, sonra bir sonraki macrotask. `setTimeout(fn,0)` macrotask; `then` microtask.

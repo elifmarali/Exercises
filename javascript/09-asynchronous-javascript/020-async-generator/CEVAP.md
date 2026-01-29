@@ -1,0 +1,1 @@
+Async generator `AsyncGenerator` döner; `next()` Promise döner. `for await (const x of g())` `g`'den gelen promise'ları sırayla `await` eder. Async iterable (stream, pagination) için kullanılır.

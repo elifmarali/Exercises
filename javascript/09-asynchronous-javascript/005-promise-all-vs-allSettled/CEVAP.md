@@ -1,0 +1,1 @@
+`Promise.all` biri reject olunca hemen reject eder; diğerleri çalışmaya devam eder ama sonuç kullanılmaz. `Promise.allSettled` hepsinin bitmesini bekler; her biri `{status, value|reason}` döner.

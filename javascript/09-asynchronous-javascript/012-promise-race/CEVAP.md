@@ -1,0 +1,1 @@
+`Promise.race` ilk settle olanın sonucunu verir (resolve/reject). Diğer promise'lar iptal edilmez; arka planda çalışmaya devam eder. Reject önce gelirse `race` reject döner.

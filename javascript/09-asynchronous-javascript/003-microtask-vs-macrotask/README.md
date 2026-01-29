@@ -1,0 +1,1 @@
+# Microtask vs macrotask (task) farkı nedir? `queueMicrotask`, `setTimeout(fn, 0)`, `Promise.then` sıralaması nasıldır?

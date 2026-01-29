@@ -1,0 +1,1 @@
+`f()` her zaman Promise döner. Bu promise `await x` ve `return 2` tamamlanınca `2` ile resolve olur. `await f()` → `2` (number).

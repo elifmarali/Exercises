@@ -1,0 +1,1 @@
+`catch (e)` olmadan `catch` kullanılabilir mi? Optional catch binding nedir?

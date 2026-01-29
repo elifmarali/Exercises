@@ -1,0 +1,1 @@
+`await` async fonksiyonu duraklatır; `then` callback kuyruğa eklenir, fonksiyon hemen devam eder. `await` reject'i exception yapar; `then`'de ikinci callback veya `.catch` gerekir.

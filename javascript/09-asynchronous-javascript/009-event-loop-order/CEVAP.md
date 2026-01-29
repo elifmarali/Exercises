@@ -1,0 +1,1 @@
+Önce sync: `console.log('sync')`. Sonra microtask: `g`. En sonda macrotask: `f`. Microtask kuyruğu macrotask'lar arasında tamamen boşaltılır.

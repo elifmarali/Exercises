@@ -1,0 +1,1 @@
+# `Promise.finally` ne işe yarar? `then` / `catch` ile `finally` sıralaması nasıldır? `finally` içinde return ne etkiler?

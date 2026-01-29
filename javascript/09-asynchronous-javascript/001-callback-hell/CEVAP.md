@@ -1,0 +1,1 @@
+Derin iç içe callback'ler okunabilirliği ve hata yönetimini zorlaştırır. Çözümler: isimlendirilmiş fonksiyonlara bölme, Promise zinciri, `async/await`, `async` kütüphaneler (örn. `fs.promises`).

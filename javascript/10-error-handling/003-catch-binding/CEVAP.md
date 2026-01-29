@@ -1,0 +1,1 @@
+ES2019’da `catch { }` geçerli; binding zorunlu değil. Hata nesnesine ihtiyaç yoksa kullanılır.

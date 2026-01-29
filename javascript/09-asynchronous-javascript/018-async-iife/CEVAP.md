@@ -1,0 +1,1 @@
+`(async () => { await ... })()` hemen çalışan async IIFE; içinde `await` kullanılabilir. Dönen Promise'ı `.catch()` ile veya `then` ile dinlemek iyi fikir; unhandled rejection olmasın.

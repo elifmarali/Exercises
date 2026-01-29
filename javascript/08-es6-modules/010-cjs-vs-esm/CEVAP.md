@@ -1,0 +1,1 @@
+`require` senkron, runtime’da; `import` statik, hoisting’e benzer. Node’da ESM tercih edilir; `type: 'module'` veya `.mjs` ile.

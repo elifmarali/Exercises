@@ -1,0 +1,1 @@
+# `Promise.all` ile `Promise.allSettled` farkı nedir? Biri reject olunca `Promise.all` nasıl davranır? Hepsinin bitmesini beklemek için hangisi kullanılır?

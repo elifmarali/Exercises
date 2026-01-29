@@ -1,0 +1,1 @@
+Circular dependency (A → B → A) tehlikeli mi? Ne zaman sorun çıkar?

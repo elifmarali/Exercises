@@ -1,0 +1,1 @@
+# `async function* g() { yield await f(); }` — `async generator` ne döner? `for await (...)` ile nasıl kullanılır?

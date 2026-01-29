@@ -1,0 +1,1 @@
+Promise rejection nasıl yakalanır? Unhandled rejection nedir?

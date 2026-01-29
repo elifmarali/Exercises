@@ -1,0 +1,1 @@
+`throw` ile ne atılabilir? `throw 'err'` vs `throw new Error('err')` farkı?

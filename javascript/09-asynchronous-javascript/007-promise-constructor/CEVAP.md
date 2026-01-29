@@ -1,0 +1,1 @@
+İlk `resolve`/`reject` geçerli; sonrakiler yok sayılır. `resolve(p)` ile `p` Promise ise, dönen promise `p`'nin sonucuna göre settle olur (unwrap).

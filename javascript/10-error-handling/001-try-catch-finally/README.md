@@ -1,0 +1,1 @@
+`try` / `catch` / `finally` sırası ve rolleri neler? `finally` ne zaman çalışır?

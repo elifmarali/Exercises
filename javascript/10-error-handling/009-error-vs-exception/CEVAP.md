@@ -1,0 +1,1 @@
+Çoğu bağlamda aynı anlamda; exception throw edilen şey, Error tipi. Dil spesifikasyonunda ayrım olabilir; günlük kullanımda karışık geçer.

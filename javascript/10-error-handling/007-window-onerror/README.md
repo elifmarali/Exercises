@@ -1,0 +1,1 @@
+Tarayıcıda global hata yakalama nasıl yapılır? `window.onerror` ne sağlar?

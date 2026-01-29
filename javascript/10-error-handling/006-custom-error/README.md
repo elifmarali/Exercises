@@ -1,0 +1,1 @@
+Özel `Error` alt sınıfı nasıl oluşturulur? `name` ve `message` neden set edilir?

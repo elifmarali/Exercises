@@ -1,0 +1,1 @@
+# `Promise.race` ne yapar? İlk settle olan kazanır; diğerleri iptal edilir mi? Reject önce gelirse ne olur?

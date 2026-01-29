@@ -1,0 +1,1 @@
+# `new Promise((resolve, reject) => { ... })` — `resolve`/`reject` birden fazla kez çağrılırsa ne olur? `resolve`e Promise geçirirsen ne olur?

@@ -1,0 +1,1 @@
+`await a(); await b();` sıralı: önce `a` biter, sonra `b` başlar. `Promise.all([a(), b()])` paralel başlatır, ikisi de biter diye bekler. `a` ve `b` içinde await varsa yine overlap olabilir.

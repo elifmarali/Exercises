@@ -1,0 +1,1 @@
+`finally` resolve/reject fark etmeksizin çalışır; temizlik vb. için. Her zaman `then`/`catch`'ten sonra çalışır. `finally` kendi return değeri ile zinciri override etmez; önceki resolve/reject geçer (exception hariç).

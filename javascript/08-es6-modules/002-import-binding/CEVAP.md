@@ -1,0 +1,1 @@
+Binding read-only; `x = 1` hatadır. Modül aktarımı “canlı” bağlantıdır; kaynak değişirse import eden de görür.

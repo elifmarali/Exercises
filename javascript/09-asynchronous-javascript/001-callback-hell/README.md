@@ -1,0 +1,1 @@
+# "Callback hell" nedir? İç içe `fs.readFile` / `setTimeout` callback'leri hangi sorunları yaratır? Okunabilirlik ve hata yönetimi açısından ne yapılabilir?

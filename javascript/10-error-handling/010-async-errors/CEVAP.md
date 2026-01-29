@@ -1,0 +1,1 @@
+Rejection exception’a dönüşür; `try/catch` ile yakalanır. Yakalanmazsa async fonksiyon reject eden Promise döner.

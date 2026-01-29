@@ -1,0 +1,1 @@
+`export { x } from './a'` ne yapar? Re-export ile farkı var mı?

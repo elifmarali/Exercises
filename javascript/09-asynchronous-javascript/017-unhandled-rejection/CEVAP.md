@@ -1,0 +1,1 @@
+Promise reject edilip hiç `catch` / `try-catch` ile yakalanmazsa unhandled rejection oluşur. Her `then` zincirinde `.catch` veya `async` içinde `try/catch` kullan. `process.on('unhandledRejection', ...)` (Node) ve `unhandledrejection` (tarayıcı) ile loglayabilirsin.

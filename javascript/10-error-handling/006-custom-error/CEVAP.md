@@ -1,0 +1,1 @@
+`class MyError extends Error {}`; `constructor`’da `super(message)`, `this.name = 'MyError'`. Doğru stack ve `instanceof` kontrolü için.

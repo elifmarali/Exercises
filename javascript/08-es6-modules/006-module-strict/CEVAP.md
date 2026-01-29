@@ -1,0 +1,1 @@
+Evet, modüller otomatik strict. Üst seviye `this` `undefined`.

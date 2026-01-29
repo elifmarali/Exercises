@@ -1,0 +1,1 @@
+`throw e;` ile rethrow. Loglayıp tekrar fırlatarak üst seviyeye iletebilirsin; aksi halde hata “yutulmuş” olur.

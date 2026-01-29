@@ -1,0 +1,1 @@
+# "Unhandled promise rejection" nedir? Nasıl önlenir? Node.js ve tarayıcıda nasıl dinlenir?

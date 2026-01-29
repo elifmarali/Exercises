@@ -1,0 +1,1 @@
+# Node.js'te `setTimeout(fn, 0)` ile `setImmediate(fn)` sıralaması garanti mi? Hangisi genelde önce çalışır?

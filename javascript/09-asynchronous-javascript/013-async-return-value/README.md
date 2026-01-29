@@ -1,0 +1,1 @@
+# `async function f() { await x; return 2; }` — `f()` ne döner? `await f()` ne döner?

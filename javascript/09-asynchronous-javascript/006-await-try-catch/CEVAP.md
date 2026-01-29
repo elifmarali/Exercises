@@ -1,0 +1,1 @@
+`await` reject ederse exception fırlatılır. `try/catch` yoksa promise rejection (unhandled) olur; çağıran `catch` veya `try/catch` ile yakalanmalı. `.catch()` zincirde kullanışlı; `try/catch` satır bazlı kontrol ve `finally` için.

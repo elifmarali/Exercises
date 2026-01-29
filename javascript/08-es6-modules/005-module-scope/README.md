@@ -1,0 +1,1 @@
+ES modül dosyasında üst seviye scope neden “global” değil? `var` bile global’e yazılmaz mı?

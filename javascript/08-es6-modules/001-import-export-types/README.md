@@ -1,0 +1,1 @@
+`import` ve `export` türleri neler? Named vs default export farkı nedir?

@@ -1,0 +1,1 @@
+`async` fonksiyonda hata nasıl yayılır? `await` reject ederse ne olur?

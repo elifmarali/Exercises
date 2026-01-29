@@ -1,0 +1,1 @@
+`a` modülündeki `x`’i bu modülden export eder; bu modülde `x` binding’i oluşturmaz. Re-export.

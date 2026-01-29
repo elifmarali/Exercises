@@ -1,0 +1,1 @@
+`import * as ns from 'm'` ne yapar? `ns.default` ne zaman anlamlı?

@@ -1,0 +1,1 @@
+`try` dene; hata olursa `catch`. `finally` her durumda (return/throw olsa bile) çalışır. `catch` olmadan `try`+`finally` de geçerli.

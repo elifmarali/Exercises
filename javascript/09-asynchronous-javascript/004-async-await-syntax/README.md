@@ -1,0 +1,1 @@
+# `async function f() { return 1; }` ne döner? `await` sadece `async` fonksiyon içinde mi kullanılabilir? Top-level `await` nedir?

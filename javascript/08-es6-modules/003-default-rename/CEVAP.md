@@ -1,0 +1,1 @@
+`import foo from 'm'` — isim serbest. `import { default as foo } from 'm'` da kullanılabilir.

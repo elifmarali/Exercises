@@ -1,0 +1,1 @@
+`.catch()` veya `try/catch` içinde `await`. Reject edilip yakalanmazsa “unhandled rejection”; process/uygulama çökebilir veya uyarı verir.

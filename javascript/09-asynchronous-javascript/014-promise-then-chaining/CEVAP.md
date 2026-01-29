@@ -1,0 +1,1 @@
+`a` reject ederse `b` çalışmaz; zincir `c`'e düşer. `c` hem `a` hem `b` (ve önceki `then`'ler) reject'lerini yakalar. `catch`'ten sonra yeni bir promise döner; tekrar `then` zincirlenebilir.

@@ -1,0 +1,1 @@
+Default export nasıl import edilir? İsim vermek zorunlu mu?
