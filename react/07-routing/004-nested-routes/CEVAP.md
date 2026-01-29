@@ -1,0 +1,1 @@
+Route içinde child Route; path birleşir. Outlet, child route'un render edileceği yeri gösterir.

@@ -1,0 +1,1 @@
+Evet. Her setState → render → effect → setState döngüsü oluşabilir. Koşullu güncelleme veya başka deps (örn. event) kullan; gereksiz setState’ten kaçın.

@@ -1,0 +1,1 @@
+Context value değişince hangi component’ler re-render olur?

@@ -1,0 +1,1 @@
+Birden fazla effect’in çalışma sırası garantili mi?

@@ -1,0 +1,1 @@
+Provider yoksa consumer default’u görür. Provider olmadan kullanım (örn. storybook) veya fallback için. Provider varsa default yok sayılır.

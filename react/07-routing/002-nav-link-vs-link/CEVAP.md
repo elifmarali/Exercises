@@ -1,0 +1,1 @@
+Link sadece navigate. NavLink aktif route'ta className/style alır; activeClass aktif iken uygulanır.

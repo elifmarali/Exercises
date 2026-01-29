@@ -1,0 +1,1 @@
+Evet; closure o anki değeri tutar. Abort + ignore pattern veya güncel değeri ref’te tutup kontrol et. Gerekirse deps’e ekle (tekrar fetch).

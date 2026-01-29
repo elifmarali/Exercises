@@ -1,0 +1,1 @@
+Re-run öncesi ve unmount’ta. Listener, subscription, timer temizlenmezse leak ve “state update on unmounted” uyarıları olur.

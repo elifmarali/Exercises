@@ -1,0 +1,1 @@
+Evet, React aynı `dispatch`’i garanti eder. `useEffect` deps’e eklemeye gerek yok.

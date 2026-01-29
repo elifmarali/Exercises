@@ -1,0 +1,1 @@
+`useCallback(fn, deps)` deps’e ne konmalı? Eksik deps neye yol açar?

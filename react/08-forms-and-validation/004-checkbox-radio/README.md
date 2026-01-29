@@ -1,0 +1,1 @@
+Checkbox ve radio controlled nasıl yönetilir? `checked` vs `value`?

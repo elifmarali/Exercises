@@ -1,0 +1,1 @@
+Layout: DOM güncelleri sonrası, paint’ten önce senkron çalışır. DOM ölçümü veya flicker önleme gibi işlerde. Çoğu durumda `useEffect` yeterli.

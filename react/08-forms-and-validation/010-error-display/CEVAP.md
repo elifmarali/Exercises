@@ -1,0 +1,1 @@
+State’te errors (alan bazlı); render’da ilgili input altında veya inline. Form lib kullanıyorsan onun error API’si.

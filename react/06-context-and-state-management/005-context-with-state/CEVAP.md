@@ -1,0 +1,1 @@
+Evet; basit senaryolarda yeterli. Redux middleware, time-travel, tek store, daha katı yapı sunar. Küçük uygulamada Context + state sık kullanılır.

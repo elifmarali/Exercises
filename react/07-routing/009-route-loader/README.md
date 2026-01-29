@@ -1,0 +1,1 @@
+Data loading (loader) React Router v6'da nasıl kullanılır?

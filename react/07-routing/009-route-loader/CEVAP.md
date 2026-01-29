@@ -1,0 +1,1 @@
+Route'ta loader fn; useLoaderData ile veri alınır. Fetch route render öncesi veya paralel yapılabilir.

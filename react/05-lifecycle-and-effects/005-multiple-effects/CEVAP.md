@@ -1,0 +1,1 @@
+Evet. İlgili mantığı ayrı effect’lere bölmek okunabilirlik ve doğru deps için iyidir.

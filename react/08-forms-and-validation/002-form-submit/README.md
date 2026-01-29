@@ -1,0 +1,1 @@
+Form submit'te sayfa yenilenmesi nasıl engellenir? `e.preventDefault` nerede kullanılır?

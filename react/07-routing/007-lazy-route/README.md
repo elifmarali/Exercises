@@ -1,0 +1,1 @@
+Route-based code splitting nasıl yapılır? `React.lazy` ve `Suspense`?

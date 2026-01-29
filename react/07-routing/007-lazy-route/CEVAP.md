@@ -1,0 +1,1 @@
+React.lazy ile route component import; Suspense fallback ile sar. Route lazy load edilir.

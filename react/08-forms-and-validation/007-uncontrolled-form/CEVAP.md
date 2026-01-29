@@ -1,0 +1,1 @@
+Ref ile input’a eriş; submit'te ref.current.value. Basit formlarda; controlled genelde tercih edilir.

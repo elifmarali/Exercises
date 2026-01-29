@@ -1,0 +1,1 @@
+Controlled input nasıl yapılır? value + onChange neden birlikte kullanılır?

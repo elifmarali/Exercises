@@ -1,0 +1,1 @@
+Evet; hook’lar sadece hook veya component içinde çağrılır. `use` prefix convention ve lint için önemli.

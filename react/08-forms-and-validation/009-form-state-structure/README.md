@@ -1,0 +1,1 @@
+Çok alanlı formda state yapısı nasıl olmalı? Tek obje vs ayrı state?

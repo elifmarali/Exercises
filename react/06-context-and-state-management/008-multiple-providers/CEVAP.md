@@ -1,0 +1,1 @@
+Evet. İçteki Provider kazanır; consumer en yakın Provider’ı kullanır.

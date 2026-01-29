@@ -1,0 +1,1 @@
+Tek obje sık kullanılır; useReducer veya form lib ile. Gerekirse alan grupları ayrılabilir.

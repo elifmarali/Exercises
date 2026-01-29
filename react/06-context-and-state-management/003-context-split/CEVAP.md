@@ -1,0 +1,1 @@
+Sadece değişen context’i kullananlar re-render olur. Tek dev context’te her değişimde tüm consumer’lar etkilenir.

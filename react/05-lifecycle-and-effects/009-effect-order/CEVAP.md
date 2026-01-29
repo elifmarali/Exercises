@@ -1,0 +1,1 @@
+Evet; tanım sırasına göre çalışır. Önce tüm cleanup’lar (önceki render’a ait), sonra tüm effect’ler.

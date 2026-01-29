@@ -1,0 +1,1 @@
+İlgili `useContext` kullanan tüm consumer’lar. Value referansı değişince hepsi yeniden render olur; gereksiz render için value memoize edilebilir.

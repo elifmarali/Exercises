@@ -1,0 +1,1 @@
+Query string (search params) nasıl okunur ve güncellenir?

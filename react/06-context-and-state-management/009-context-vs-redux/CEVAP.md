@@ -1,0 +1,1 @@
+Basit, az güncellenen global state’te Context yeterli. Büyük, sık güncellenen, middleware gerektiren state’te Redux (veya benzeri) tercih edilir.

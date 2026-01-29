@@ -1,0 +1,1 @@
+Mount: `useEffect(fn, [])`. Unmount: aynı effect’in cleanup’ı. `useEffect` hem mount hem update’i kapsar; deps boşsa sadece mount/unmount.

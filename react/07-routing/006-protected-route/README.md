@@ -1,0 +1,1 @@
+Korumalı route (auth) nasıl uygulanır? Redirect nereye yapılır?

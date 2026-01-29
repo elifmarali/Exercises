@@ -1,0 +1,1 @@
+Bir component’te birden fazla `useEffect` kullanmak doğru mu?

@@ -1,0 +1,1 @@
+Provider ile wrap edilir; test için özel value verilebilir. Mock context veya gerçek provider kullanılır.

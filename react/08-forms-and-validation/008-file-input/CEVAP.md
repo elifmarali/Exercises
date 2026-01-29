@@ -1,0 +1,1 @@
+File input genelde uncontrolled; value set edilmez. Ref veya onChange ile files alınır.

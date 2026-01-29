@@ -1,0 +1,1 @@
+On submit zorunlu; on blur/change ile erken feedback verilebilir. UX ve gereksiz uyarı dengesi.

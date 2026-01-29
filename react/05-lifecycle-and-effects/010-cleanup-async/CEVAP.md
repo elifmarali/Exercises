@@ -1,0 +1,1 @@
+Cleanup senkron olmalı. Async iş başlatıp “iptal” veya “yoksay” deseni kullan; cleanup’ta sadece subscription/timer iptali gibi senkron işler yapılır.

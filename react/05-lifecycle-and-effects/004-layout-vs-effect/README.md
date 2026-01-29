@@ -1,0 +1,1 @@
+DOM ölçümü veya “flash” önleme için `useEffect` yeterli mi?

@@ -1,0 +1,1 @@
+Context “Redux’ın yerine” kullanılır mı? Ne zaman Redux tercih edilir?

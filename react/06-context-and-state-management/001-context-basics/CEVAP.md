@@ -1,0 +1,1 @@
+Ortak veriyi arada geçmeden paylaşmak. Provider → consumer; prop drilling azalır. Küçük ağaçlarda prop geçmek daha sade olabilir.

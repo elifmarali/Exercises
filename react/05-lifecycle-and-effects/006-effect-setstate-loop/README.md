@@ -1,0 +1,1 @@
+Effect içinde setState, state’i deps’e koyunca sonsuz döngü riski var mı?

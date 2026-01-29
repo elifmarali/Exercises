@@ -1,0 +1,1 @@
+Ref’e parent’ın erişeceği değeri (metot vb.) açıkça tanımlar. `forwardRef` + `useImperativeHandle` ile “command” API sunulur.

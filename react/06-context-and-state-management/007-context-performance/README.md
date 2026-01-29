@@ -1,0 +1,1 @@
+Context’ten gelen değer değişmediği halde consumer neden re-render olur?

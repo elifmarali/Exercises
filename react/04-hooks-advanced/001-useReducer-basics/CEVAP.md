@@ -1,0 +1,1 @@
+Karmaşık state, birçok alt alan veya “sonraki state öncekine bağlı” güncellemelerde. Tek reducer ile merkezi update mantığı.

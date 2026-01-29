@@ -1,0 +1,1 @@
+`componentDidMount`, `componentWillUnmount` hooks’ta nereye denk gelir?

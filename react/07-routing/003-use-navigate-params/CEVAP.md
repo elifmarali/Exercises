@@ -1,0 +1,1 @@
+useNavigate → navigate fn; navigate('/path'). useParams → route params objesi. Programatik: navigate('/path') veya navigate(-1).

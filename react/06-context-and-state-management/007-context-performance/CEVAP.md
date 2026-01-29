@@ -1,0 +1,1 @@
+Provider’a verilen `value` referansı her render’da yeni olabilir. `useState`/`useMemo` ile value’yu sabitlemek gerekir.

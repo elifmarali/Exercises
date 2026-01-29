@@ -1,0 +1,1 @@
+Aynı veriyi sağlar. `useContext` hook ile daha sade; Consumer render-prop pattern’i. Yeni kodda `useContext` tercih edilir.

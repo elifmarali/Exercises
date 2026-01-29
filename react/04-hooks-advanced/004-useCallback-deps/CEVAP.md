@@ -1,0 +1,1 @@
+fn içinde kullanılan dış değerler deps’te olmalı. Eksikse stale closure. Gereksiz fazla deps de yeniden oluşturmaya sebep olur.

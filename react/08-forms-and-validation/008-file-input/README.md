@@ -1,0 +1,1 @@
+Dosya input’u React’ta nasıl kullanılır? Controlled mi?

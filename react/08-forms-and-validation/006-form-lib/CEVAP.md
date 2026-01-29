@@ -1,0 +1,1 @@
+State, validation, error handling, performance (az re-render). Karmaşık formlarda tercih edilir.

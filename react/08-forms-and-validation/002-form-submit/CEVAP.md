@@ -1,0 +1,1 @@
+onSubmit handler'da e.preventDefault(). Yoksa default form submit sayfa yeniler.

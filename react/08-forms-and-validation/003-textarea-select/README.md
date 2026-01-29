@@ -1,0 +1,1 @@
+`textarea` ve `select` React'ta controlled nasıl kullanılır?

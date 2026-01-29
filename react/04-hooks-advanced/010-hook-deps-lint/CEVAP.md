@@ -1,0 +1,1 @@
+Eksik deps stale closure’a yol açar. Gerçekten sadece mount’ta çalacak, dependency eklenemeyecek efektlerde (dikkatle) kapatılabilir; çoğu zaman deps düzeltilmeli.

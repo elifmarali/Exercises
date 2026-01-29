@@ -1,0 +1,1 @@
+Ref değişince re-render olmaz. Okuma/yazma component’in kendi mantığında (effect, handler); render’da ref’e yazıp okumak kaçınılır.

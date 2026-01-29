@@ -1,0 +1,1 @@
+Cleanup’ta async iş yapılabilir mi? `await` kullanılır mı?

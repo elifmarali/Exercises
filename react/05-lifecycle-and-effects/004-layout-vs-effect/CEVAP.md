@@ -1,0 +1,1 @@
+Bazen yetmez; paint öncesi senkron güncelleme gerekiyorsa `useLayoutEffect` kullanılır. Ölçüm + state güncellemesi sıralı olsun diye.

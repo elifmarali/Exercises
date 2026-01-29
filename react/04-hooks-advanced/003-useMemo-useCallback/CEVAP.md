@@ -1,0 +1,1 @@
+`useMemo` hesaplanmış değer, `useCallback` fonksiyon referansı cache’ler. Gereksiz re-render veya pahalı hesap varsa kullan; ölçmeden ekleme.

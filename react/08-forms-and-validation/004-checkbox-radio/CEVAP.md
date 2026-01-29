@@ -1,0 +1,1 @@
+checked (boolean) + onChange. Radio group'da aynı name, value ile seçili olan. State ile checked/value kontrol edilir.

@@ -1,0 +1,1 @@
+Auth kontrolü yapan component; yetkisizse Navigate to='/login' veya navigate('/login'). Wrapper route veya layout içinde.

@@ -1,0 +1,1 @@
+`useNavigate` ve `useParams` ne döner? Programatik yönlendirme nasıl yapılır?

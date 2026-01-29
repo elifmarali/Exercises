@@ -1,0 +1,1 @@
+Effect içinde fetch yapılırken component unmount olursa ne yapılmalı?

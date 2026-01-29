@@ -1,0 +1,1 @@
+Custom hook yazarken hook kuralları geçerli mi? İsim `use` ile başlamalı mı?

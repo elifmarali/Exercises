@@ -1,0 +1,1 @@
+useSearchParams hook. get('key'), setSearchParams. URL ile senkron kalır.

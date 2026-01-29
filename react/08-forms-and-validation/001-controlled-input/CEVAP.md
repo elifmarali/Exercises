@@ -1,0 +1,1 @@
+value state'ten, onChange state günceller. Tek kaynak; React state gerçek kaynak.

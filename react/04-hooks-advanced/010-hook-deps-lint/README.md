@@ -1,0 +1,1 @@
+`exhaustive-deps` kuralı neden önemli? Bazen kapatmak ne zaman kabul edilebilir?

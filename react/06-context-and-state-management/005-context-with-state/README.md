@@ -1,0 +1,1 @@
+Context + `useState` ile global state yönetimi mümkün mü? Redux’a göre eksikleri?

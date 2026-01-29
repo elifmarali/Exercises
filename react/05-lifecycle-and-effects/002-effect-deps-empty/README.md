@@ -1,0 +1,1 @@
+`useEffect(fn, [])` “mount’ta bir kez” güvenli mi? ESLint uyarısı neden çıkar?

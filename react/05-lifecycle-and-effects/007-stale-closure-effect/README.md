@@ -1,0 +1,1 @@
+Effect’teki async iş (fetch) tamamlandığında state “eski” olabilir mi?

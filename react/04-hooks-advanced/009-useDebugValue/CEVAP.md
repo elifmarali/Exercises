@@ -1,0 +1,1 @@
+Custom hook için DevTools’ta görünen etiket. Debug amaçlı; production’da da kalabilir.

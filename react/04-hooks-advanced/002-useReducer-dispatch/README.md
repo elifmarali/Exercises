@@ -1,0 +1,1 @@
+`dispatch` referansı stable mı? Dependency array’de güvenle atlanır mı?

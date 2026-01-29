@@ -1,0 +1,1 @@
+HTML'den farklı: textarea value prop alır. select value + onChange. İkisi de controlled pattern.

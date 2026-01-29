@@ -1,0 +1,1 @@
+Amaç mount-only; ama fn içinde kullanılan değerler deps’te yoksa stale. Lint bunu söyler. Gerçekten mount-only ise (global listener vb.) bilinçli kapatılabilir.

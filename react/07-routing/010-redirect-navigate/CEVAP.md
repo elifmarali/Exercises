@@ -1,0 +1,1 @@
+RR v6'da Redirect yok; Navigate kullanılır. replace=true history'ye push etmez, mevcut kaydı değiştirir.

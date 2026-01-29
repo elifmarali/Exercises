@@ -1,0 +1,1 @@
+AbortController veya `let cancelled` ile cleanup’ta iptal; then içinde `if (cancelled) return` ile setState’i atlama. Unmount sonrası setState hatası önlenir.
