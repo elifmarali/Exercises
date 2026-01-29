@@ -1,0 +1,1 @@
+JS kodu tek thread’de çalışır; event loop bu thread’i yönetir. libuv’ün thread pool’u ağır/senkron sistem çağrıları (bazı `fs`, `crypto`, `zlib`) için kullanılır; tamamlanınca callback loop’a verilir. Ağ I/O genelde pool’da değil, OS async mekanizmasındadır.

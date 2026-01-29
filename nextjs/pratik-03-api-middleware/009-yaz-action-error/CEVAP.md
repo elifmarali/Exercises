@@ -1,0 +1,1 @@
+`try { ... } catch (e) { return { error: 'İşlem başarısız' }; }`. Form’da `useActionState` vb. ile `result.error` gösterilir.

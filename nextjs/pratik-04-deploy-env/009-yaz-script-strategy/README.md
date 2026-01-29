@@ -1,0 +1,1 @@
+Üçüncü parti analytics script’i sayfa yüklendikten sonra, blocking etmeden çalışsın. `next/script` ile hangi `strategy` kullanılır?

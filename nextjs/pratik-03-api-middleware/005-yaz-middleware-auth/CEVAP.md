@@ -1,0 +1,1 @@
+`matcher` `/dashboard.*`. İçerde `const session = request.cookies.get('session'); if (!session) return NextResponse.redirect(new URL('/login', request.url)); return NextResponse.next();`.

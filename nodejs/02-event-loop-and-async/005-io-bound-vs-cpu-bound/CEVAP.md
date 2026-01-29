@@ -1,0 +1,1 @@
+I/O: bekleme süresi çok (ağ, disk); loop bloklanmaz, başka işler yapılır. CPU-bound: yoğun hesaplama; tek thread’de loop bloklanır. CPU-bound iş worker_threads veya child process’e taşınmalı; böylece loop serbest kalır.

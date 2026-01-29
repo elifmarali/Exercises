@@ -1,0 +1,1 @@
+require senkron, runtime. import statik, modül yükleme. type:module ile ES; .cjs ile CJS. Karışık projede dikkat.

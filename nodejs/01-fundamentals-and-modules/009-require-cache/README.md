@@ -1,0 +1,1 @@
+`require` cache’i nasıl çalışır? Aynı modül iki kez require edilirse?

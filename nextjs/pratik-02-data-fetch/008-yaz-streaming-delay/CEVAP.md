@@ -1,0 +1,1 @@
+Hızlı veriyi doğrudan render et. Yavaş kısmı ayrı async component yap, `Suspense` ile sar; fallback göster, 2 sn sonra asıl içerik gelir.

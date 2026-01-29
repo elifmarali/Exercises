@@ -1,0 +1,1 @@
+# Node.js event loop’un temel fazları nelerdir? `timers`, `poll`, `check`, `close callbacks` sırası nasıldır?

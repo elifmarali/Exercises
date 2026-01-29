@@ -1,0 +1,1 @@
+Proje tanımı, bağımlılıklar. scripts: start, test, vb. npm run X ile çalışır.

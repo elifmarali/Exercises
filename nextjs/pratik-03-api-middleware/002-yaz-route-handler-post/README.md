@@ -1,0 +1,1 @@
+`app/api/users/route.ts`: `POST` body `{ name: string }` alsın, `name`’i loglayıp `201` ve `{ id: 1, name }` dönsün.

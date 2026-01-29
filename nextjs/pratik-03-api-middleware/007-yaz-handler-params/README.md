@@ -1,0 +1,1 @@
+`app/api/users/[id]/route.ts` içinde `id`’i alıp `GET` yanıtında `{ id }` döndür. `params` kullan.

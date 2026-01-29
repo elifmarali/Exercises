@@ -1,0 +1,1 @@
+`<Suspense fallback={<p>Liste yükleniyor...</p>}><SlowList /></Suspense>`.

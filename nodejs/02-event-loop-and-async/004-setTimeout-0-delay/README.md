@@ -1,0 +1,1 @@
+# `setTimeout(fn, 0)` gerçekten 0 ms sonra mı çalışır? Minimum gecikme (cap) nedir? `setImmediate` ile `setTimeout(fn, 0)` sırası garanti mi?

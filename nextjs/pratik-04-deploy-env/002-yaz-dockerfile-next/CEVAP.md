@@ -1,0 +1,1 @@
+Build stage: `node` image, `npm run build`. Run stage: `node .next/standalone/server.js` (ve `copy .next/static` vb. gerekebilir; `next build` standalone için doc’a bak).

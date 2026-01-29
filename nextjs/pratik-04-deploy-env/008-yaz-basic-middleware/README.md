@@ -1,0 +1,1 @@
+`middleware.ts` root’ta. Tüm isteklerde `request.headers.get('x-custom') === 'block'` ise `403` dönsün; değilse `NextResponse.next()`.

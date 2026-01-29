@@ -1,0 +1,1 @@
+`<Script src="..." strategy="lazyOnload" />` veya `afterInteractive`. `lazyOnload` en geç yüklenir.

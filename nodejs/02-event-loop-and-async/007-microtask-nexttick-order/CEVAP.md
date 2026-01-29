@@ -1,0 +1,1 @@
+`nextTick` kuyruğu `queueMicrotask` (Promise) kuyruğundan önce işlenir. İkisi de "mevcut iş bittikten hemen sonra" çalışır ama `nextTick` öncelikli. Aşırı `nextTick` microtask’ları geciktirebilir; dikkatli kullanılmalı.

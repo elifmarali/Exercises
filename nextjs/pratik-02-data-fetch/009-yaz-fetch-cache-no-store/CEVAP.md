@@ -1,0 +1,1 @@
+`fetch(url, { cache: 'no-store' })` veya `export const dynamic = 'force-dynamic';` ile segment’i dynamic yap.

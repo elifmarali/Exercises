@@ -1,0 +1,1 @@
+`npm init` ve `package.json` script’leri ne işe yarar?

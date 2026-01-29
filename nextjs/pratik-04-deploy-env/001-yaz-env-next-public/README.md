@@ -1,0 +1,1 @@
+Client’ta `process.env.NEXT_PUBLIC_API_URL` kullanmak için `.env.local`’de nasıl tanımlanır? Örnek değer ver.

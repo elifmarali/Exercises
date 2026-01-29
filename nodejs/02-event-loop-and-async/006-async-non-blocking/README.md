@@ -1,0 +1,1 @@
+# "Node asenkron ve non-blocking" derken tam olarak ne kastedilir? `fs.readFile` (callback) loop’u bloklar mı? `fs.readFileSync` bloklar mı?

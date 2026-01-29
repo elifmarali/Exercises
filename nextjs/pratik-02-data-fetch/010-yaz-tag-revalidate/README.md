@@ -1,0 +1,1 @@
+`fetch(..., { next: { tags: ['products'] } })` kullanıyorsun. Bu tag’e bağlı cache’i invalidate etmek için ne çağrılır?

@@ -1,0 +1,1 @@
+# Event loop "bloklanması" ne demek? Uzun süren senkron CPU işi (ör. büyük döngü) loop’u nasıl etkiler? Çözümler neler?

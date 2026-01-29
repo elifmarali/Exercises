@@ -1,0 +1,1 @@
+`revalidatePath('/products')` veya ilgili tag kullanıyorsan `revalidateTag('products')`. Action içinde mutation sonrası çağır.

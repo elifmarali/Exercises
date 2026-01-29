@@ -1,0 +1,1 @@
+Server Action’da `POST /api/products` ile ürün ekledikten sonra `/products` listesini güncellemek için ne yaparsın?

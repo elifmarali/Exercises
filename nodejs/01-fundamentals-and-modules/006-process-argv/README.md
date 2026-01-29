@@ -1,0 +1,1 @@
+`process.argv` ne içerir? CLI argümanları nasıl parse edilir?

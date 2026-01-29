@@ -1,0 +1,1 @@
+`/api/health` Route Handler yaz. `200` ve `{ ok: true }` dönsün.

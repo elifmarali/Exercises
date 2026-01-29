@@ -1,0 +1,1 @@
+Minimum gecikme genelde ~1–4 ms (implementasyon ve yüke bağlı). `setTimeout(fn, 0)` timers fazında, `setImmediate` check fazında; I/O context dışında sıra garanti değil. Kesin sıra gerekiyorsa aynı mekanizmayı kullan.

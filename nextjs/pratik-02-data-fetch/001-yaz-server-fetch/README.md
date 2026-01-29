@@ -1,0 +1,1 @@
+App Router’da `/products` sayfası (server component). `/api/products`’tan fetch et, listeyi render et. `async` page.

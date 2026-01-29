@@ -1,0 +1,1 @@
+Middleware’de `/dashboard` için basit auth: `request.cookies.get('session')` yoksa `/login`’e redirect. `NextResponse.redirect` kullan.

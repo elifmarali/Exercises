@@ -1,0 +1,1 @@
+Ortam değişkenleri. NODE_ENV development/production/test. Config, API URL vb. için kullanılır.

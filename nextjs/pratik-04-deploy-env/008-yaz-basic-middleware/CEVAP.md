@@ -1,0 +1,1 @@
+`if (request.headers.get('x-custom') === 'block') return new NextResponse(null, { status: 403 }); return NextResponse.next();`.

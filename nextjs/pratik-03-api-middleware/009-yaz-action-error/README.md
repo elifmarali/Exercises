@@ -1,0 +1,1 @@
+Server Action içinde hata olunca kullanıcıya "İşlem başarısız" döndürmek için ne yapılır? `try/catch` + nasıl geri iletirsin?

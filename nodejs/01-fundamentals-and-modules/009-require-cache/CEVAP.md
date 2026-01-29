@@ -1,0 +1,1 @@
+İlk require yükler, cache’e koyar. Sonrakiler cache’ten döner. require.cache’i değiştirerek yeniden yükleme mümkün ama dikkatli kullan.

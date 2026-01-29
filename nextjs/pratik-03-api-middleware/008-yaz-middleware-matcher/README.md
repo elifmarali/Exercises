@@ -1,0 +1,1 @@
+Middleware sadece `/api/` ve `/dashboard/` path’lerinde çalışsın. `config.matcher` nasıl yazılır?

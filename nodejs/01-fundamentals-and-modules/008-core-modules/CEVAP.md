@@ -1,0 +1,1 @@
+fs, path, http, events, stream, crypto, os, util vb. require('fs') ile; npm’e gerek yok.

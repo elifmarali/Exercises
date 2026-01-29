@@ -1,0 +1,1 @@
+`app/api/hello/route.ts` içinde `GET` isteğine `{ "message": "hi" }` JSON dönen handler yaz.

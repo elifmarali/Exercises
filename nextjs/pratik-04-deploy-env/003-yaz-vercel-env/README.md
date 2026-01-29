@@ -1,0 +1,1 @@
+Vercel’de production’da farklı `API_URL` kullanmak için nereye girilir? (Kod değil, nerede ayar yapıldığı.)

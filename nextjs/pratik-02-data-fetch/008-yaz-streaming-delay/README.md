@@ -1,0 +1,1 @@
+İki parça veri var: biri hemen, biri `await new Promise(r=>setTimeout(r,2000))` ile gecikmeli. İkisini aynı sayfada kullan; yavaş kısmı `Suspense` ile sar. Kodu kısaca yaz.

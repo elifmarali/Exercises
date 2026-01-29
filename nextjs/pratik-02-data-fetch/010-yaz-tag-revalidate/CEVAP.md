@@ -1,0 +1,1 @@
+`revalidateTag('products')`. Server Action veya Route Handler’da.

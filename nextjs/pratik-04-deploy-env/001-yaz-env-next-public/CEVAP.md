@@ -1,0 +1,1 @@
+`NEXT_PUBLIC_API_URL=https://api.example.com`. Önek `NEXT_PUBLIC_` olmalı; yoksa client’a gönderilmez.

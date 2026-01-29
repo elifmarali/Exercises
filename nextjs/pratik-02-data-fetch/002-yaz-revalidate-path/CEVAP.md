@@ -1,0 +1,1 @@
+`import { revalidatePath } from 'next/cache';` → `revalidatePath('/products');`. Action sonunda çağır.

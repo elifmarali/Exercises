@@ -1,0 +1,1 @@
+Hayır. `NEXT_PUBLIC_` yoksa sadece server (API routes, Server Components, vb.) görür; client bundle’a eklenmez.

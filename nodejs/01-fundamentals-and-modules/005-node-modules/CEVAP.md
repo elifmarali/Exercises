@@ -1,0 +1,1 @@
+Bağımlılıklar burada. Lock file sürümleri sabitler; tutarlı kurulum. Genelde commit edilir.

@@ -1,0 +1,1 @@
+`fetch(url, { next: { revalidate: 60 } })` veya `export const revalidate = 60;` (segment).

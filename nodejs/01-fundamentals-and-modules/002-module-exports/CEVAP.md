@@ -1,0 +1,1 @@
+exports, module.exports’a referans. exports = {...} referansı değiştirir, modül çıktısı değişmez. module.exports kullan.

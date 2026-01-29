@@ -1,0 +1,1 @@
+`setImmediate` check fazında çalışır; "immediate" isim tarihsel. `nextTick` mevcut işin hemen ardından, sonraki "tick" öncesi. `setImmediate` I/O sonrası iş, `nextTick` işi hemen sonraki adıma ertelemek için; `nextTick` recursion ile loop’u aç bırakabilir, dikkat.

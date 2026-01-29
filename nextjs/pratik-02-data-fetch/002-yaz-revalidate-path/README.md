@@ -1,0 +1,1 @@
+Bir Server Action içinde veritabanı güncellemesi yaptıktan sonra `/products` sayfasının cache’ini invalidate etmek için ne yazılır?

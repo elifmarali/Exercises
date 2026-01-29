@@ -1,0 +1,1 @@
+Vercel proje → Settings → Environment Variables. `API_URL` ekle, Production seç.

@@ -1,0 +1,1 @@
+`nextTick` mevcut fazın hemen sonunda, microtask benzeri; `setImmediate` check fazında, macrotask. `nextTick` her zaman `setImmediate`’ten önce. `setImmediate` adı yanıltıcı; "hemen" değil, check fazında.

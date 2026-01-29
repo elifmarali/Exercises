@@ -1,0 +1,1 @@
+Bir `<form>` Server Action ile submit edilsin. `action={submitFn}`, `name` ile input’lar. `submitFn` `FormData` alsın.

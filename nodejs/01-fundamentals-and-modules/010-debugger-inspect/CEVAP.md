@@ -1,0 +1,1 @@
+Chrome DevTools veya VS Code ile debug. Breakpoint, step, inspect. Geliştirme ve hata ayıklama için.

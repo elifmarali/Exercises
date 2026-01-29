@@ -1,0 +1,1 @@
+CommonJS `require` ile ES `import` farkı? Node’da ikisi birlikte kullanılır mı?

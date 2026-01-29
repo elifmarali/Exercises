@@ -1,0 +1,1 @@
+`fetch` ile 60 saniye revalidate (ISR) nasıl yapılır?

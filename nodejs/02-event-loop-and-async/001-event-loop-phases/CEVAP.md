@@ -1,0 +1,1 @@
+Sıra: timers → pending callbacks → idle, prepare → poll → check → close callbacks → (tekrar timers). Timers: `setTimeout`/`setInterval`. Poll: I/O. Check: `setImmediate`. `process.nextTick` ve `queueMicrotask` fazlar arası, mevcut iş bittikten hemen sonra çalışır.

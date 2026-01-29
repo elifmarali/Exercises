@@ -1,0 +1,1 @@
+`redirects: async () => [{ source: '/eski', destination: '/yeni', permanent: true }]`.

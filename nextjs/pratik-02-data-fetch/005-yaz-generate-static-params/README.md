@@ -1,0 +1,1 @@
+`/posts/[id]` için build’de `id: 1,2,3` üretmek istiyorsun. `generateStaticParams` nasıl yazılır?

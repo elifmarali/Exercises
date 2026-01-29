@@ -1,0 +1,1 @@
+`app/api/health/route.ts`: `export async function GET() { return NextResponse.json({ ok: true }); }`.

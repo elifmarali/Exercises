@@ -1,0 +1,1 @@
+`process.env` ne işe yarar? NODE_ENV?

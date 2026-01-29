@@ -1,0 +1,1 @@
+Tam static export (SPA gibi) için `next.config`’te ne ayarlanır?

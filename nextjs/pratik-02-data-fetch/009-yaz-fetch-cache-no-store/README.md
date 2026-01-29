@@ -1,0 +1,1 @@
+Her istekte taze veri çekmek için `fetch` seçenekleri ne olmalı?

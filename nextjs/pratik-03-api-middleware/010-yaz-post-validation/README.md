@@ -1,0 +1,1 @@
+Route Handler `POST`’ta body’de `email` bekliyor. Yoksa veya format yanlışsa `400` dönsün. Basit `@` kontrolü yeterli.

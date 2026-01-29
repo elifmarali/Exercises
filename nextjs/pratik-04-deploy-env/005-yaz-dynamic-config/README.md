@@ -1,0 +1,1 @@
+`next.config`’te `redirect`: `/eski` → `/yeni` kalıcı yönlendirme nasıl tanımlanır?

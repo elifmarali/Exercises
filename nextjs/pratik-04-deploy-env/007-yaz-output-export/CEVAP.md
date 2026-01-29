@@ -1,0 +1,1 @@
+`output: 'export'`. `next build` `out` üretir; SSR/API route kullanılamaz.

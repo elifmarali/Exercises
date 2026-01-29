@@ -1,0 +1,1 @@
+ [node, scriptPath, ...args]. Kendi parse veya minimist, yargs vb. kütüphane.

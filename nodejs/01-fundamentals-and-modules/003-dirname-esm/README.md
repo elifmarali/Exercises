@@ -1,0 +1,1 @@
+ES modülde `__dirname` yok. Nasıl elde edilir?

@@ -1,0 +1,1 @@
+# I/O-bound vs CPU-bound iş nedir? Node’da ikisi event loop’u nasıl farklı etkiler? CPU-bound için neden worker / process ayrımı önerilir?

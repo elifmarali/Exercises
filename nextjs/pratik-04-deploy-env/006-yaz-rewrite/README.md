@@ -1,0 +1,1 @@
+`/api/proxy` isteği aslında `https://external.com/api`’ye gitsin; URL değişmesin. `rewrites` ile nasıl yazılır?

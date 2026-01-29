@@ -1,0 +1,1 @@
+`module.exports` vs `exports` farkı? Neden `exports = ...` kullanılmaz?

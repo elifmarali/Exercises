@@ -1,0 +1,1 @@
+Yavaş bir `<SlowList>` server component’i var. Onu `Suspense` ile sar, fallback "Liste yükleniyor...".

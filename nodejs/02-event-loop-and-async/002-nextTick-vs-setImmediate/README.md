@@ -1,0 +1,1 @@
+# `process.nextTick` ile `setImmediate` farkı nedir? İkisi de "hemen sonra" mı çalışır? Hangisi daha önce çalışır?

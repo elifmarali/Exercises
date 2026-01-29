@@ -1,0 +1,1 @@
+# `process.nextTick` ile `queueMicrotask` (Promise) sırası nasıl? İkisi de "microtask" sayılır mı? Hangisi önce işlenir?

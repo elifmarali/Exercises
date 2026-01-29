@@ -1,0 +1,1 @@
+# "Event loop tek thread’de çalışır" ne demek? libuv thread pool’u bununla çelişir mi? Hangi işler pool’da yapılır?

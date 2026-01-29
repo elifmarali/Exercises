@@ -1,0 +1,1 @@
+Next standalone output ile minimal Dockerfile nasıl yazılır? `output: 'standalone'`, `node .next/standalone/server.js` kullan.

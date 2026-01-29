@@ -1,0 +1,1 @@
+Asenkron: I/O sonucu callback/promise ile gelir; thread bekletilmez. `fs.readFile` non-blocking; loop devam eder. `fs.readFileSync` bloklar; tamamlanana kadar loop ilerlemez. İşlemci bağlı (CPU) iş yine bloklar.

@@ -1,0 +1,1 @@
+`DATABASE_URL` sadece server’da kullanılacak. `NEXT_PUBLIC_` olmadan `.env.local`’de tanımlanırsa client’ta görünür mü?

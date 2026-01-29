@@ -1,0 +1,1 @@
+`cookies()` veya `headers()` kullandığında fetch cache’i etkilenir. Bu route’u tam dynamic yapmak için sayfa dosyasında ne export edilir?

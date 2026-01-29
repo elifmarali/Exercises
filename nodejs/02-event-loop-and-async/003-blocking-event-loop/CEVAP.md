@@ -1,0 +1,1 @@
+Senkron kod çalışırken loop ilerlemez; I/O, timer’lar ertelenir. Çözüm: pahalı işi `worker_threads` veya child process’e taşımak, chunk’lara bölüp `setImmediate`/`nextTick` ile kademeli işlemek, async I/O kullanmak.

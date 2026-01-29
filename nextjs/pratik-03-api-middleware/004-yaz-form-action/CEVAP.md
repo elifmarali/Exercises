@@ -1,0 +1,1 @@
+`<form action={submitFn}><input name="name" /><button type="submit">Gönder</button></form>`. `submitFn` `formData.get('name')` ile okur.

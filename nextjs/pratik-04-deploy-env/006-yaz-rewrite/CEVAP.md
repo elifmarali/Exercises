@@ -1,0 +1,1 @@
+`rewrites: async () => [{ source: '/api/proxy', destination: 'https://external.com/api' }]` (path devam ediyorsa `/api/proxy/:path*` + `destination`’da `:path`).

@@ -1,0 +1,1 @@
+"use server" ile `createPost(formData: FormData)` action yaz. `title` ve `body` alanlarını alıp loglasın; sonra `revalidatePath('/posts')` çağır.
