@@ -1,0 +1,1 @@
+`"test:coverage": "jest --coverage --collectCoverageFrom='src/**/*.{ts,tsx}'"` (Windows’ta tırnak farklı olabilir). `jest.config` içinde `collectCoverageFrom` da tanımlanabilir.

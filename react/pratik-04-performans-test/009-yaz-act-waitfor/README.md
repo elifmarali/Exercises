@@ -1,0 +1,1 @@
+Testte bir butona tıklanınca state güncelleniyor ve ekranda metin değişiyor. "Güncellendi" çıkana kadar bekle. `waitFor` ile assertion yaz.

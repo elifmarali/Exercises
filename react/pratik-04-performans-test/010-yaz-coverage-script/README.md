@@ -1,0 +1,1 @@
+Jest ile coverage almak için `package.json` script’i nasıl yazılır? `--coverage` ve `--collectCoverageFrom` `src/**/*.{ts,tsx}` kullan.
