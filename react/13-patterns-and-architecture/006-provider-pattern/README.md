@@ -1,0 +1,1 @@
+Provider pattern Context ile nasıl uygulanır?

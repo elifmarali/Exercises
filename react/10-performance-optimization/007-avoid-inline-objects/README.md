@@ -1,0 +1,1 @@
+JSX’te inline obje/fonksiyon neden performans sorunu yaratabilir?

@@ -1,0 +1,1 @@
+React’ta batching ne demek? Hangi güncellemeler batch’lenir?

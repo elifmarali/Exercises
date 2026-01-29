@@ -1,0 +1,1 @@
+Bağımsızsa Promise.all ile paralel. Biri diğerine bağlıysa sıralı await veya then zinciri.

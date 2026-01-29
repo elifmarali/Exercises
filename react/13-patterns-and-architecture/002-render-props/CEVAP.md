@@ -1,0 +1,1 @@
+Prop olarak fonksiyon; component state’i argüman verir. Hooks ile aynı mantık çoğu yerde hook’a taşınır.

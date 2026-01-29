@@ -1,0 +1,1 @@
+Fetch / API çağrısı testte nasıl mock’lanır?

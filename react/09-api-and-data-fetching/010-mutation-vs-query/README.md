@@ -1,0 +1,1 @@
+Mutation ile query farkı? GET vs POST fetches nasıl ayrılır?

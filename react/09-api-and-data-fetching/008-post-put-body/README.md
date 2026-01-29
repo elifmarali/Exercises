@@ -1,0 +1,1 @@
+POST/PUT ile JSON body nasıl gönderilir? Content-Type?

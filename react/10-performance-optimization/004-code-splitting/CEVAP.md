@@ -1,0 +1,1 @@
+Chunk’lara bölme; lazy load. React.lazy dinamik import, Suspense fallback. Route bazlı splitting yaygın.

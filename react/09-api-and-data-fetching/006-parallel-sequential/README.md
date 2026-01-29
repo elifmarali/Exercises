@@ -1,0 +1,1 @@
+Birden fazla API çağrısı paralel mi sıralı mı yapılmalı? Nasıl?

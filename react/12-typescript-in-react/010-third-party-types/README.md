@@ -1,0 +1,1 @@
+Tipi olmayan kütüphane nasıl kullanılır? `@types` paketi ne yapar?

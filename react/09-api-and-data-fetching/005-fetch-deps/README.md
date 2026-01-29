@@ -1,0 +1,1 @@
+Fetch effect’in dependency array’ine ne konmalı? URL değişince ne olmalı?

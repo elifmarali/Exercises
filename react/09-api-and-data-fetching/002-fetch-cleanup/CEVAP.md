@@ -1,0 +1,1 @@
+Unmount veya deps değişince önceki istek iptal edilmeli. AbortController + signal; cleanup’ta abort. Response’ta ignore flag de kullanılabilir.

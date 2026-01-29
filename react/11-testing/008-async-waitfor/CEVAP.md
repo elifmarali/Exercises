@@ -1,0 +1,1 @@
+waitFor içinde assertion; belirli koşul gerçekleşene kadar dener. findBy da async bekler.

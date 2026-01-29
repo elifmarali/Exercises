@@ -1,0 +1,1 @@
+Optional chaining, nullish coalescing, type guard, optional prop. Açık undefined/null tipleri yazılır.

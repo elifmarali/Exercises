@@ -1,0 +1,1 @@
+Kullanıcı gibi test et; DOM queries, kullanıcı aksiyonları. Implementation detail’e (state, internal API) dayanma.

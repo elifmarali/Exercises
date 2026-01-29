@@ -1,0 +1,1 @@
+onClick, onChange gibi event handler’ların tipi nasıl yazılır?

@@ -1,0 +1,1 @@
+useRef<HTMLInputElement>(null). forwardRef ile ForwardRefRenderFunction veya forwarded ref type. null ile init yaygın.

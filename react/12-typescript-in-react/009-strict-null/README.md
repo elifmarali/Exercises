@@ -1,0 +1,1 @@
+`strictNullChecks` açıkken `null` / `undefined` nasıl ele alınır?

@@ -1,0 +1,1 @@
+Fetch neden `useEffect` içinde yapılır? Mount’ta mı her render’da mı?

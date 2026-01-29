@@ -1,0 +1,1 @@
+“Stale-while-revalidate” ne demek? SWR/React Query’de nasıl görülür?

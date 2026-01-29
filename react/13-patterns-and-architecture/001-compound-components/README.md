@@ -1,0 +1,1 @@
+Compound components pattern nedir? Örnek ver.

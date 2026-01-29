@@ -1,0 +1,1 @@
+React Profiler ne işe yarar? Hangi metrikler önemli?

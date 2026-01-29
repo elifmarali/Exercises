@@ -1,0 +1,1 @@
+Cache, refetch, dedupe, loading/error state. Tekrarlayan fetch ve senkronizasyon ihtiyacını azaltır.

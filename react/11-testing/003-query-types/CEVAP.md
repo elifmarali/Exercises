@@ -1,0 +1,1 @@
+getBy: yoksa hata. queryBy: yoksa null. findBy: async, bekler. Yokluğu test için queryBy; async için findBy.

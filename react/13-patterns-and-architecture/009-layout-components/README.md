@@ -1,0 +1,1 @@
+Layout component’ler (sidebar, header) nasıl yapılandırılır?

@@ -1,0 +1,1 @@
+children veya named slot (props ile render alanı). Layout esnek; içerik parent kontrolünde.

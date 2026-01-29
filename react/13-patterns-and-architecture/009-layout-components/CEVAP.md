@@ -1,0 +1,1 @@
+Composition; children veya slot. Route layout’ları Outlet / children ile. Ortak layout wrapper kullanılır.

@@ -1,0 +1,1 @@
+body: JSON.stringify(obj), headers: { 'Content-Type': 'application/json' }. Fetch’te method da belirtilir.

@@ -1,0 +1,1 @@
+`React.memo` ne yapar? Her component’e uygulanmalı mı?

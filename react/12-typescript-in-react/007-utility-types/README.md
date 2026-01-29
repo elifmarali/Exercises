@@ -1,0 +1,1 @@
+`Partial`, `Required`, `Pick`, `Omit` ne işe yarar?

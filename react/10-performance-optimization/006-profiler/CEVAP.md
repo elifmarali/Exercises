@@ -1,0 +1,1 @@
+Render süreleri, neden render olduğu. Commit duration, bileşen bazlı. Yavaş render’ları bulmak için.

@@ -1,0 +1,1 @@
+function List<T>({ items, render }: ListProps<T>) { ... }. Generic’i component’e veya props tipine taşı.

@@ -1,0 +1,1 @@
+Ortak state/effect mantığı hook’a taşınır. Component’ler hook’u kullanır; UI ayrı kalır.

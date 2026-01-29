@@ -1,0 +1,1 @@
+Query: okuma (GET), cache’lenir. Mutation: yazma (POST/PUT/DELETE), cache invalidation veya refetch tetikler. RQ’da useQuery vs useMutation.

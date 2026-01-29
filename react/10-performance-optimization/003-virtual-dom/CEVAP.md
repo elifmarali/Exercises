@@ -1,0 +1,1 @@
+Diff + minimal DOM güncellemesi. React sadece değişen kısımları günceller; tam sayfa yeniden çizilmez.

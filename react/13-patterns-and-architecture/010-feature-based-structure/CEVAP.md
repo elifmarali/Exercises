@@ -1,0 +1,1 @@
+Özellik bazlı klasörler (auth, dashboard). İlgili component, hook, util bir arada. Ölçeklenebilirlik ve bulunabilirlik.

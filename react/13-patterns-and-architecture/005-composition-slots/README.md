@@ -1,0 +1,1 @@
+Slot / composition ile içerik nasıl esnek geçilir?

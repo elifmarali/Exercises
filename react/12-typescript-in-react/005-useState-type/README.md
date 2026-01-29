@@ -1,0 +1,1 @@
+`useState` tipi nasıl verilir? `useState<Type>(initial)` ne zaman gerekir?

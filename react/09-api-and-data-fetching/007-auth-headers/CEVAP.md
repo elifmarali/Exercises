@@ -1,0 +1,1 @@
+Authorization header. Token memory, cookie veya secure storage’da; context veya lib ile okunup header’a konur.

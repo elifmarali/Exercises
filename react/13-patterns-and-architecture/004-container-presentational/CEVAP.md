@@ -1,0 +1,1 @@
+Mantık vs görünüm ayrımı faydalı. Hooks ile “container” logic custom hook’a taşınabilir; sadece presentational component kalır.

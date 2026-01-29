@@ -1,0 +1,1 @@
+jest.mock('modulePath', () => ({ ... })). Bazen factory ile implementasyon verilir. Test izolasyonu için.

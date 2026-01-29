@@ -1,0 +1,1 @@
+extends React.ComponentPropsWithoutRef<'div'> veya DetailedHTMLProps. Kendi prop’larınla intersect edilir.

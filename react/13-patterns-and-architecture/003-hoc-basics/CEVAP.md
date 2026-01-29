@@ -1,0 +1,1 @@
+Component alıp zenginleştirilmiş component döner. Logic reuse; hooks ve render props alternatif. Ref forwarding dikkat.

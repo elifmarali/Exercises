@@ -1,0 +1,1 @@
+interface Props { ... } veya type Props = { ... }. Hem interface hem type kullanılır; proje convention’ına uy.

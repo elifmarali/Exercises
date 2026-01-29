@@ -1,0 +1,1 @@
+Code splitting nedir? `React.lazy` ve `Suspense` nasıl kullanılır?

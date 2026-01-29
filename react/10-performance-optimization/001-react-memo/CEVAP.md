@@ -1,0 +1,1 @@
+Props aynıysa re-render’ı atlar. Pahalı subtree’larda faydalı; her yerde gerekmez. Ölçümle kullan.

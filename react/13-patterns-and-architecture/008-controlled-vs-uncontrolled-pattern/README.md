@@ -1,0 +1,1 @@
+Controlled vs uncontrolled pattern’i design kararı olarak nasıl seçilir?

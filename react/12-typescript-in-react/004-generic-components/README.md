@@ -1,0 +1,1 @@
+Generic component nasıl yazılır? Örnek: `<List<T>>`

@@ -1,0 +1,1 @@
+jest.spyOn(global,'fetch'), msw, veya jest.mock. İstenen response’u döndür; assert response kullanımı ve UI.

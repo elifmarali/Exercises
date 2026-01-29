@@ -1,0 +1,1 @@
+Minify, tree-shake, NODE_ENV=production; dev’de uyarılar, bazı check’ler. Build + deploy öncesi prod test.

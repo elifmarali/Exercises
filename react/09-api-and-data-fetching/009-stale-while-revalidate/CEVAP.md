@@ -1,0 +1,1 @@
+Önce cache (stale) gösterilir, arka planda revalidate. Güncel veri gelince UI güncellenir. SWR/RQ bu pattern’i uygular.

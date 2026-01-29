@@ -1,0 +1,1 @@
+`@types/foo` DefinitelyTyped’dan. Yoksa declare module 'foo' { ... } veya // @ts-ignore (son çare).

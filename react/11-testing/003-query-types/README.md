@@ -1,0 +1,1 @@
+`getBy`, `queryBy`, `findBy` farkı? Ne zaman hangisi?

@@ -1,0 +1,1 @@
+Context.Provider + custom hook (useX). Tüketenler hook ile erişir; provider ayrı konfigüre edilir.

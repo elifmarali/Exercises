@@ -1,0 +1,1 @@
+Component props’unu `div` atribütleriyle genişletmek nasıl yapılır?

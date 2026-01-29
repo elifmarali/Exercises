@@ -1,0 +1,1 @@
+Fetch sırasında loading ve error state nasıl yönetilir?

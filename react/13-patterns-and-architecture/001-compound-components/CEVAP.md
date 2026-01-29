@@ -1,0 +1,1 @@
+Birlikte kullanılan alt bileşenler (Tab, TabList, TabPanel). Context ile paylaşım; API esnek ve anlamlı.

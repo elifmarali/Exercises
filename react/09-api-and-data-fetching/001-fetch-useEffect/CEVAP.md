@@ -1,0 +1,1 @@
+Side effect; useEffect’te yapılır. Deps [] ise mount’ta bir kez; [id] gibi deps ile id değişince tekrarlanır.

@@ -1,0 +1,1 @@
+Custom hook ile logic reuse nasıl yapılır?

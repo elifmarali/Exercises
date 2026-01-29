@@ -1,0 +1,1 @@
+Her render’da yeni referans; memo veya props’a bakan child gereksiz re-render yapar. Dışarı çıkar veya useMemo/useCallback.

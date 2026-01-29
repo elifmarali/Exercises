@@ -1,0 +1,1 @@
+useState<Type>(init) veya init’ten infer. null/undefined başlangıçta varsa generic gerekebilir.

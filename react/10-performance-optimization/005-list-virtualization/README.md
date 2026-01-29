@@ -1,0 +1,1 @@
+Liste virtualization ne zaman gerekir? Nasıl yapılır?

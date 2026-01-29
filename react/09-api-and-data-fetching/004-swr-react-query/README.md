@@ -1,0 +1,1 @@
+SWR veya React Query ne sağlar? “Fetch in useEffect” ile farkı?

@@ -1,0 +1,1 @@
+Controlled: tek kaynak, form lib, validasyon. Uncontrolled: basit form, ref ile değer al. Karışık (hybrid) de olabilir.

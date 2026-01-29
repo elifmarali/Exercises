@@ -1,0 +1,1 @@
+Çok sayıda satırda DOM’u azaltmak için. react-window, react-virtualized; sadece görünen öğeler render edilir.

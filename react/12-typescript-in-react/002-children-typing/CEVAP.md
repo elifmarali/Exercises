@@ -1,0 +1,1 @@
+children?: React.ReactNode. Element, string, number, array, null, undefined vs. hepsini kapsar.

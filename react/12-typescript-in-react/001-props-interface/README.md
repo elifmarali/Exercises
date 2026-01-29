@@ -1,0 +1,1 @@
+Component props TypeScript’te nasıl tip yazılır? Interface vs type?

@@ -1,0 +1,1 @@
+Async güncelleme testte nasıl beklenir? `waitFor` ne işe yarar?

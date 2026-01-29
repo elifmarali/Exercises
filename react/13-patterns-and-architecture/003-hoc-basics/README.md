@@ -1,0 +1,1 @@
+Higher-order component (HOC) ne yapar? Ne zaman kullanılır?

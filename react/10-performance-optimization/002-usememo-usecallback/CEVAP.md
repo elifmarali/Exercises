@@ -1,0 +1,1 @@
+Pahalı hesaplama veya referansın sabit kalması gereken (memo child, deps) durumlarda. Gereksiz kullanım karmaşıklık artırır.

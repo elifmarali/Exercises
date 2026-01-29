@@ -1,0 +1,1 @@
+Render props pattern nedir? Hooks ile ilişkisi?

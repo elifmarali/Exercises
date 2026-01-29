@@ -1,0 +1,1 @@
+Container vs presentational component ayrımı hâlâ geçerli mi?

@@ -1,0 +1,1 @@
+Birden fazla setState tek render’da birleştirilir. React 18’de event dışı (setTimeout, fetch) da batch’lenir.

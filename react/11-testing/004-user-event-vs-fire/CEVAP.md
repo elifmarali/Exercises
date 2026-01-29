@@ -1,0 +1,1 @@
+userEvent kullanıcı senaryolarına daha yakın (örn. click + key). fireEvent düşük seviye. userEvent tercih edilir.

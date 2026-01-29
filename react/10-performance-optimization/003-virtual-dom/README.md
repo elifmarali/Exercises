@@ -1,0 +1,1 @@
+Virtual DOM ne işe yarar? “Her şey yeniden render” neden her zaman yavaş değil?

@@ -1,0 +1,1 @@
+Unit: tek fonksiyon/hook/component izole. Integration: birden fazla component, API mock’lu akış. İkisi de kullanılır.

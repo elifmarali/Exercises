@@ -1,0 +1,1 @@
+Öncelikli güncelleme; ağır işi erteleyip UI’ı responsive tutar. useTransition, useDeferredValue ile.

@@ -1,0 +1,1 @@
+Fetch + useEffect’te cleanup neden önemli? AbortController nasıl kullanılır?

@@ -1,0 +1,1 @@
+loading, error, data state’leri. Fetch başında loading true; then/catch’te data veya error set edilir, loading false.

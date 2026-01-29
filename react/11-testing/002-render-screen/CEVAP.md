@@ -1,0 +1,1 @@
+render component’i mount eder. screen document’e karşı query; güncel DOM’u yansıtır. Yeniden render’da da doğru.

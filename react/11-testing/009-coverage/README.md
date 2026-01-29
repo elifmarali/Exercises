@@ -1,0 +1,1 @@
+Test coverage ne ölçer? Yüksek coverage her zaman yeterli mi?

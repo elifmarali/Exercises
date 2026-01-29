@@ -1,0 +1,1 @@
+React.MouseEvent<HTMLButtonElement>, React.ChangeEvent<HTMLInputElement> vb. Genelde inferred; gerekirse açık yaz.

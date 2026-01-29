@@ -1,0 +1,1 @@
+Satır/fonksiyon/branch ölçümü. Yüksek coverage kalite garantisi değil; anlamlı senaryolar önemli.

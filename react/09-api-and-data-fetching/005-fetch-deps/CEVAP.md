@@ -1,0 +1,1 @@
+URL, body vb. fetch’i belirleyen değerler deps’te olmalı. Değişince yeni fetch tetiklenir.

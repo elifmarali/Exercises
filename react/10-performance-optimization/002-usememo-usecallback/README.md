@@ -1,0 +1,1 @@
+`useMemo` / `useCallback` ne zaman gerçekten gerekli?

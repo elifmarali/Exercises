@@ -1,0 +1,1 @@
+`children` prop’u TS’te nasıl tiplenir? `React.ReactNode` ne kapsar?

@@ -1,0 +1,1 @@
+Partial: tümü optional. Required: tümü zorunlu. Pick: seçili key’ler. Omit: hariç key’ler. Prop varyasyonları için kullanılır.

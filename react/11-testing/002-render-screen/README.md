@@ -1,0 +1,1 @@
+`render` ve `screen` ne işe yapar? Neden `screen.getBy...` tercih edilir?

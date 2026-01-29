@@ -1,0 +1,1 @@
+React Testing Library (RTL) temel felsefesi nedir? “Implementation detail” ne demek?
