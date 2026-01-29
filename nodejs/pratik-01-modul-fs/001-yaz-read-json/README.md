@@ -1,0 +1,1 @@
+`readJson(path: string): Promise<object>` yaz. `fs.promises.readFile` + `JSON.parse`. Hata fırlatmadan önce logla.

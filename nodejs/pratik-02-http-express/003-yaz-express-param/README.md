@@ -1,0 +1,1 @@
+`GET /api/users/:id` yaz. `id`’i alıp `{ id }` JSON dönsün.

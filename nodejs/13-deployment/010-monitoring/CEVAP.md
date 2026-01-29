@@ -1,0 +1,1 @@
+APM (New Relic, Datadog), metrics (Prometheus), log. CPU, memory, request rate, error. Alerting.

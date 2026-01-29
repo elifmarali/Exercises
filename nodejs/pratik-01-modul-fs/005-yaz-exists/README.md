@@ -1,0 +1,1 @@
+`exists(filePath): Promise<boolean>` yaz. `fs.access` veya `fs.stat` ile; hata yoksa `true`, `ENOENT` ise `false`.

@@ -1,0 +1,1 @@
+`await require('fs').promises.copyFile(src, dest);` Node 8.5+ destekler.

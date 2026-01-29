@@ -1,0 +1,1 @@
+Production’da NODE_ENV ve diğer env nasıl ayarlanır?

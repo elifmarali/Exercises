@@ -1,0 +1,1 @@
+Uygulama başlarken Vault’tan çeker; env veya config. Rotation, audit. .env yerine merkezi secret store.

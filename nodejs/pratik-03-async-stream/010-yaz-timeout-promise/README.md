@@ -1,0 +1,1 @@
+`withTimeout(p, ms)` yaz. `p` `ms` içinde resolve/reject etmezse reject et (`TimeoutError` veya `new Error('timeout')`).

@@ -1,0 +1,1 @@
+PM2 reload, rolling update. Load balancer ile yeni instance’lar devreye girer. Eski işler biter, sonra kapatılır.

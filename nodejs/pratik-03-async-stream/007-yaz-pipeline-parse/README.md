@@ -1,0 +1,1 @@
+Dosyadan oku → gzip aç → satırlara böl. `stream.pipeline` ve `zlib.createGunzip` kullan. Hata ve `finish` nasıl handle edilir?

@@ -1,0 +1,1 @@
+`copyStream(src, dest)` yaz. İki `Stream` alıp `src.pipe(dest)` ile kopyalasın. `dest`’in `finish` veya `end` event’inde resolve eden Promise dönsün.

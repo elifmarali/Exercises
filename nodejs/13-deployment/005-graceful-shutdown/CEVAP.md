@@ -1,0 +1,1 @@
+SIGTERM dinle; yeni istek almayı kes, mevcutları bitir, DB pool kapat, process.exit. PM2, K8s uyumlu.

@@ -1,0 +1,1 @@
+`/api/users` altında `GET /` ve `GET /:id` tanımlı bir Router yaz. `app.use('/api/users', router)` ile bağla.

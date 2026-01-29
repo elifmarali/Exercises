@@ -1,0 +1,1 @@
+`runNextTick(fn)` yaz. `fn`’i `process.nextTick` ile çalıştırıp dönen Promise’ı (fn async ise) döndürsün.

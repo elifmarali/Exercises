@@ -1,0 +1,1 @@
+`createReadStream` ile dosyayı okuyup satır satır işleyen bir yapı kur. `readline` veya `split2` kullanabilirsin; her satır için `on('data', line => ...)` benzeri.

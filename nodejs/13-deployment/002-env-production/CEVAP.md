@@ -1,0 +1,1 @@
+NODE_ENV=production. Platform (Heroku, AWS) veya .env, systemd, PM2 env. Secret’lar güvenli config’ten.

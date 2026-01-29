@@ -1,0 +1,1 @@
+stdout/stderr; PM2, Docker, platform toplar. Yapısal log (JSON). Rotation, merkezi aggregation (ELK vb.).

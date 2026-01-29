@@ -1,0 +1,1 @@
+`mkdirp(dirPath)`: dizin yoksa oluştur; gerekirse üst dizinleri de (recursive). `fs.promises.mkdir` kullan.

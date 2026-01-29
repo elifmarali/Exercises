@@ -1,0 +1,1 @@
+Process manager. start, restart, log, cluster. node app.js’i sürekli çalıştırır; crash’te yeniden başlatır.

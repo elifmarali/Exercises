@@ -1,0 +1,1 @@
+`listFiles(dir: string): Promise<string[]>` yaz. Verilen dizindeki **tüm** dosya path’lerini (recursive) dizi olarak döndür. Sadece dosya; dizinleri dahil etme.

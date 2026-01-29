@@ -1,0 +1,1 @@
+Node uygulaması Docker’da nasıl çalıştırılır?

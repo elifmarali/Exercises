@@ -1,0 +1,1 @@
+`POST /api/users` body `{ name: string }` alsın. `express.json()` kullanılıyor. `name`’i loglayıp `201` ve `{ id: 1, name }` dönsün.

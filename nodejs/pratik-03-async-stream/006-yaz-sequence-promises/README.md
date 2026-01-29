@@ -1,0 +1,1 @@
+`sequence(tasks)` yaz. `tasks` async fn dizisi; sırayla çalışsın (biri bitmeden sonraki başlamasın). Sonuçlar dizisi dönsün.

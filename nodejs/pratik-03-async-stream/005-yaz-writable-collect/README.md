@@ -1,0 +1,1 @@
+Bir `Writable` stream’e yazılan tüm chunk’ları toplayıp `Buffer.concat` ile tek `Buffer` yapan helper. Bitince Promise resolve. Nasıl yapılır?

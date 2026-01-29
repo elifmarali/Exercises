@@ -1,0 +1,1 @@
+`eventOnce(emitter, event)` yaz. İlk `event` tetiklenince resolve eden Promise dönsün. `emitter.once` kullan.

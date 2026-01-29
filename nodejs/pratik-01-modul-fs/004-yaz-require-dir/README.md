@@ -1,0 +1,1 @@
+`requireDir(dirPath)`: `dirPath` altındaki her `.js` dosyasını `require` edip `{ filename: module }` obje döndür. Sync yeterli.

@@ -1,0 +1,1 @@
+`transformFiles(dir, fn)`: `dir` altındaki her `.txt` dosyasını oku, `fn(content)` ile dönüştür, aynı path’e yaz. Async, recursive.

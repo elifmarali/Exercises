@@ -1,0 +1,1 @@
+`copyFile(src, dest)` yaz. `fs.promises` kullan; `copyFile` API’sı var mı kontrol et, varsa onu kullan.

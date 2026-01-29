@@ -1,0 +1,1 @@
+`delay(ms)`: `ms` sonra resolve eden Promise döndürsün. `setTimeout` kullan.

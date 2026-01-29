@@ -1,0 +1,1 @@
+200 + basit body. DB, cache bağlantısı optional. Load balancer / K8s probe. /health, /ready.

@@ -1,0 +1,1 @@
+Node image, COPY, npm ci --production. Multi-stage ile build küçültülür. CMD node.

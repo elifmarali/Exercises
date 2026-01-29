@@ -1,0 +1,1 @@
+Express’te `GET /api/users` için handler yaz. Yanıt `[{ id: 1, name: 'Ali' }]` JSON.

@@ -1,0 +1,1 @@
+`readLines(filePath): Promise<string[]>` yaz. Dosyayı okuyup satırlara böl (`\n`), boş satırları da dahil et.

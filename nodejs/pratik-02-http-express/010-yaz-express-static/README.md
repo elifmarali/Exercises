@@ -1,0 +1,1 @@
+`public` klasörünü `/static` path’inden serve et. `express.static` kullan.

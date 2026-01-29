@@ -1,0 +1,1 @@
+Static dosya, SSL, load balance, buffer. Node tek port; Nginx 80/443. Proxy_pass.

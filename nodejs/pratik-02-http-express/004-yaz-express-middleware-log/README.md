@@ -1,0 +1,1 @@
+Her istekte `method` ve `url` loglayan middleware yaz. `app.use` ile ekle.

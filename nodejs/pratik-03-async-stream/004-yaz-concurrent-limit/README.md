@@ -1,0 +1,1 @@
+`runWithLimit(tasks, limit)` yaz. `tasks` async fonksiyonlar dizisi; aynı anda en fazla `limit` tanesi çalışsın. Hepsi bitince sonuçlar dizisiyle resolve et.

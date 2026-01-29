@@ -1,0 +1,1 @@
+`listFiles` ile `.txt`’leri bul; her biri için `readFile` → `fn(c)` → `writeFile`. Promise.all veya sıralı fark etmez.

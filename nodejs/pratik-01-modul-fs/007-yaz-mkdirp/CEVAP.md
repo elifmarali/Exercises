@@ -1,0 +1,1 @@
+`await require('fs').promises.mkdir(dirPath, { recursive: true });`.

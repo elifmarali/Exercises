@@ -1,0 +1,1 @@
+`app.get('/api/users/:id', (req, res) => res.json({ id: req.params.id }));`

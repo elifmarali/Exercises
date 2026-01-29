@@ -1,0 +1,1 @@
+Async route handler’da hata yakalayıp `next(err)` ile ileten bir wrapper `asyncHandler(fn)` yaz. Kullanım: `app.get('/x', asyncHandler(async (req,res)=>{ ... }))`.

@@ -1,0 +1,1 @@
+`safeJoin(base, ...parts)` yaz. `path.join` kullan; sonuç `base` ile başlamıyorsa (path traversal) `null` dön.

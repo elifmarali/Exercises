@@ -1,0 +1,1 @@
+4 parametreli global error handler yaz. `err.message`’ı `500` ve `{ error: err.message }` olarak dönsün.

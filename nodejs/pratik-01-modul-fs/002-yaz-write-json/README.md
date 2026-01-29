@@ -1,0 +1,1 @@
+`writeJson(path, obj)` yaz. `fs.promises.writeFile` ile `JSON.stringify(obj, null, 2)` yaz. `utf8` encoding.

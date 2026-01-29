@@ -1,0 +1,1 @@
+`GET /api/search?q=foo` handler’ı. `q` yoksa `400` `{ error: 'q required' }`; varsa `{ q }` dönsün.

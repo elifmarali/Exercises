@@ -1,0 +1,1 @@
+Hiçbir route eşleşmezse `404` ve `{ error: 'Not found' }` dönen middleware nasıl yazılır? (`app.use` ile, tüm route’lardan sonra)
