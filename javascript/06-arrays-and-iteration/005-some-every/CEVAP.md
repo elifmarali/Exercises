@@ -1,0 +1,1 @@
+`some`: en az biri truthy → true. `every`: hepsi truthy → true. Boş dizide `some` → false, `every` → true.

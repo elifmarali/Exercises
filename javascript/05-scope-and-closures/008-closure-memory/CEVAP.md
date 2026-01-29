@@ -1,0 +1,1 @@
+Closure, lexical ortamı canlı tutar; ortamdaki büyük veri GC ile toplanmaz. Listener closure'ı da element ve ortamı referanslar; remove edilmezse element GC'lenemez. Cleanup yap, gereksiz closure'da büyük veri tutma.

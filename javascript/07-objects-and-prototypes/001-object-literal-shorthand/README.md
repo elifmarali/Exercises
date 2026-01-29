@@ -1,0 +1,1 @@
+Property shorthand ve method shorthand nedir? `{ x, f() {} }` geçerli mi?

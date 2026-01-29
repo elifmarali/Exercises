@@ -1,0 +1,1 @@
+`eval` çağrıldığı yerdeki lexical scope'u kullanır; `eval('var x=1')` o scope'ta `x` oluşturur. `new Function(...)` global scope'ta (veya verilen ortamda) çalışan fonksiyon üretir; `x` local değilse global'den aranır. `eval` optimizasyonu zorlaştırır; mümkünse kullanma.

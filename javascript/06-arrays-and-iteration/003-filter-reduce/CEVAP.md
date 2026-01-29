@@ -1,0 +1,1 @@
+`filter`: koşula uyanları döner. `reduce`: tek değere indirger. `reduce` ile `filter`/`map` taklit edilebilir ama okunabilirlik için doğrudan `filter`/`map` tercih edilir.

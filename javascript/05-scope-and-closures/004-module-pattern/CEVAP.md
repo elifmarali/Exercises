@@ -1,0 +1,1 @@
+IIFE bir kez çalışır; içindeki `count` sadece dönen obje'nin metotlarıyla erişilebilir (closure). Dışarıdan `counter.count` yok. ES modülleri `import`/`export` ile dosya bazlı encapsulation sağlar; yine closure benzeri “gizli” state ama syntax farklı.

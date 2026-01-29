@@ -1,0 +1,1 @@
+`sort` kararlı mı? Sayı sıralarken neden `(a,b) => a - b` kullanılır?

@@ -1,0 +1,1 @@
+`const { x: y } = o` → `o.x` değeri `y` değişkenine atanır; `x` adı kullanılmaz.

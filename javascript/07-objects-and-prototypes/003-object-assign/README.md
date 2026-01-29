@@ -1,0 +1,1 @@
+`Object.assign` ne yapar? Hedef obje mutate edilir mi? Aynı key birden fazla kaynaktaysa?

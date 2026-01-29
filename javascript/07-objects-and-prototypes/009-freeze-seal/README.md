@@ -1,0 +1,1 @@
+`Object.freeze` ile `Object.seal` farkı nedir? İkisi de shallow mı?

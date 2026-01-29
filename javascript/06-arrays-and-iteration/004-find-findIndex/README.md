@@ -1,0 +1,1 @@
+`find` ile `findIndex` farkı nedir? Bulunamazsa ne döner?

@@ -1,0 +1,1 @@
+`with` obje özelliklerini blok scope'una sokar; ama `x` `obj`'de yoksa global'e yazılabilir — tahmin edilmesi zor. Performans ve semantic sorunları var. Strict mode'da `with` `SyntaxError`; kullanılmamalı.

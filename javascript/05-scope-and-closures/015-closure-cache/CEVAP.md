@@ -1,0 +1,1 @@
+`function makeCache() { const cache = new Map(); return { get(k) { return cache.get(k); }, set(k,v) { cache.set(k,v); } }; }` — `get`/`set` aynı `cache` closure'ını paylaşır. Cache, makeCache'in lexical ortamında kalır.

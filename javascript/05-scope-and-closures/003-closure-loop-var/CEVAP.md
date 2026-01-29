@@ -1,0 +1,1 @@
+`var` function/global scope'ta; döngü bittikten sonra `i === 3`. Tüm callback'ler aynı `i`'ye bakar → `3, 3, 3`. `let` block scope; her iterasyonda yeni `i` binding → `0, 1, 2`. IIFE: `(function(j){ setTimeout(function(){ console.log(j); }, 100); })(i);` — `j` her iterasyonda kopyalanır.

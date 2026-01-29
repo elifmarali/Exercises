@@ -1,0 +1,1 @@
+Closure, o anki değeri "görür"; state güncellenince eski fonksiyon hâlâ eski değeri referans alabilir — stale closure. Çözüm: dependency array ile effect'i güncelle, ref kullan, veya functional update `setCount(c => c + 1)` ile güncel değere ulaş.

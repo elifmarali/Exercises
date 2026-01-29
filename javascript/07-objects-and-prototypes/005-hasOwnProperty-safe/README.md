@@ -1,0 +1,1 @@
+`obj.hasOwnProperty('x')` neden riskli? Güvenli alternatifler neler?

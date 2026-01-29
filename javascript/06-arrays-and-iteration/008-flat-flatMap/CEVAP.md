@@ -1,0 +1,1 @@
+`flat(depth)`: iç içe dizileri düzleştirir. `flat(1)` bir seviye, `Infinity` hepsi. `flatMap` = `map` + `flat(1)`.

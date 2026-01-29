@@ -1,0 +1,1 @@
+ES2019’dan itibaren stable. Varsayılan compare string’e çevirir; sayı için `(a,b) => a - b` gerekir. Yoksa `[10,2,1].sort()` yanlış sıra verir.

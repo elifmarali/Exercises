@@ -1,0 +1,1 @@
+`obj` prototype’ı override edilmiş veya `Object.create(null)` ise hata olabilir. `Object.hasOwn(obj,'x')` veya `Object.prototype.hasOwnProperty.call(obj,'x')` kullan.

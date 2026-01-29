@@ -1,0 +1,1 @@
+`const`/`let` block scope'a aittir; blok bitince `x` yok. Closure, tanımın lexical ortamına referans tutar; blok da lexical ortam oluşturur. `for (let i...)` her iterasyonda yeni `i` binding'i oluşturur; closure o `i`'ye bağlanır.

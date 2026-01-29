@@ -1,0 +1,1 @@
+`Object.create(proto)` ne yapar? `Object.create(null)` neden kullanılır?

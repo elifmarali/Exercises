@@ -1,0 +1,1 @@
+Kaynakları hedefe kopyalar (shallow). Hedef mutate edilir. Aynı key varsa son kaynaktaki kazanır.

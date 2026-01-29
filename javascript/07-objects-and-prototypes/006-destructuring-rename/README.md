@@ -1,0 +1,1 @@
+Destructuring’de property’yi yeniden adlandırmak nasıl yapılır? `const { x: y } = o` ne anlama gelir?

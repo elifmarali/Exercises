@@ -1,0 +1,1 @@
+Worker ayrı global scope'a sahiptir; `window` yok (DOM yok). `self` veya `globalThis` worker'ın global'i. Ana thread ile scope paylaşılmaz; iletişim `postMessage` / `onmessage` ile.

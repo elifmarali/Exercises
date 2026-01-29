@@ -1,0 +1,1 @@
+Verilen `proto` ile yeni obje oluşturur. `Object.create(null)` prototype’sız “saf” obje; Map benzeri key-value için.

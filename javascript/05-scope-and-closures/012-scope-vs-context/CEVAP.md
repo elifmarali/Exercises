@@ -1,0 +1,1 @@
+Scope: değişken erişimi, lexical tanıma göre. Context: `this`, çağrıya göre (call site). Lexical scope `this`'i belirlemez. Ok fonksiyonu `this`'i kendi oluşturmaz; lexical `this`'i (tanım yerindeki `this`) kullanır.

@@ -1,0 +1,1 @@
+`c()`, `c()`, `c()` → `1, 2, 3`. `increment` `makeCounter`'ın lexical ortamına referans tutar; `count` bu ortamda yaşar. `c` referansı durduğu sürece GC bu ortamı toplamaz. Her `makeCounter()` kendi `count`'unu oluşturur.

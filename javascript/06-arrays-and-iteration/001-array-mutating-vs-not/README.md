@@ -1,0 +1,1 @@
+Hangi dizi metotları orijinali değiştirir (mutate), hangileri yeni dizi döner? `push`, `map`, `sort`, `slice`?

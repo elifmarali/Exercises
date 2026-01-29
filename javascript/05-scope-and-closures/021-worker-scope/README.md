@@ -1,0 +1,1 @@
+# Web Worker veya Node.js `worker_threads` içinde `globalThis` / `self` / `window` ne olur? Scope paylaşımı var mı?

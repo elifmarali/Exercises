@@ -1,0 +1,1 @@
+`seal`: ekleme/silme yasak, değer değişebilir. `freeze`: değer değişimi de yasak. İkisi de shallow; iç objeler etkilenmez.

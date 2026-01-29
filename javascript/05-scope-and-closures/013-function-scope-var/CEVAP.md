@@ -1,0 +1,1 @@
+`var` sadece function scope oluşturur; `if`, `for` blok scope değil. `x` `f`'in tamamında tanımlı; `console.log(x)` → `1`. Block scope için `let`/`const` kullan.

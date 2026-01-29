@@ -1,0 +1,1 @@
+Klasik script: üst seviye global (veya script scope); `var` global object'e eklenir. Modül: üst seviye modül scope; `var` bile global'e eklenmez. Modül otomatik strict, `this` undefined.

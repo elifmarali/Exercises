@@ -1,0 +1,1 @@
+Mutate: `push`, `pop`, `shift`, `unshift`, `splice`, `sort`, `reverse`. Yeni dizi: `map`, `filter`, `slice`, `concat`, `flat`.

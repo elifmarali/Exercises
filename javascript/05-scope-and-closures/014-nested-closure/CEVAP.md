@@ -1,0 +1,1 @@
+Evet; `inner` lexical olarak `middle` ve `outer` içinde tanımlıysa ikisinin scope'una da erişir. Chain uzadıkça erişim maliyeti teorik olarak artar ama modern engine'ler optimize eder; makul derinlikte sorun olmaz.

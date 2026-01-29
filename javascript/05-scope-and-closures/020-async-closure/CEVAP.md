@@ -1,0 +1,1 @@
+Evet. `await` execution'ı duraklatır ama lexical ortam korunur; `f` devam ettiğinde aynı `x` erişilir. Closure semantics `async` ile değişmez.

@@ -1,0 +1,1 @@
+Hayır. İç `x` dıştakini gizgiler; aynı isimle dıştaki `x`'e erişemezsin. Çözüm: farklı isim kullan veya dış `x`'i obje property'si yap (`obj.x`) ve obje referansını closure'da tut.

@@ -1,0 +1,1 @@
+`Array.from` ne işe yarar? `Array.from({ length: 3 }, (_, i) => i)` ne üretir?

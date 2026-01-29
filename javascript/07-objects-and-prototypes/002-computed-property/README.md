@@ -1,0 +1,1 @@
+Computed property `[key]` ne işe yarar? `const k = 'a'; { [k]: 1 }` sonucu nedir?

@@ -1,0 +1,1 @@
+`includes` boolean döner, `indexOf` indeks (-1 yoksa). `[NaN].indexOf(NaN)` → -1; `[NaN].includes(NaN)` → true. `includes` NaN’da doğru.

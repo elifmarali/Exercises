@@ -1,0 +1,1 @@
+# `class` içinde `const x = 1;` (field) hangi scope'a aittir? Static vs instance field scope farkı var mı?

@@ -1,0 +1,1 @@
+`prototype`: constructor’ın instance’lara verdiği obje. `__proto__`: instance’ın prototype’ı (constructor’ın `prototype`’ına referans). `__proto__` accessor tarihsel; `Object.getPrototypeOf` tercih edilir.

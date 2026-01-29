@@ -1,0 +1,1 @@
+Sadece own, enumerable property’ler. Symbol key’ler dahil değil; onlar için `Object.getOwnPropertySymbols`.

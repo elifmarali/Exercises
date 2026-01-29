@@ -1,0 +1,1 @@
+`map` yeni dizi döner; `forEach` undefined. Dönüşüm için `map`, sadece yan etki (log, side effect) için `forEach`.

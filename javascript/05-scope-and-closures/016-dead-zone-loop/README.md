@@ -1,0 +1,1 @@
+# `for (let i = 0; i < 3; i++) { const fn = () => i; }` — her `fn` farklı `i`'ye mi bağlı? `let i` TDZ burada nasıl davranır?

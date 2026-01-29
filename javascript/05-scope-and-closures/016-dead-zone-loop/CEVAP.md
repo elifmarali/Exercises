@@ -1,0 +1,1 @@
+Her iterasyonda yeni `i` binding oluşur; `fn` o iterasyondaki `i`'ye closure ile bağlanır. TDZ, her `i` için sadece o iterasyonun başında geçerlidir; `fn` sonra çağrıldığında `i` zaten initialize edilmiştir.

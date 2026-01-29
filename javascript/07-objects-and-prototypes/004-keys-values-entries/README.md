@@ -1,0 +1,1 @@
+`Object.keys`, `values`, `entries` ne döner? Symbol key’ler dahil mi?

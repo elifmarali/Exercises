@@ -1,0 +1,1 @@
+Global'e gereksiz değişken yazmak isim çakışması, test zorluğu ve güvenlik riski yaratır. Non-module script'te üst seviye `var` global object'e eklenir. Modülde üst seviye scope modül scope'tur; `var` bile global'e eklenmez.

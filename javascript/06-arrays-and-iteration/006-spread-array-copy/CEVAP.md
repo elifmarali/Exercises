@@ -1,0 +1,1 @@
+Shallow copy. İç içe referanslar paylaşılır; değişirse her iki “kopyada” da görülür. Deep için `structuredClone` veya kütüphane.

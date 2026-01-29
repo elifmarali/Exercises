@@ -1,0 +1,1 @@
+Getter ve setter nasıl tanımlanır? Property descriptor’da `get`/`set` ne yapar?

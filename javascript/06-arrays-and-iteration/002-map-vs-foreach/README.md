@@ -1,0 +1,1 @@
+`map` ile `forEach` farkı nedir? Dönüş değeri ve kullanım tercihi?

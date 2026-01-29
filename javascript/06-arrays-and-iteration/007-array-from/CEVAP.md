@@ -1,0 +1,1 @@
+Array-like veya iterable’dan dizi oluşturur. İkinci argüman map fonksiyonu. Örnek → `[0, 1, 2]`.

@@ -1,0 +1,1 @@
+Key ifadeyle hesaplanır. `{ [k]: 1 }` → `{ a: 1 }`. Dinamik key için kullanılır.

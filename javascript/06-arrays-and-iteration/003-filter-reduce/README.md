@@ -1,0 +1,1 @@
+`filter` ve `reduce` ne yapar? `reduce` ile `filter` veya `map` benzeri işlem nasıl yapılır?

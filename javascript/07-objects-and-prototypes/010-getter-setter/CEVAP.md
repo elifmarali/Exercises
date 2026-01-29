@@ -1,0 +1,1 @@
+`get` okumada, `set` yazmada çalışır. `Object.defineProperty` veya literal `get name(){}` / `set name(v){}` ile tanımlanır.

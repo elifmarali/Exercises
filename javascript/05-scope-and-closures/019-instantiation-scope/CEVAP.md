@@ -1,0 +1,1 @@
+Instance field her instance'a aittir; static field sınıfa aittir. Her ikisi de "class scope" içinde; dışarıdan doğrudan `x` ile erişilmez. Method'lar bu alanlara `this.x` veya `ClassName.x` ile erişir; closure'dan ziyade `this`/sınıf bağlamı kullanılır.

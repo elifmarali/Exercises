@@ -1,0 +1,1 @@
+`includes` ile `indexOf` farkı nedir? `NaN` için hangisi doğru çalışır?

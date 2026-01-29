@@ -1,0 +1,1 @@
+`some` ve `every` ne döner? Boş dizide `some` ve `every` sonucu nedir?

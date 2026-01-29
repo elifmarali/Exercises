@@ -1,0 +1,1 @@
+`__proto__` ile `prototype` farkı nedir? Hangisi standart, hangisi tarihsel?

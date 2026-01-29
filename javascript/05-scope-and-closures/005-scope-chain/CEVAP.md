@@ -1,0 +1,1 @@
+Engine, önce mevcut scope'ta arar; yoksa bir üst lexical scope'a çıkar; global'e kadar devam eder. Bu zincir scope chain. Shadowing: iç scope'taki isim dıştakini gizler; içeride dıştaki isme erişilemez.

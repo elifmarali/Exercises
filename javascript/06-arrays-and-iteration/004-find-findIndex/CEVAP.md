@@ -1,0 +1,1 @@
+`find` elemanı, `findIndex` indeksi döner. Bulunamazsa `find` → undefined, `findIndex` → -1.

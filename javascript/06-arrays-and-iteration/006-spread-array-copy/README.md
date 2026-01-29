@@ -1,0 +1,1 @@
+`const b = [...a]` shallow copy mi deep copy mi? İç içe dizi/obje nasıl etkilenir?

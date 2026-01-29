@@ -1,0 +1,1 @@
+Scope, **tanım yerine** göre (lexical) belirlenir; çalıştığı yer değil. `inner` `outer` içinde tanımlı, bu yüzden `outer`'ın scope'una erişir. `outer()()` → `1`. `inner`, `outer`'ın lexical ortamına "kapatılmış" kalır; buna closure denir.
