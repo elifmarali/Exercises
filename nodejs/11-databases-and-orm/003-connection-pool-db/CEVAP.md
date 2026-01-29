@@ -1,0 +1,1 @@
+Genelde CPU * 2 veya biraz fazla. DB max connection limiti. Yük testi ile ayarlanır.

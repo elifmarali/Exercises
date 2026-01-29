@@ -1,0 +1,1 @@
+Token/session kontrolü. Yok veya geçersiz → 401. req.user set edilir. Sonraki middleware’de kullanılır.

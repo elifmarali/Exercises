@@ -1,0 +1,1 @@
+Brute force önleme. IP veya identity başına deneme sınırı. Lockout veya CAPTCHA eklenebilir.

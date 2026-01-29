@@ -1,0 +1,1 @@
+Trafiği şifreli kanala alır. Middleware veya reverse proxy ile 301/302. HSTS ile zorunlu.

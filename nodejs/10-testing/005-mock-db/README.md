@@ -1,0 +1,1 @@
+Veritabanı testte nasıl mock’lanır veya izole edilir?

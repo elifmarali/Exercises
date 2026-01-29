@@ -1,0 +1,1 @@
+Driver: hafif, esnek. Mongoose: şema, validation, middleware. Proje karmaşıklığına göre.

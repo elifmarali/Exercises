@@ -1,0 +1,1 @@
+jest.mock('fs') veya mock-fs. Gerçek fs’e yazma yok; izole test.

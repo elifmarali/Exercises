@@ -1,0 +1,1 @@
+header.payload.signature. Payload: sub, exp, iat, özel claim’ler. Hassas veri konmaz; imza doğrulanır.

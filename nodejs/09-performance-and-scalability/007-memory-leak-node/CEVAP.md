@@ -1,0 +1,1 @@
+heapdump, Chrome DevTools, --inspect. Süreç büyümesi izlenir. Global, closure, timer kontrolü.

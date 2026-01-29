@@ -1,0 +1,1 @@
+Kullanıcı girdisini HTML’e koyma; escape. Template engine default escape. JSON, CSP.

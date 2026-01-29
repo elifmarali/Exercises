@@ -1,0 +1,1 @@
+Hafif saldırıda yardımcı. Tam DDoS için CDN, filtering, scale gerekir. Rate limit temel katman.

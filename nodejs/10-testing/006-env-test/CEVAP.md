@@ -1,0 +1,1 @@
+jest.setup; process.env.NODE_ENV=test. .env.test. Dotenv vs. Her test öncesi gerekirse override.

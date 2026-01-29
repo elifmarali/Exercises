@@ -1,0 +1,1 @@
+Ortam değişkeni; .env (git’e eklenmez). Vault, platform secret. Kod içinde asla.

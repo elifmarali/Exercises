@@ -1,0 +1,1 @@
+Express/app’e request gönderir. .get('/').expect(200). Body, header assert. Integration test.

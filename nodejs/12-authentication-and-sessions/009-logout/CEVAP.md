@@ -1,0 +1,1 @@
+Session: destroy. JWT: client token atar; server blacklist veya kısa TTL. Stateless’te “hemen geçersiz” zor.

@@ -1,0 +1,1 @@
+Test ortamında env nasıl ayarlanır?

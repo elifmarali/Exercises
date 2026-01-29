@@ -1,0 +1,1 @@
+Form’a token; server doğrular. SameSite cookie ek önlem. State-changing isteklerde kullan.

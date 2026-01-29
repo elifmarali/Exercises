@@ -1,0 +1,1 @@
+`jest.mock` ile modül nasıl mock’lanır?

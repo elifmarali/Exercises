@@ -1,0 +1,1 @@
+Transaction nasıl kullanılır? Rollback ne zaman?

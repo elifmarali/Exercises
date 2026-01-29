@@ -1,0 +1,1 @@
+Node profiler (--prof), 0x, clinic. CPU ve heap. Yavaş fonksiyonlar, allocation hotspot.

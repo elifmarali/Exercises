@@ -1,0 +1,1 @@
+CPU-bound iş; ayrı thread. Event loop serbest. Data transfer postMessage ile.

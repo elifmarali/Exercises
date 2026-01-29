@@ -1,0 +1,1 @@
+ORM vs raw SQL ne zaman tercih edilir?

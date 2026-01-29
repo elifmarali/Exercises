@@ -1,0 +1,1 @@
+Migration nedir? Nasıl yönetilir?

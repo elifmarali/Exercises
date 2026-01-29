@@ -1,0 +1,1 @@
+BEGIN; sorgular; COMMIT veya hata → ROLLBACK. client.query veya ORM transaction. Tutarlılık için.

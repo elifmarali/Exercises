@@ -1,0 +1,1 @@
+Secret’lar (DB şifre, API key) nerede tutulur?

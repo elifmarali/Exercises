@@ -1,0 +1,1 @@
+Bağımlılık güvenlik taraması nasıl yapılır?

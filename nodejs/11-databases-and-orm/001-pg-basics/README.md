@@ -1,0 +1,1 @@
+`pg` (node-postgres) ile sorgu nasıl çalıştırılır?

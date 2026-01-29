@@ -1,0 +1,1 @@
+Horizontal scaling Node’da nasıl yapılır?

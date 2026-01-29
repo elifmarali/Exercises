@@ -1,0 +1,1 @@
+Jest dışında hangi test çatıları kullanılır?

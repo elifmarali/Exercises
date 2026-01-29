@@ -1,0 +1,1 @@
+Cookie (HttpOnly, Secure) veya Authorization header. XSS/CSRF’e göre seçim. Süre ve logout stratejisi.

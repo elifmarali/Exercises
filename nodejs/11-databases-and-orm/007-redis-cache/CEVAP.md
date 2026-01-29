@@ -1,0 +1,1 @@
+ioredis vb. get/set, TTL. API yanıtı, session. Serialize/deserialize (JSON).

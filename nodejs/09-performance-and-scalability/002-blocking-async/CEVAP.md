@@ -1,0 +1,1 @@
+Event loop bloklanır; tüm istekler bekler. fs sync, ağır CPU. Async veya worker’a taşı.

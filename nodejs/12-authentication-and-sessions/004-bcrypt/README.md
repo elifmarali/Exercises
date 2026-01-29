@@ -1,0 +1,1 @@
+Şifre nasıl hash’lenir? bcrypt neden kullanılır?

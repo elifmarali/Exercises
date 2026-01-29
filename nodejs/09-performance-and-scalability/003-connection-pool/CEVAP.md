@@ -1,0 +1,1 @@
+Bağlantı maliyeti yüksek; pool tekrar kullanır. Limit ile kontrol. pg-pool, mysql2 pool vb.

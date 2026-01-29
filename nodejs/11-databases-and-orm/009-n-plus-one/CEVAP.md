@@ -1,0 +1,1 @@
+Liste için her öğe ayrı sorgu. Çözüm: join, batch load, IN query, DataLoader. ORM eager load.

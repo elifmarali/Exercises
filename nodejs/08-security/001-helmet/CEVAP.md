@@ -1,0 +1,1 @@
+Güvenlik header’ları: XSS, clickjacking, MIME sniffing vb. Hsts, Content-Security-Policy vb. ekler.

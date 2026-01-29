@@ -1,0 +1,1 @@
+Senkron (blocking) işler performansı nasıl etkiler?

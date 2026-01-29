@@ -1,0 +1,1 @@
+Session: server store, cookie. JWT: stateless, token taşınır. Scale, mobile API vb. JWT; geleneksel web session.

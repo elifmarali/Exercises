@@ -1,0 +1,1 @@
+HTTP → HTTPS yönlendirme neden önemli?

@@ -1,0 +1,1 @@
+Access token kısa ömürlü; yenilemek için refresh. HttpOnly cookie veya güvenli storage. Rotate, revoke.

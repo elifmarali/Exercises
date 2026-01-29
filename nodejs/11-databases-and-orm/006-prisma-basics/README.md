@@ -1,0 +1,1 @@
+Prisma ne sağlar? Schema, client?

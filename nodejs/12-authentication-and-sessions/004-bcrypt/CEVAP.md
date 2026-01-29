@@ -1,0 +1,1 @@
+bcrypt veya argon2. Salt + cost. Plain text saklanmaz. Doğrulama: compare.

@@ -1,0 +1,1 @@
+npm audit, yarn audit. Known CVE; update veya override. CI’da koşulur.

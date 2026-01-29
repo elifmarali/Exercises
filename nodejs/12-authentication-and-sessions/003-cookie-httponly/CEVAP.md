@@ -1,0 +1,1 @@
+HttpOnly: JS erişemez, XSS’te token alınamaz. Secure: HTTPS. SameSite: CSRF azaltır.

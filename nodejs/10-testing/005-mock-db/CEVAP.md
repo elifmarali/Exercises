@@ -1,0 +1,1 @@
+In-memory DB (sqlite), test DB, veya mock repository. Transaction rollback ile izolasyon.

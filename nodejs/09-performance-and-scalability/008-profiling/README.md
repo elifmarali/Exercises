@@ -1,0 +1,1 @@
+Node uygulaması nasıl profil edilir?

@@ -1,0 +1,1 @@
+Parametreli sorgu / prepared statement. Raw string concatenation yapılmaz. ORM de parametre kullanır.

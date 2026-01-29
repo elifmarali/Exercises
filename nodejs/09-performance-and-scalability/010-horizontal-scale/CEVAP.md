@@ -1,0 +1,1 @@
+Birden fazla instance; load balancer. Stateless uygulama. Session shared store (Redis) veya JWT.

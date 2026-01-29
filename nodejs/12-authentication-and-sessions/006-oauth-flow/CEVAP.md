@@ -1,0 +1,1 @@
+Redirect provider → kullanıcı giriş → callback + code → token exchange. Session/JWT oluşturulur.

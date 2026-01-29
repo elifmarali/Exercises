@@ -1,0 +1,1 @@
+Dosya sistemi (fs) nasıl mock’lanır?

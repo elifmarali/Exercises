@@ -1,0 +1,1 @@
+API response cache nerede yapılır? Redis?

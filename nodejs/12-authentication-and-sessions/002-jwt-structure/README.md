@@ -1,0 +1,1 @@
+JWT yapısı nedir? Payload’a neler konur?

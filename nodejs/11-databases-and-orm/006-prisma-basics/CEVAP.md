@@ -1,0 +1,1 @@
+ORM + migration + type-safe client. schema.prisma; generate → client. PrismaClient ile CRUD.

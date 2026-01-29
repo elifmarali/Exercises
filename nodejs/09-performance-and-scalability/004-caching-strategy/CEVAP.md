@@ -1,0 +1,1 @@
+Uygulama içi, Redis, CDN. Okuma ağırlıklı, sık değişmeyen veri. TTL, invalidation.

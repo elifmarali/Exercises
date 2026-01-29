@@ -1,0 +1,1 @@
+DATABASE_URL vb. env. .env, platform config. Şifre kod içinde olmaz.

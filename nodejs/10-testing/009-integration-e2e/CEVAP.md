@@ -1,0 +1,1 @@
+Integration: app + DB mock gerçek DB. E2E: gerçek HTTP, tam stack. Her ikisi de Supertest veya gerçek client.

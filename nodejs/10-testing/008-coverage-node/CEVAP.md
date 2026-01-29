@@ -1,0 +1,1 @@
+jest --coverage. Istanbul. Lcov, html report. CI’da koşulur.

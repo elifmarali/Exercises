@@ -1,0 +1,1 @@
+CSRF token nasıl uygulanır?

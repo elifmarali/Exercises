@@ -1,0 +1,1 @@
+Çoklu process; CPU çekirdekleri kullanılır. Master worker’ları yönetir, load balance. Paylaşılan state yok.

@@ -1,0 +1,1 @@
+Validate + whitelist. Trim, length, format. DB için parametreli sorgu. HTML için escape/sanitize lib.

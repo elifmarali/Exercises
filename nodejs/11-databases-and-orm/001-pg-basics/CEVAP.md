@@ -1,0 +1,1 @@
+Pool veya client. query(sql, params); parametreli sorgu. Sonuç rows, async/await.

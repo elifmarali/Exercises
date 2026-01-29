@@ -1,0 +1,1 @@
+N+1 sorgu sorunu nedir? Nasıl önlenir?

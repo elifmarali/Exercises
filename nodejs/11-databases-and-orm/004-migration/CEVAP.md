@@ -1,0 +1,1 @@
+Şema değişiklikleri versiyonlu. Up/down. Knex, Prisma migrate, node-pg-migrate. Takım ile sıralı uygulama.

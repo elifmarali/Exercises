@@ -1,0 +1,1 @@
+TCP bağlantısı tekrarlı kullanılır; connection overhead azalır. Agent default keep-alive.

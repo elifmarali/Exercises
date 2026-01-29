@@ -1,0 +1,1 @@
+ORM: hızlı CRUD, migration, ilişkiler. Raw: karmaşık sorgu, performans. Projeye göre karışık kullanılabilir.

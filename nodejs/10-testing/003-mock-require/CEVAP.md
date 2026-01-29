@@ -1,0 +1,1 @@
+jest.mock('modül'); factory ile implementasyon. __mocks__ veya inline. require kullanıyorsa mock çalışır.

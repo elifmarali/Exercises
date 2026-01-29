@@ -1,0 +1,1 @@
+supertest ile HTTP isteği; app export edilir. Unit’te modül mock. describe, it, expect.

@@ -1,0 +1,1 @@
+compression middleware. Accept-Encoding; gzip/deflate. Büyük JSON/HTML için faydalı.
