@@ -1,0 +1,1 @@
+Yazma yavaşsa okuma yavaşlar; bellek taşması önlenir. pipe otomatik backpressure iletir.

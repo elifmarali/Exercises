@@ -1,0 +1,1 @@
+Response status ve header nasıl gönderilir?

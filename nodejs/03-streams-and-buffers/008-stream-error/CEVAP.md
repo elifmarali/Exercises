@@ -1,0 +1,1 @@
+Her stream’de on('error'). Pipe’ta hata yayılır; son hedefe veya ortada handle et.

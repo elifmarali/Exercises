@@ -1,0 +1,1 @@
+Async route handler’da hata nasıl yakalanır? Wrapper?

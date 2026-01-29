@@ -1,0 +1,1 @@
+Kötüye kullanım, overload önleme. IP veya token başına istek sayısı. 429, Retry-After. Middleware veya reverse proxy.

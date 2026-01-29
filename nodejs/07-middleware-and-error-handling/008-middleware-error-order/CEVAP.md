@@ -1,0 +1,1 @@
+4 param’lı handler’lar hata yakalar. Birden fazla varsa sırayla denenecek. Önce spesifik, sonra genel.

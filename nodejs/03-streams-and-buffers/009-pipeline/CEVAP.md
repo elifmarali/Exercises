@@ -1,0 +1,1 @@
+pipeline çoklu stream + callback; hata ve cleanup daha net. pipe’tan güvenli.

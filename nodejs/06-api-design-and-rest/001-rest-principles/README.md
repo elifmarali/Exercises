@@ -1,0 +1,1 @@
+REST temel ilkeleri neler? Resource, HTTP method?

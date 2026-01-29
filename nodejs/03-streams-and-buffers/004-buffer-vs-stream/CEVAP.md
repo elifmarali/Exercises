@@ -1,0 +1,1 @@
+Küçük veri bellekte; buffer. Büyük dosya, ağ: stream ile parça parça. Bellek ve latency.

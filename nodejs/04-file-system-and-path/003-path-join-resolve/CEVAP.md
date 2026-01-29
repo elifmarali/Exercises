@@ -1,0 +1,1 @@
+join segment’leri birleştirir. resolve mutlak path üretir; cwd’den. .. işlenir. Cross-platform için ikisi de kullanılır.

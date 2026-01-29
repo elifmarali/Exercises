@@ -1,0 +1,1 @@
+fs.mkdir(path, { recursive: true }). Üst dizinler yoksa oluşturulur.

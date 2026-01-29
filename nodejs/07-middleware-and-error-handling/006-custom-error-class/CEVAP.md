@@ -1,0 +1,1 @@
+extends Error; statusCode, code. Error handler’da instanceof ile ayır; uygun status ve mesaj.

@@ -1,0 +1,1 @@
+readdir ile giriş; alt dizinlerde recursion veya fs.readdir sync recursive { recursive: true } (Node 10+).

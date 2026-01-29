@@ -1,0 +1,1 @@
+Backpressure nedir? Stream’de neden önemli?

@@ -1,0 +1,1 @@
+Dizinleri recursive okumak nasıl yapılır? `fs.readdir` ile?

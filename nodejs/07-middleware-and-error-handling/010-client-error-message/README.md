@@ -1,0 +1,1 @@
+Client’a hata mesajı ne kadar detay verilmeli?

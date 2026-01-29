@@ -1,0 +1,1 @@
+express.json() middleware. req.body obje olur. Raw için express.raw, form için express.urlencoded.

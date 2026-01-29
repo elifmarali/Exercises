@@ -1,0 +1,1 @@
+Büyük dosyalarda. Stream parça parça; belleği aşmaz. readFile tümü bellek.

@@ -1,0 +1,1 @@
+Hata sonraki error middleware’e (4 param’lı) gider. next(err) ile sync/async hatalar merkeze iletilir.

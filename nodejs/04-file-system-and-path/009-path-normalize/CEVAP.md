@@ -1,0 +1,1 @@
+normalize .., ., çift slash düzenler. sep platform ayırıcı (/ veya \). Cross-platform path için.

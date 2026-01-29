@@ -1,0 +1,1 @@
+`stream.pipeline` vs `pipe` farkı?

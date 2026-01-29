@@ -1,0 +1,1 @@
+Node stream’ler async iterable mı? `for await`?

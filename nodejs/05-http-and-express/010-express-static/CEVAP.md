@@ -1,0 +1,1 @@
+Dosya sunar. app.use(express.static('public')). /file → public/file. Öncelik sırası dikkat.

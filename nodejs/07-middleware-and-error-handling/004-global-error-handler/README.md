@@ -1,0 +1,1 @@
+Global error handler nereye konur? 404 nasıl handle edilir?

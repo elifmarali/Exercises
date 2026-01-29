@@ -1,0 +1,1 @@
+url path + query. method GET, POST vb. URL parse: url.parse veya new URL. Query parse: querystring veya URLSearchParams.

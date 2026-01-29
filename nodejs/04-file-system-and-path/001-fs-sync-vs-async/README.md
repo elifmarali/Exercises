@@ -1,0 +1,1 @@
+`fs.readFileSync` vs `fs.readFile`? Sync kullanımı ne zaman riskli?

@@ -1,0 +1,1 @@
+Dosya var mı kontrolü nasıl yapılır? `fs.exists` neden kullanılmaz?

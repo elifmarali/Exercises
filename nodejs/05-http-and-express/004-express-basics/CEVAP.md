@@ -1,0 +1,1 @@
+app.get('/path', handler). app.use(middleware). Router ile gruplama. next() sonraki middleware’e geçer.

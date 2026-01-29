@@ -1,0 +1,1 @@
+`readable.pipe(writable)` ne yapar? Zincir kurulabilir mi?

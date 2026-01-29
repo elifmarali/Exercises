@@ -1,0 +1,1 @@
+HATEOAS nedir? Pratikte ne kadar kullanılır?

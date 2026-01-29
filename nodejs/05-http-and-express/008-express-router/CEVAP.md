@@ -1,0 +1,1 @@
+Route gruplama. const r = express.Router(); r.get(...); app.use('/api', r). Modüler yapı.

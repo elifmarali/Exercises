@@ -1,0 +1,1 @@
+Promise tabanlı fs; async/await ile kullanım. fs.promises.readFile vb. Callback’e gerek kalmaz.

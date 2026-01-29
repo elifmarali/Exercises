@@ -1,0 +1,1 @@
+Hata loglama nerede yapılır? Production’da stack trace?

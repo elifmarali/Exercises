@@ -1,0 +1,1 @@
+Readable (async iterable) for await (const chunk of stream) ile kullanılabilir. Modern API.

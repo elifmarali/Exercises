@@ -1,0 +1,1 @@
+fs.watch (ve fs.watchFile). Event’ler change, rename. Bazen duplicate; debounce veya lib kullanılabilir.

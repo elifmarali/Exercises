@@ -1,0 +1,1 @@
+OpenAPI (Swagger) spec. Doküman + mock + client gen. express-swagger-ui vb. ile sunulur.

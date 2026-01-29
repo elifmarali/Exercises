@@ -1,0 +1,1 @@
+fs.appendFile veya createWriteStream { flags: 'a' }. Mevcut içerik korunur.

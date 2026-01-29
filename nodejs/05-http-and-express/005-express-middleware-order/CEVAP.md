@@ -1,0 +1,1 @@
+Tanım sırasıyla çalışır. Auth, body parse, route’lar. Yanlış sıra davranışı bozar.

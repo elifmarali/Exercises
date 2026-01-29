@@ -1,0 +1,1 @@
+fs.exists deprecated; race condition. fs.access veya open; ENOENT ile yokluk. Stat da kullanılabilir.

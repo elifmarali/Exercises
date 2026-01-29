@@ -1,0 +1,1 @@
+Transform extend et; _transform(chunk, enc, cb). Gzip, parse, map benzeri işlemler.

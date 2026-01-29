@@ -1,0 +1,1 @@
+`path.normalize` ve `path.sep` ne işe yarar?

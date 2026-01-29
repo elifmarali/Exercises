@@ -1,0 +1,1 @@
+404: kaynak yok, route yok. 500: sunucu hatası, beklenmeyen exception. 4xx client, 5xx server.

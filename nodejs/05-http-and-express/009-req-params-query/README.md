@@ -1,0 +1,1 @@
+`req.params` ve `req.query` farkı?

@@ -1,0 +1,1 @@
+Stream’de hata nasıl yönetilir? `on('error')` nereye?

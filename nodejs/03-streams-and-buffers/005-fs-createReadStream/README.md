@@ -1,0 +1,1 @@
+`fs.createReadStream` ne zaman `fs.readFile`’a tercih edilir?

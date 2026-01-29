@@ -1,0 +1,1 @@
+Çalışan script’in dizinine göre public path. Göreli path’ler güvenli birleştirilir.

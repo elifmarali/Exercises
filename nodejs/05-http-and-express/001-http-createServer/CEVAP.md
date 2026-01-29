@@ -1,0 +1,1 @@
+createServer((req, res) => { ... }). req url, method, headers; res writeHead, write, end. Listen(port).

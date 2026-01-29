@@ -1,0 +1,1 @@
+4 parametreli middleware (err, req, res, next). En sonda use. Async hatalar next(err) veya wrapper ile iletilmeli.

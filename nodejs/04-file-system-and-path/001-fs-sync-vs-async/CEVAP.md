@@ -1,0 +1,1 @@
+Async non-blocking; sync event loop’u bloklar. Genelde async tercih. Sync script, başlangıç vb. sınırlı kullanım.

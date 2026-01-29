@@ -1,0 +1,1 @@
+Buffer ile stream ne zaman kullanılır?

@@ -1,0 +1,1 @@
+Transform stream nasıl yazılır? Örnek kullanım?

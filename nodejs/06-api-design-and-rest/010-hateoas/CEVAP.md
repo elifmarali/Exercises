@@ -1,0 +1,1 @@
+Yanıtta ilgili link’ler; client link’leri takip eder. Teoride REST’in parçası; pratikte çoğu API sade REST, HATEOAS az.

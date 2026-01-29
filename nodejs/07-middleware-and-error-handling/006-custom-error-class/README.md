@@ -1,0 +1,1 @@
+Özel hata sınıfları (ValidationError, NotFound) nasıl kullanılır?

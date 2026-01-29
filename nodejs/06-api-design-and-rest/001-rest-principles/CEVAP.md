@@ -1,0 +1,1 @@
+Kaynak URL; GET okuma, POST oluşturma, PUT/PATCH güncelleme, DELETE silme. Stateless, cache’lenebilir.

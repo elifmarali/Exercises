@@ -1,0 +1,1 @@
+Okunanı yazılana aktarır. pipe(A).pipe(B) zincir. Hata ve sonlanma yayılır.

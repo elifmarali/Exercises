@@ -1,0 +1,1 @@
+Tüm route’lardan sonra; 4 param’lı middleware. 404: hiçbir route eşleşmezse önce 404 handler, sonra genel error.

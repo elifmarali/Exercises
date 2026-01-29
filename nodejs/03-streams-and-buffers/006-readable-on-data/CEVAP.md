@@ -1,0 +1,1 @@
+Flowing mode; chunk’lar sırayla gelir. pipe yerine manuel işlem. drain, backpressure elle yönetilmeli.

@@ -1,0 +1,1 @@
+Dosyaya ekleme (append) nasıl yapılır?

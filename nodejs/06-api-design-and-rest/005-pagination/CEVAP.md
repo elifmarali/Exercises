@@ -1,0 +1,1 @@
+query: page & limit veya offset & limit. Yanıtta total, page bilgisi. Cursor-based alternatif.

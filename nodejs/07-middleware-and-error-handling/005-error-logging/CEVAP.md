@@ -1,0 +1,1 @@
+Error middleware’de log. Production’da stack trace client’a gönderilmez; sadece log. Özel format (JSON) kullanılabilir.

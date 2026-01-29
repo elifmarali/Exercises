@@ -1,0 +1,1 @@
+res.writeHead(status, headers) veya res.setHeader + res.statusCode. Sonra res.end(body).

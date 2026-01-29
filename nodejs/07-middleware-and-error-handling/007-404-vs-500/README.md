@@ -1,0 +1,1 @@
+404 vs 500 ne zaman döner?

@@ -1,0 +1,1 @@
+Production’da genel mesaj; detay log’ta. Geliştirme için stack vb. açılabilir. Güvenlik (sızıntı) riski.

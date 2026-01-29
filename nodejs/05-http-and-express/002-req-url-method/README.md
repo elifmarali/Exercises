@@ -1,0 +1,1 @@
+`req.url` ve `req.method` ne içerir? Query string nasıl parse edilir?

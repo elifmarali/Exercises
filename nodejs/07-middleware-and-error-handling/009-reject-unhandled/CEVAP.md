@@ -1,0 +1,1 @@
+Process crash veya uyarı. process.on('unhandledRejection') ile log + graceful. Async hatalar next ile iletilmeli.

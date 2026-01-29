@@ -1,0 +1,1 @@
+Idempotent vs safe method farkı?

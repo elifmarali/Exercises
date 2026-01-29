@@ -1,0 +1,1 @@
+Safe: side effect yok (GET). Idempotent: aynı istek tekrarlanınca aynı sonuç (PUT, DELETE). POST idempotent değil.

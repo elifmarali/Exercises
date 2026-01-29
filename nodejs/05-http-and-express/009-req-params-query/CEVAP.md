@@ -1,0 +1,1 @@
+params route’tan (/user/:id). query ?key=value. İkisi de req üzerinde.

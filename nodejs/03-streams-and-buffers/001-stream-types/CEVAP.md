@@ -1,0 +1,1 @@
+Readable: okuma. Writable: yazma. Duplex: ikisi. Transform: okur, işler, yazar. Örn. gzip.

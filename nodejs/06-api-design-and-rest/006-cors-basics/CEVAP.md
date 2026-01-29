@@ -1,0 +1,1 @@
+Cross-origin isteklerde tarayıcı kısıtı. Access-Control-* header’ları. PUT, custom header vb. preflight (OPTIONS) tetikler.

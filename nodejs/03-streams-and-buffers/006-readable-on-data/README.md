@@ -1,0 +1,1 @@
+`readable.on('data', chunk => ...)` ne zaman kullanılır?

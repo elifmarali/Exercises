@@ -1,0 +1,1 @@
+`fs.promises` API ne sağlar?
